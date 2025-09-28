@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"hud/color_panel_brown_opaque"
+	"$vertexalpha"	1
+	"$alphatest"	1
+	"$allowAlphaToCoverage"	1
+	"$ignorez"		1
+}

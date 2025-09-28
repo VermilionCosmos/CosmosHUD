@@ -1,0 +1,108 @@
+"Resource/UI/ReviveDialog.res"
+{
+	"ConfirmDialog"
+	{
+		"ControlName"		"Frame"
+		"fieldName"		"ConfirmDialog"
+		"xpos"			"c-360"
+		"ypos"			"r78"
+		"ypos_minmode"	"r68"
+		"wide"			"220"
+		"tall"			"70"
+		"tall_minmode"	"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"settitlebarvisible"	"0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"	"Econ.Dialog.BgColor"
+
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"EconFontSmall"
+			"labelText"		"#ConfirmTitle"
+			"textAlignment"	"north"
+			"xpos"			"0"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"220"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+	
+		"ExplanationLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"ExplanationLabel"
+			"font"			"ReplayBrowserSmallest"
+			"labelText"		"%text%"
+			"textAlignment"	"north"
+			"xpos"			"10"
+			"ypos"			"20"
+			"zpos"			"1"
+			"wide"			"200"
+			"tall"			"175"
+			"visible"		"1"
+			"enabled"		"1"
+			"centerwrap"	"1"
+			"fgcolor_override" "200 80 60 255"
+		}
+
+		"ConfirmButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"ConfirmButton"
+			"xpos"			"60"
+			"ypos"			"40"
+			"ypos_minmode"	"35"
+			"zpos"			"20"
+			"wide"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#ConfirmButtonText"
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
+			"Command"		"confirm"
+			
+			"paintbackground"   		"0"
+
+			"border_default"    		"MainMenuButtonDefault"
+			"border_armed"      		"MainMenuButtonArmed"
+			"border_disabled"			"MainMenuButtonDisabled"
+
+			"defaultFgColor_override" 	"46 43 42 255"
+			"armedFgColor_override" 	"235 226 202 255"
+			"depressedFgColor_override" "235 235 235 255"
+			
+			"sound_armed"				"ui/buttonrollover.wav"
+			"sound_depressed"			"ui/buttonclick.wav"
+			"sound_released"			"ui/buttonclickrelease.wav"
+			"stay_armed_on_click"		"1"
+			"button_activation_type"	"2"
+		}
+
+		"SpectatorGUIHealth"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"SpectatorGUIHealth"
+			"xpos"				"173"
+			"ypos"				"32"
+			"zpos"				"20"
+			"wide"				"36"
+			"tall"				"36"
+			"wide_minmode"		"26"
+			"tall_minmode"		"26"
+			"visible"			"1"
+			"enabled"			"1"	
+			"HealthBonusPosAdj"	"10"
+			"HealthDeathWarning"		"0.49"
+			"TFFont"					"HudFontSmallest"
+			"HealthDeathWarningColor"	"HUDDeathWarning"
+			"TextColor"					"HudOffWhite"
+		}
+	}
+}

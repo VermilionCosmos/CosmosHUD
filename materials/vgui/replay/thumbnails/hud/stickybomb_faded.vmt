@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+    "$translucent"      "1"
+    "$basetexture"		"vgui\replay\thumbnails\hud\stickybomb"
+    "$vertexcolor"		1
+	"$no_fullbright"	1
+	"$ignorez"			1
+	"$softedges"		"1"
+	"$alpha"			"0.2"
+	"%keywords"			"tf"
+}

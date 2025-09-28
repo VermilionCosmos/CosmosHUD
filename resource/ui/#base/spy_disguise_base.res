@@ -1,0 +1,47 @@
+"Resource/UI/HudPlayerClass.res"
+{
+	"PlayerStatusSpyOutlineImage"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"PlayerStatusSpyOutlineImage"
+		"xpos"				"c-25"
+		"ypos"				"c-25"
+		"zpos"				"7"
+		"wide"				"50"
+		"tall"				"50"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"../hud/class_spy_outline"
+		"scaleImage"		"1"	
+	}
+	"PlayerStatusSpyOutlineImageOverride"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"PlayerStatusSpyOutlineImageOverride"
+		"xpos"				"c-248"
+		"ypos"				"r90"
+		"zpos"				"7"
+		"wide"				"70"
+		"tall"				"70"
+		"visible"			"1"
+		"visible_minmode"	"0"
+		"enabled"			"1"
+		"image"				"../hud/class_spy_outline"
+		"scaleImage"		"1"	
+	}
+	"PlayerStatusSpyOutlineImageOverrideMinMode"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"PlayerStatusSpyOutlineImageOverrideMinMode"
+		"xpos"				"c-248"
+		"ypos"				"r70"
+		"zpos"				"7"
+		"wide"				"70"
+		"tall"				"70"
+		"visible"			"0"	
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"image"				"../hud/class_spy_outline"
+		"scaleImage"		"1"	
+	}
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/class_icons/random"
+	"$translucent" 1
+    "$ignorez" 1
+	"$vertexcolor" 1
+}

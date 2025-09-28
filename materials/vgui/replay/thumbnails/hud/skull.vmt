@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+    "$translucent"		"1"
+    "$baseTexture"		"vgui\replay\thumbnails\hud\skull"
+    "$vertexcolor"		1
+	"$no_fullbright"	1
+	"$ignorez"			1
+	"$alpha"			"0.82"
+	"%keywords"			"tf"
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/background_green_armed"
+	"$translucent" 1
+                "$ignorez" 1
+	"$vertexcolor" 1
+}

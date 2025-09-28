@@ -1,0 +1,72 @@
+event HudHealthBonusPulse
+{
+	Animate		PlayerStatusHealthValue					FgColor		"TanLight"			Linear 0.0 0.1
+	Animate		PlayerStatusHealthValue					FgColor		"40 210 100 255"	Linear 0.1 0.4
+	Animate		PlayerStatusHealthValueTargetID			FgColor		"TanLight"			Linear 0.0 0.1
+	Animate		PlayerStatusHealthValueTargetID			FgColor		"40 210 100 255"	Linear 0.1 0.4
+	Animate		PlayerStatusKillerHealthValue			FgColor		"TanLight"			Linear 0.0 0.1
+	Animate		PlayerStatusKillerHealthValue			FgColor		"40 210 100 255"	Linear 0.1 0.4
+	Animate		PlayerStatusHealthValueCentered			FgColor		"White"				Linear 0.0 0.1
+	Animate		PlayerStatusHealthValueCentered			FgColor		"40 210 100 255"	Linear 0.1 0.4
+	Animate		PlayerStatusHealthBonusImage 			Alpha		"140"				Linear 0.0 0.2
+	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					Linear 0.2 0.4
+	RunEvent 	HudHealthBonusPulseLoop					0.4
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent 	HudHealthBonusPulse 					0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent 	HudHealthBonusPulse 					0.0
+	StopEvent 	HudHealthBonusPulseLoop 				0.0
+	Animate		PlayerStatusHealthValue 				FgColor		"TanLight"			Linear 0.0 0.0
+	Animate		PlayerStatusHealthValueTargetID 		FgColor		"TanLight"			Linear 0.0 0.0
+	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"			Linear 0.0 0.0
+	Animate		PlayerStatusHealthValueCentered			FgColor		"White"				Linear 0.0 0.0
+}
+
+event HudHealthDyingPulse
+{
+	Animate		PlayerStatusHealthValue 				FgColor		"220 100 100 255"	Linear 0.0 0.075	
+	Animate		PlayerStatusHealthValue 				FgColor		"TanLight"			Linear 0.1 0.3
+	Animate		PlayerStatusHealthValueTargetID  		FgColor		"220 100 100 255"	Linear 0.0 0.075	
+	Animate		PlayerStatusHealthValueTargetID  		FgColor		"TanLight"			Linear 0.1 0.3
+	Animate		PlayerStatusKillerHealthValue  			FgColor		"220 100 100 255"	Linear 0.0 0.075	
+	Animate		PlayerStatusKillerHealthValue  			FgColor		"TanLight"			Linear 0.1 0.3
+	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					Linear 0.0 0.075
+	Animate		PlayerStatusHealthBonusImage 			Alpha		"255"				Linear 0.1 0.3
+	Animate		PlayerStatusHealthValueCenter			FgColor		"220 100 100 255"	Linear 0.0 0.075	
+	Animate		PlayerStatusHealthValueCenter			FgColor		"White"				Linear 0.1 0.3
+	Animate		PlayerStatusHealthIconCenter			Alpha		"0"					Linear 0.075 0.0
+	Animate		PlayerStatusHealthIconCenter			Alpha		"255"				Linear 0.3 0.0
+	Animate		PlayerStatusHealthIconCenterShadow		Alpha		"0"					Linear 0.075 0.0
+	Animate		PlayerStatusHealthIconCenterShadow		Alpha		"255"				Linear 0.3 0.0
+	Animate		PlayerStatusHealthWarningCenter			Alpha		"0"					Linear 0.075 0.0
+	Animate		PlayerStatusHealthWarningCenter			Alpha		"255"				Linear 0.3 0.0
+	Animate		PlayerStatusHealthWarningCenterShadow	Alpha		"0"					Linear 0.075 0.0
+	Animate		PlayerStatusHealthWarningCenterShadow	Alpha		"255"				Linear 0.3 0.0
+
+	RunEvent 	HudHealthDyingPulseLoop					0.4
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent 	HudHealthDyingPulse 					0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent 	HudHealthDyingPulse 					0.0
+	StopEvent 	HudHealthDyingPulseLoop 				0.0
+	Animate		PlayerStatusHealthValue 				FgColor		"TanLight"			Linear 0.0 0.0
+	Animate		PlayerStatusHealthValueTargetID 		FgColor		"TanLight"			Linear 0.0 0.0
+	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"			Linear 0.0 0.0
+	Animate		PlayerStatusHealthValueCenter			FgColor		"White"				Linear 0.0 0.0
+	Animate		PlayerStatusHealthIconCenter			Alpha		"255"				Linear 0.0 0.0
+	Animate		PlayerStatusHealthIconCenterShadow		Alpha		"255"				Linear 0.0 0.0
+	Animate		PlayerStatusHealthWarningCenter			Alpha		"0"					Linear 0.0 0.0
+	Animate		PlayerStatusHealthWarningCenterShadow	Alpha		"0"					Linear 0.0 0.0
+}

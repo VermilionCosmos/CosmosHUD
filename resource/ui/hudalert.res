@@ -1,0 +1,85 @@
+"Resource/UI/HudAlert.res"
+{
+	"HudAlertBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HudAlertBG"
+		"xpos"			"0"
+		"ypos"			"42"
+		"zpos"			"-1"
+		"wide"			"320"
+		"tall"			"25"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"200"
+		"image"					"../hud/color_panel_brown"
+		"scaleImage"			"1"
+		"teambg_1"				"../hud/color_panel_brown"
+		"teambg_2"				"../hud/color_panel_red"
+		"teambg_2_lodef"		"../hud/color_panel_red"
+		"teambg_3"				"../hud/color_panel_blu"
+		"teambg_3_lodef"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+	}
+	"AlertLabel"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"AlertLabel"
+		"font"			"TargetIDFont2"
+		"xpos"			"0"
+		"ypos"			"42"
+		//"ypos_hidef"	"42"
+		//"ypos_lodef"	"42"
+		"zpos"			"1"
+		"wide"			"320"	[$WIN32]
+		"wide"			"320"	[$X360]
+		"tall"			"25"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		""
+		"textAlignment"		"center"
+		"border"			"0"
+	}
+	"AlertImage"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"AlertImage"
+		"xpos"			"140"
+		"ypos"			"1"
+		"zpos"			"1"
+		"wide"			"40"
+		"tall"			"40"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_teambalance"
+		"scaleImage"		"1"
+	}
+	"AlertImageBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"AlertImageBG"
+		"xpos"			"139"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"42"
+		"tall"			"42"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TanDark"
+		"PaintBackgroundType"	"2"
+	}
+}

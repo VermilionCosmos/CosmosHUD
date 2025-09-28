@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/loadout/toolbox"
+	"$vertexalpha"	1
+	"$vertexcolor"	1
+}

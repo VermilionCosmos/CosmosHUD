@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/loadout/loadout_red"
+	"$vertexalpha"	1
+	"$vertexcolor"	1
+}

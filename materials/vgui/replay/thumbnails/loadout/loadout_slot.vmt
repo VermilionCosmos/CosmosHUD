@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/loadout/loadout_slot"
+	"$vertexalpha"	1
+}
