@@ -1,6 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/menu/glyph_alert"
-	"$vertexalpha"	1
-	"$vertexcolor"	1
+	"$basetexture" "vgui/replay/thumbnails/menu/glyph_alert"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
 }
