@@ -1,36 +1,50 @@
-"charinfoarmorysubpanel"
+"Resource/UI/CharInfoArmorySubPanel.res"
 {
 	"armory_panel"
 	{
-		"controlname"					"Frame"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"780"
-		"tall"							"310"
-		"zpos"							"500"
-		"visible"						"0"
-
-		"thumbnail_bgcolor"				"54 50 49 255"
-		"thumbnail_bgcolor_mouseover"	"251 235 202 30"
-		"thumbnail_bgcolor_selected"	"TransparentYellow"
-
+		"ControlName"	"Frame"
+		"fieldName"		"armory_panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"780"
+		"tall"			"310"
+		"zpos"			"500"
+		"visible"		"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"settitlebarvisible"	"0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"46 43 42 255"
+		"infocus_bgcolor_override" "46 43 42 255"
+		"outoffocus_bgcolor_override" "46 43 42 255"
+		
+		"thumbnail_bgcolor"			"51 47 46 255"
+		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
+		"thumbnail_bgcolor_selected"	"176 166 148 255"
+		
 		"thumbnails_rows"		"5"
 		"thumbnails_columns"	"5"
-
+		
 		"thumbnails_x"			"c-292"
 		"thumbnails_y"			"45"
 		"thumbnails_delta_x"	"5"
 		"thumbnails_delta_y"	"5"
-
+		
 		"thumbnail_modelpanels_kv"
 		{
-			"controlname"	"CItemModelPanel"
+			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
 			"wide"			"54"
 			"tall"			"42"
 			"visible"		"0"
-
+			"bgcolor_override"		"0 0 0 255"
+			"noitem_textcolor"		"117 107 94 255"
+			"PaintBackgroundType"	"2"
+			"paintborder"	"0"
+			
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"50"
@@ -38,10 +52,10 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-
+			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
+			
 			"itemmodelpanel"
 			{
 				"inventory_image_type" "1"
@@ -51,20 +65,21 @@
 		}
 	}
 
-	"BackgroundColor"
+	"Background"
 	{
-		"controlname"	"EditablePanel"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Background"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"	"BackgroundColor"
+		"bgcolor_override"	"Background"
 	}
 
 	"CaratLabel"
 	{
-		"controlname"	"CExLabel"
-		"fieldname"		"CaratLabel"
+		"ControlName"	"CExLabel"
+		"fieldName"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		">>"
 		"xpos"			"c-315"
@@ -77,8 +92,8 @@
 
 	"ArmoryLabel"
 	{
-		"controlname"	"CExLabel"
-		"fieldname"		"ArmoryLabel"
+		"ControlName"	"CExLabel"
+		"fieldName"			"ArmoryLabel"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#LoadoutTitleArmory"
 		"xpos"			"-15"
@@ -91,8 +106,8 @@
 
 	"ArmoryLabelShadow"
 	{
-		"controlname"	"CExLabel"
-		"fieldname"		"ArmoryLabelShadow"
+		"ControlName"	"CExLabel"
+		"fieldName"			"ArmoryLabelShadow"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#LoadoutTitleArmory"
 		"xpos"			"-2"
@@ -107,8 +122,8 @@
 
 	"TopLine"
 	{
-		"controlname"	"ImagePanel"
-		"fieldname"		"TopLine"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopLine"
 		"xpos"			"cs-0.5"
 		"ypos"			"36"
 		"zpos"			"1"
@@ -118,111 +133,205 @@
 		"tileVertically" "0"
 		"image"			"loadout_dotted_line"
 	}
-
+	
 	"FilterComboBox"
 	{
-		"controlname"	"ComboBox"
-		"font"			"HudFontSmallestBold"
-		"xpos"			"c-298"
-		"ypos"			"286"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"20"
-		"editable"		"0"
-
-		"fgcolor_override"	"TanLight"
-		"border_override"	"ViviButtonOne"
+		"ControlName"		"ComboBox"
+		"fieldName"			"FilterComboBox"
+		"Font"				"HudFontSmallestBold"
+		"xpos"				"c-298"
+		"ypos"				"286"
+		"zpos"				"2"
+		"wide"				"140"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"1"
+		"textHidden"		"0"
+		"editable"			"0"
+		"maxchars"			"-1"
+		"NumericInputOnly"	"0"
+		"unicode"			"0"
 	}
 	
 	"FilterBorder"
 	{
-		"controlname"	"EditablePanel"
-		"wide"			"140"
-		"tall"			"20"
-		"border"		"ViviButtonOne"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"FilterBorder"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"140"
+		"tall"				"20"
+		"border"			"ComboBoxBorder"
 		
 		"pin_to_sibling"		"FilterComboBox"
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
-
+	
 	"DataPanel"
 	{
-		"controlname"	"EditablePanel"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"DataPanel"
 		"xpos"			"c5"
 		"ypos"			"45"
+		"zpos"			"0"
 		"wide"			"288"
 		"tall"			"230"
+		"visible"		"1"
 
 		"Data_TextRichText"
 		{
-			"controlname"	"CEconItemDetailsRichText"
+			"ControlName"	"CEconItemDetailsRichText"
+			"fieldName"		"Data_TextRichText"
 			"font"			"ScoreboardSmall"
+			"labelText"		"%datatext%"
+			"textAlignment"	"north-west"
 			"xpos"			"0"
+			"ypos"			"138"
 			"wide"			"288"
-			"wrap"			"1"
+			"tall"			"230"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"fgcolor"		"TanLight"
-			"highlight_color"	"Gray"
+			"wrap"			"1"
+			"highlight_color"	"177 168 149 255"
 			"itemset_color"		"216 244 9 255"
 			"link_color"		"252 191 27 255"
 			"image_up_arrow"				"scroll_up_off"
 			"image_up_arrow_mouseover"		"scroll_up_on"
 			"image_down_arrow"				"scroll_down_off"
 			"image_down_arrow_mouseover"	"scroll_down_on"
-			"image_line"					"ArmoryScrollbarWell"
-			"image_box"						"ArmoryScrollbarBox"
+			"image_line"		"ArmoryScrollbarWell"
+			"image_box"			"ArmoryScrollbarBox"
 		}
 	}
-
+	
 	"SelectedItemModelPanel"
-	{
-		"controlname"	"CItemModelPanel"
+	{		
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"SelectedItemModelPanel"
 		"xpos"			"c5"
 		"ypos"			"45"
 		"zpos"			"1"
 		"wide"			"288"
 		"tall"			"147"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-
-		"model_hide"		"1"
-		"text_center"		"1"
-		"resize_to_text"	"0"		//		removing this makes some items have default font
-	}
-
+		
+		"model_hide"	"1"
+		"text_center"	"1"
+		"resize_to_text" "0"
+	}	
 	"SelectedItemImageModelPanel"
-	{
+	{		
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"SelectedItemImageModelPanel"
+		"xpos"			"c-280"		// Slightly right of center, because the photo background is
+		"ypos"			"160"
+		"zpos"			"1"
+		"wide"			"290"
+		"tall"			"140"
 		"visible"		"0"
-	}
-
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"0"
+		
+		"model_ypos"	"10"
+		"model_tall"	"120"
+		"name_only"		"0"
+		"attrib_only"	"0"
+		"model_only"	"1"
+		"paint_icon_hide"	"1"
+		
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"inventory_image_type" "1"
+			"allow_rot"				"0"
+		}
+	}	
+	
 	"mouseoveritempanel"
 	{
-		"controlname"	"CItemModelPanel"
-		"zpos"			"1000"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
 		"wide"			"200"
 		"tall"			"150"
-
-		"text_center_x"	"1"
-		"text_ypos"		"10"
-		"text_wide"		"180"
-		"name_only"		"1"
-
+		"visible"		"0"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
+		
+		"text_ypos"			"10"
+		"text_center_x"		"1"
+		"model_hide"		"0"
+		"resize_to_text"	"0"
+		"padding_height"	"0"
+		"name_only"			"1"
+		
 		"model_center_x"	"1"
 		"model_ypos"	"30"
+		"model_xpos"	"0"
 		"model_wide"	"150"
 		"model_tall"	"100"
+		
+		"text_forcesize"	"1"
+		"is_mouseover"		"1"
+		
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"inventory_image_type" "1"
+			"allow_rot"				"0"
+		}
+	}
+	
+	"BottomLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BottomLine"
+		"xpos"			"cs-0.5"
+		"ypos"			"278"
+		"zpos"			"1"
+		"wide"			"600"
+		"tall"			"10"
+		"tileimage"		"1"
+		"tileVertically" "0"
+		"image"			"loadout_dotted_line"
 	}
 
 	"PrevPageButton"
 	{
-		"controlname"	"CExButton"
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageButton"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"20"
-		"enabled"		"0"
-		"labeltext"		"#CHud_PagePrev"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#CHud_PagePrev"
 		"font"			"HudFontSmallestBold"
-		"textalignment"	"center"
-		"command"		"prevpage"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"prevpage"
 		
 		"paintbackground"   		"0"
 
@@ -242,32 +351,45 @@
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "1"
-	}
-
+	}		
+	
 	"CurPageLabel"
 	{
-		"controlname"	"CExLabel"
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurPageLabel"
 		"font"			"HudFontSmallestBold"
-		"labeltext"		"%thumbnailpage%"
-		"textalignment"	"center"
+		"labelText"		"%thumbnailpage%"
+		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
 		"ypos"			"286"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"20"
-		"fgcolor_override"	"LightRed"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "200 80 60 255"
 	}
-
+	
 	"NextPageButton"
 	{
-		"controlname"	"CExButton"
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPageButton"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"20"
-		"labeltext"		"#CHud_PageNext"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#CHud_PageNext"
 		"font"			"HudFontSmallestBold"
-		"textalignment"	"center"
-		"command"		"nextpage"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"nextpage"
 		
 		"paintbackground"   		"0"
 
@@ -287,65 +409,31 @@
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_to_sibling_corner" "1"
-	}
-
-	"BottomLine"
-	{
-		"controlname"	"ImagePanel"
-		"fieldname"		"BottomLine"
-		"xpos"			"cs-0.5"
-		"ypos"			"278"
-		"zpos"			"1"
-		"wide"			"600"
-		"tall"			"10"
-		"tileimage"		"1"
-		"tileVertically" "0"
-		"image"			"loadout_dotted_line"
-	}
-
-	"StoreButton"
-	{
-		"controlname"	"CExButton"
-		"xpos"			"5"
-		"ypos"			"0"
-		"zpos"			"20"
-		"wide"			"60"
-		"tall"			"20"
-		"labeltext"		"#ArmoryButton_Store"
-		"font"			"HudFontSmallestBold"
-		"textalignment"	"center"
-		"command"		"openstore"
+	}		
 		
-		"paintbackground"   		"0"
-
-		"border_default"    		"MainMenuBGBorder"
-		"border_armed"      		"MainMenuButtonArmed"
-
-		"defaultFgColor_override" 	"TanLight"
 		
-		"sound_armed"				"ui/buttonrollover.wav"
-		"sound_depressed"			"ui/buttonclick.wav"
-		"sound_released"			"ui/buttonclickrelease.wav"
-		"stay_armed_on_click"		"1"
-		"button_activation_type"	"2"
 		
-		"pin_to_sibling"	"WikiButton"
-		"pin_corner_to_sibling"	"7"
-		"pin_to_sibling_corner"	"5"
-	}
-
 	"WikiButton"
 	{
-		"controlname"	"CExButton"
+		"ControlName"	"CExButton"
+		"fieldName"		"WikiButton"
 		"xpos"			"c119"
 		"ypos"			"286"
 		"zpos"			"20"
 		"wide"			"60"
 		"tall"			"20"
-		"labeltext"		"#ArmoryButton_Wiki"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#ArmoryButton_Wiki"
 		"font"			"HudFontSmallestBold"
-		"textalignment"	"center"
-		"command"		"wiki"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"wiki"
 		
 		"paintbackground"   		"0"
 
@@ -361,20 +449,29 @@
 		"sound_released"			"ui/buttonclickrelease.wav"
 		"stay_armed_on_click"		"1"
 		"button_activation_type"	"2"
-	}
-
+	}		
+	
 	"ViewSetButton"
 	{
-		"controlname"	"CExButton"
+		"ControlName"	"CExButton"
+		"fieldName"		"ViewSetButton"
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"60"
 		"tall"			"20"
-		"labeltext"		"#ArmoryButton_SetDetails"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#ArmoryButton_SetDetails"
 		"font"			"HudFontSmallestBold"
-		"textalignment"	"center"
-		"command"		"viewset"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"viewset"
 		
 		"paintbackground"   		"0"
 
@@ -394,7 +491,46 @@
 		"pin_to_sibling"	"FilterComboBox"
 		"pin_corner_to_sibling"	"7"
 		"pin_to_sibling_corner"	"5"
-	}
+	}		
+	
+	"StoreButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"StoreButton"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"			"20"
+		"wide"			"60"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#ArmoryButton_Store"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"openstore"
+		
+		"paintbackground"   		"0"
+
+		"border_default"    		"MainMenuBGBorder"
+		"border_armed"      		"MainMenuButtonArmed"
+
+		"defaultFgColor_override" 	"TanLight"
+		
+		"sound_armed"				"ui/buttonrollover.wav"
+		"sound_depressed"			"ui/buttonclick.wav"
+		"sound_released"			"ui/buttonclickrelease.wav"
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+		
+		"pin_to_sibling"	"WikiButton"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
+	}		
 	
 	"CTFLogoPanel"
 	{

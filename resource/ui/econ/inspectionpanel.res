@@ -1,13 +1,14 @@
-"inspectionpanel"
+"Resource/UI/econ/QuestEditorPanel.res"
 {
-	"BackgroundColor"
+	"Background"
 	{
 		"controlname"	"EditablePanel"
-		"zpos"			"-4"
+		"fieldname"		"Background"
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"	"BackgroundColor"
+		"bgcolor_override"	"Background"
 	}
 	
 	"CaratLabel"
@@ -90,33 +91,39 @@
 
 	"BGImage"
 	{
-		"controlname"	"ImagePanel"
-		"xpos"			"c-5"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGImage"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"o1"
-		"tall"			"350"
-		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
-		"image"			"item_carousel_bg"
+		"tall"			"p0.75"
 		"visible"		"0"
 		"enabled"		"0"
+		"image"			"item_carousel_bg"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
 	}
 
 	"ItemName"
 	{		
-		"controlname"	"CItemModelPanel"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"ItemName"
 		"xpos"			"c-298"
 		"ypos"			"50"
 		"zpos"			"-2"
 		"wide"			"416"
 		"tall"			"20"	
-		"proportionaltoparent"	"1"
+		"visible"		"1"
 		"paintborder"	"0"
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
 
 		"text_ypos"		"0"
+		"paint_icon_hide" "1"
 		"model_hide"	"1"
 		"text_forcesize"	"1"
-		"name_only"		"1"
+		"name_only"	"1"
 	}
 
 	"ModelInspectionPanel"
@@ -150,6 +157,9 @@
 			"origin_x" "175"
 			"origin_y" "0"
 			"origin_z" "8"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
 			"spotlight" "1"
 		
 			"modelname"		""
@@ -166,7 +176,7 @@
 			"spotlight"
 			{
 				"name"				"spot"
-				"color"				"0.85 0.85 0.85"
+				"color"				"0.9 0.9 0.9"
 				"attenuation"		"0.9"
 				"origin"			"0 0 200"
 				"direction"			"320 10 0"
@@ -175,7 +185,7 @@
 				"maxDistance"		"0"
 				"exponent"			"5"
 			}
-			"point light"
+			"pointlight"
 			{
 				"name"				"point"
 				"color"				".7 .8 1"
@@ -188,34 +198,61 @@
 
 	"TeamNavPanel"
 	{
-		"controlname"	"CNavigationPanel"
-		"xpos"			"c291"
-		"ypos"			"50"
-		"zpos"			"100"
-		"wide"			"45"
-		"tall"			"16"
+		"ControlName"		"CNavigationPanel"
+		"fieldName"			"TeamNavPanel"
+		"xpos"				"c291"
+		"ypos"				"50"
+		"zpos"				"100"
+		"wide"				"45"
+		"tall"				"16"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"proportionaltoparent"	"1"
-
-		"auto_layout"	"1"
-
+		
+		"auto_layout"		"1"
+		"selected_button_default"	"0"
+		"auto_layout_vertical_buffer"	"0"
+		"display_vertically"	"0"
+		
 		"ButtonSettings"
 		{
-			"wide"				"20"
-			"tall"				"20"
-			"sound_armed"		"ui/buttonrollover.wav"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
+			"wide"				"19"
+			"tall"				"19"
+			"autoResize"		"0"
+			"pinCorner"			"2"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labelText"			""
+			"textAlignment"		"south-west"
+			"scaleImage"		"1"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"		"UI/buttonrollover.wav"
+			
 			"paintbackground"	"0"
-
-			"stayselectedonclick"	"1"
-
+			"paintbackgroundtype"	"0"
+			
 			"image_drawcolor"		"200 200 200 255"
-			"subimage"
+			
+			"stayselectedonclick"	"1"
+			"keyboardinputenabled"	"0"
+			
+			"SubImage"
 			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"7"
 				"wide"			"16"
 				"tall"			"16"
-				"scaleimage"	"1"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
 			}				
 		}
 		
@@ -224,134 +261,161 @@
 			"red"
 			{
 				"userdata"			"2"
-				"image_default"		"replay/thumbnails/loadout/loadout_red"				
+				"SubImage"
+				{
+					"image"			"replay/thumbnails/loadout/loadout_red"		
+				}				
 			}
-
 			"blu"
 			{
 				"userdata"			"3"
-				"image_default"		"replay/thumbnails/loadout/loadout_blu"			
+				"SubImage"
+				{
+					"image"			"replay/thumbnails/loadout/loadout_blu"		
+				}				
 			}
 		}
 	}
 
 	"PaintkitPreviewContainer"
 	{
-		"controlname"	"EditablePanel"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PaintkitPreviewContainer"
 		"xpos"			"c113" 
 		"ypos"			"45"
-		"zpos"			"3"
+		"zpos"			"100"
 		"wide"			"225"
 		"tall"			"235"
-		"proportionaltoparent"	"1"
 		"border"		"MainMenuBGBorder"
+		"mouseinputenabled"	"1"
+		"proportionaltoparent"	"1"
 
+		"visible"		"0"
+		
 		"fixed_paintkit"
 		{
-			"tall"			"190"
-		}
-
-		"PaintkitLabel"
-		{
-			"controlname"	"CExLabel"
-			"font"			"HudFontSmallestBold"
-			"labeltext"		"#TF_ItemPreview_ItemPaintkit"
-			"xpos"			"10"
-			"ypos"			"4"
-			"wide"			"100"
-			"tall"			"20"
-			
-			"fixed_paintkit"
-			{
-				"visible"	"0"
-			}
+			"tall"		"190"
+			"visible"	"1"
 		}
 
 		"ComboBoxValidPaintkits"
 		{
-			"controlname"	"ComboBox"
-			"font"			"HudFontSmallestBold"
-			"xpos"			"cs-0.5"
-			"ypos"			"25"
-//			"zpos"			"1"
-			"wide"			"205"
-			"tall"			"20"
-			"proportionaltoparent"	"1"
+			"ControlName"		"ComboBox"
+			"fieldName"			"ComboBoxValidPaintkits"
+			"Font"				"HudFontSmallestBold"
+			"xpos"				"cs-0.5"
+			"ypos"				"25"
+			"zpos"				"100"
+			"wide"				"205"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textHidden"		"0"
+			"editable"			"0"
+			"maxchars"			"-1"
+			"NumericInputOnly"	"0"
+			"unicode"			"0"
+			"default"			"0"
 			"actionsignallevel"	"2"
-			"editable"		"0"
-			"border_override"	"ViviButtonOne"
+			"proportionaltoparent"	"1"
 
 			"fgcolor_override"			"TanLight"
 			"selectionColor_override"	"Blank"
-			
+
 			"fixed_paintkit"
 			{
 				"visible"	"0"
 			}
 		}
 
-		"ItemLabel"
+		"PaintkitLabel"
 		{
-			"controlname"	"CExLabel"
+			"ControlName"	"CExLabel"
+			"fieldName"		"PaintkitLabel"
 			"font"			"HudFontSmallestBold"
-			"labeltext"		"#TF_ItemPreview_ItemPreview"
+			"labelText"		"#TF_ItemPreview_ItemPaintkit"
+			"textAlignment"	"west"
 			"xpos"			"10"
-			"ypos"			"47"
+			"ypos"			"4"
 			"wide"			"100"
 			"tall"			"20"
-			
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
 			"fixed_paintkit"
 			{
-				"ypos"			"4"
-				"labeltext"		"#TF_ItemPreview_RedeemItem"
+				"visible"	"0"
 			}
 		}
 
 		"ComboBoxValidItems"
 		{
-			"controlname"	"ComboBox"
-			"font"			"HudFontSmallestBold"
-			"xpos"			"cs-0.5"
-			"ypos"			"68"
-//			"zpos"			"1"
-			"wide"			"205"
-			"tall"			"20"
+			"ControlName"		"ComboBox"
+			"fieldName"			"ComboBoxValidItems"
+			"Font"				"HudFontSmallestBold"
+			"xpos"				"cs-0.5"
+			"ypos"				"68"
+			"zpos"				"100"
+			"wide"				"205"
+			"tall"				"20"
+			"tall"				"15"
+			"autoResize"		"0"
+			"pinCorner"			"0"
 			"proportionaltoparent"	"1"
+			"visible"			"1"
+			"enabled"			"1"
+			"textHidden"		"0"
+			"editable"			"0"
+			"maxchars"			"-1"
+			"NumericInputOnly"	"0"
+			"unicode"			"0"
+			"default"			"0"
 			"actionsignallevel"	"2"
-			"editable"		"0"
-			"border_override"	"ViviButtonOne"
+
+			"border_override"	"ComboBoxBorder"
 
 			"fgcolor_override"			"TanLight"
 			"selectionColor_override"	"Blank"
-			
-			"fixed_paintkit"
+
+			"fixed_item"
 			{
 				"ypos"			"25"
 			}
 		}
 
-		"WearLabel"
+		"ItemLabel"
 		{
-			"controlname"	"CExLabel"
+			"ControlName"	"CExLabel"
+			"fieldName"		"ItemLabel"
 			"font"			"HudFontSmallestBold"
-			"labeltext"		"#TF_ItemPreview_ItemWear"
+			"labelText"		"#TF_ItemPreview_ItemPreview"
+			"textAlignment"	"west"
 			"xpos"			"10"
-			"ypos"			"90"
+			"ypos"			"47"
 			"wide"			"100"
 			"tall"			"20"
-			
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
 			"fixed_paintkit"
 			{
-				"ypos"			"47"
+				"labeltext"		"#TF_ItemPreview_RedeemItem"
 			}
 		}
 
 		"WearSlider"
 		{
-			"controlname"	"Slider"
+			"ControlName"	"Slider"
+			"fieldName"		"WearSlider"
 			"xpos"			"cs-0.5+4"
 			"ypos"			"r126"
-//			"zpos"			"3"
+			"zpos"			"100"
 			"wide"			"212"
 			"tall"			"30"
 			"numticks"		"4"
@@ -365,72 +429,47 @@
 			"fgcolor_override" "TanLight"
 		}
 
-		"SeedBG"
+		"WearLabel"
 		{
-			"controlname"	"EditablePanel"
-			"xpos"			"cs-0.5"
-			"wide"			"205"
-			"ypos"			"r92"
+			"ControlName"	"CExLabel"
+			"fieldName"		"WearLabel"
+			"font"			"HudFontSmallestBold"
+			"labelText"		"#TF_ItemPreview_ItemWear"
+			"textAlignment"	"west"
+			"xpos"			"10"
+			"ypos"			"90"
+			"zpos"			"100"
+			"wide"			"100"
 			"tall"			"20"
-			"proportionaltoparent"	"1"
-			"border"		"ViviButtonOne"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 
-			"subimage"	//		CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON	
+			"fixed_paintkit"
 			{
-				"controlname"	"ImagePanel"
-				"xpos"			"r15"
-				"ypos"			"cs-0.5"
-				"wide"			"11"
-				"tall"			"11"
-				"proportionaltoparent"	"1"
-				"drawcolor"		"TanLight"
-				"scaleimage"	"1"
-				"image"			"glyph_workshop_edit" // replay/thumbnails/icon_random		glyph_workshop_edit
+				"ypos"		"47"
 			}
 		}
 
-		"SeedTextEntry"
-		{
-			"controlname"	"TextEntry"
-			"xpos"			"-2"
-			"zpos"			"1"
-			"wide"			"185"
-			"tall"			"20"
-			"font"			"HudFontSmallest"
-			"actionsignallevel"	"2"
-			"fgcolor_override"			"TanLight"
-			"disabledfgcolor_override"	"TanLight"		//		does this work
-
-			"pin_to_sibling" "SeedBG"
-			"pin_corner_to_sibling" "2"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"BlockEditSeed"
-		{
-			"controlname"	"Panel"
-			"zpos"			"2"
-			"wide"			"205"
-			"tall"			"20"
-
-			"pin_to_sibling" "SeedBG"
-		}
-
-		"RandomizeButton"
+		"RandomizeSeedButton"
 		{
 			"controlname"	"CExButton"
+			"fieldName"		"RandomizeSeedButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"r65"
-//			"zpos"			"3"
+			"zpos"			"100"
 			"wide"			"210"
 			"tall"			"26"
+			"visible"		"1"
+			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_ItemPreview_PaintkitSeed"
 			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"random_seed"
 			"actionsignallevel" "2"
-				
+			
 			"paintbackground"   		"0"
 
 			"border_default"    		"MainMenuButtonDefault"
@@ -440,10 +479,6 @@
 			"defaultFgColor_override" 	"46 43 42 255"
 			"armedFgColor_override" 	"235 226 202 255"
 			"depressedFgColor_override" "235 235 235 255"
-
-			"image_drawcolor"			"50 50 50 255"
-			"image_armedcolor"			"235 226 202 255"
-			"image_selectedcolor"		"235 235 235 255"
 			
 			"sound_armed"				"ui/buttonrollover.wav"
 			"sound_depressed"			"ui/buttonclick.wav"
@@ -452,19 +487,69 @@
 			"button_activation_type"	"2"
 		}
 
-		"ViewOnMarketButton"
+		"SeedBG"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"EditablePanel"
+			"fieldName"		"SeedBG"
+			"xpos"			"cs-0.5"
+			"ypos"			"r92"
+			"zpos"			"99"
+			"wide"			"205"
+			"tall"			"20"
+			"proportionaltoparent"	"1"
+			"border"		"ComboBoxBorder"
+
+			"subimage"
+			{
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
+				"xpos"			"r15"
+				"ypos"			"cs-0.5"
+				"wide"			"11"
+				"tall"			"11"
+				"proportionaltoparent"	"1"
+				"drawcolor"		"TanLight"
+				"scaleimage"	"1"
+				"image"			"glyph_workshop_edit"
+			}
+		}
+
+		"SeedTextEntry"
+		{
+			"ControlName"	"TextEntry"
+			"fieldName"		"SeedTextEntry"
+			"xpos"			"-2"
+			"zpos"			"100"
+			"wide"			"185"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel" "2"
+			"default"		"1"
+			"NumericInputOnly"	"1"
+			"maxchars"		"20"
+			
+			"fgcolor_override"	"TanLight"
+			
+			"pin_to_sibling" "SeedBG"
+			"pin_corner_to_sibling" "2"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"ViewMarketButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"ViewMarketButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"r34"
-//			"zpos"			"3"
+			"zpos"			"100"
 			"wide"			"210"
 			"tall"			"26"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_ItemAd_ViewOnMarket"
+			"labelText"		"#TF_ItemAd_ViewOnMarket"
 			"font"			"HudFontSmallestBold"
-			"textalignment"	"center"
-			"command"		"market"
+			"textAlignment"	"center"
+			"proportionaltoparent"	"1"
+			"command"	"market"
 			"actionsignallevel" "2"
 
 			"paintbackground"   		"0"
@@ -480,15 +565,17 @@
 			"stay_armed_on_click"		"1"
 			"button_activation_type"	"2"
 		}
-
+		
 		"NewSeedButton"
 		{
-			"ypos"			"r100"
+			"fieldName"		"NewSeedButton"
+			"xpos"			"9999"
 		}
 
 		"MarketButton"
 		{
-			"ypos"			"r100"
+			"fieldName"		"MarketButton"
+			"xpos"			"9999"
 		}
 	}
 	

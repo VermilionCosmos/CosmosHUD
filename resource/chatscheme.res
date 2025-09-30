@@ -5,4 +5,6 @@
 // BASE
 
 #base "scheme/customfontfiles.res"
+#base "scheme/chatscheme_cosmos.res"
 #base "scheme/chatscheme.res"
+

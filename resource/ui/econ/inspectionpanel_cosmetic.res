@@ -40,7 +40,7 @@
 			"enabled"		"1"
 			"paintbackground"	"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override" "BackgroundColor"
+			"bgcolor_override" "Background"
 			"proportionaltoparent" "1"
 		
 			"fullscreen_fade_to_black_duration"	"0.32"

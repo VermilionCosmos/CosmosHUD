@@ -4,22 +4,35 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"character_info"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"settitlebarvisible"	"1"
+		"PaintBackgroundType"	"0"
+		
+		"title"			""
 		"title_font"	"HudFontMediumBold"
-		"titletextinsetY"		"0"
-		"clientinsetx_override"	"0"
+		"titletextinsetX"	"0"
+		"titletextinsetY"	"0"
+		"clientinsetx_override"			"0"
+		"sheetinset_bottom"				"0"
 	}
 	
-	"BackgroundColor"
+	"Background"
 	{
 		"controlname"	"EditablePanel"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
-		"bgcolor_override"	"BackgroundColor"
+		"bgcolor_override"	"Background"
 	}
-
+	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -33,8 +46,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}		
-	
+	}				
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -48,8 +60,7 @@
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}		
-	
+	}				
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -70,10 +81,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
 		"tabxindent"	"45"
-		"tabxdelta"		"10"
-		"tabheight"		"34"
+		"tabxdelta"		"5"
+		"tabwidth"		"0" // Ignored
+		"tabheight"		"32"
 		"transition_time" "0"
-		"yoffset"	"4"
+		"yoffset"	"6"
 		
 		"HeaderLine"
 		{
@@ -89,18 +101,58 @@
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
+		
 		"tabskv"
 		{
+			"textinsetx"		"0"
 			"textalignment"		"center"
 			"font"				"HudFontMediumSmallBold"
-			"normalborder_override"	"OutlinedDullGreyBox"
-			"activeborder_override"	"OutlinedGreyBox"
-			"paintbackground"	"0"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"
+			"paintbackground"	"0"
+			"activeborder_override"	"OutlinedGreyBox"
+			"normalborder_override" "OutlinedDullGreyBox"
 		}
 	}
+	
+	"BackButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton"
+		"xpos"			"c-60+200"
+		"ypos"			"436"
+		"zpos"			"6"
+		"wide"			"120"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#CHud_Back"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"back"
+		
+		"paintbackground"   		"0"
+
+		"border_default"    		"MainMenuButtonDefault"
+		"border_armed"      		"MainMenuButtonArmed"
+
+		"defaultFgColor_override" 	"46 43 42 255"
+		"armedFgColor_override" 	"235 226 202 255"
+		"depressedFgColor_override" "235 235 235 255"
+		
+		"sound_armed"				"ui/buttonrollover.wav"
+		"sound_depressed"			"ui/buttonclick.wav"
+		"sound_released"			"ui/buttonclickrelease.wav"
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+	}		
 	
 	"CloseButton"
 	{
@@ -111,12 +163,17 @@
 		"zpos"			"6"
 		"wide"			"120"
 		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabPosition"	"0"
 		"labelText"		"#CHud_Close"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		"default"		"1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
 		"Command"		"close"
 		
 		"paintbackground"   		"0"
@@ -133,40 +190,7 @@
 		"sound_released"			"ui/buttonclickrelease.wav"
 		"stay_armed_on_click"		"1"
 		"button_activation_type"	"2"
-	}
-	
-	"BackButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
-		"xpos"			"c-60+200"
-		"ypos"			"436"
-		"zpos"			"6"
-		"wide"			"120"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#CHud_Back"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"default"		"1"
-		"Command"		"back"
-
-		"paintbackground"   		"0"
-
-		"border_default"    		"MainMenuButtonDefault"
-		"border_armed"      		"MainMenuButtonArmed"
-
-		"defaultFgColor_override" 	"46 43 42 255"
-		"armedFgColor_override" 	"235 226 202 255"
-		"depressedFgColor_override" "235 235 235 255"
-		
-		"sound_armed"				"ui/buttonrollover.wav"
-		"sound_depressed"			"ui/buttonclick.wav"
-		"sound_released"			"ui/buttonclickrelease.wav"
-		"stay_armed_on_click"		"1"
-		"button_activation_type"	"2"
-	}
+	}		
 	
 	"NotificationsPresentPanel"
 	{
@@ -176,6 +200,8 @@
 		"ypos"			"r42"
 		"zpos"			"10000"
 		"wide"			"220"
-		"tall"			"26"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
 	}
 }

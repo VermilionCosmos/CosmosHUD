@@ -133,7 +133,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"replay/thumbnails/borders/vivi_mm_border"
+			"image"					"replay/thumbnails/borders/source_window_border"
 			"src_corner_height"		"64"
 			"src_corner_width"		"64"
 			"draw_corner_width"		"4"
@@ -177,7 +177,7 @@ Scheme
 			}
 		}
 
-		"DefaultSmall" // main changes: server browser, dull spray text, dull text from credits, console completion list
+		"DefaultSmall" // server browser text, small dull text, console completion list text
 		{
 			"1"
 			{
@@ -188,7 +188,7 @@ Scheme
 			}
 		}
 
-		"DefaultVerySmall" // main changes: movement, communication, etc in keyboard options and slider text
+		"DefaultVerySmall" // legacy options text, slider text
 		{
 			"1"
 			{

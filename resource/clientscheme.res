@@ -1,4 +1,4 @@
-#base "scheme/cosmoshudscheme.res"
+#base "scheme/clientscheme_cosmos.res"
 
 // CROSSHAIR CUSTOMIZATIONS
 

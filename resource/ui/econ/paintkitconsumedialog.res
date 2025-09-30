@@ -46,14 +46,14 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"BackgroundColor"
+	"Background"
 	{
 		"controlname"	"EditablePanel"
 		"zpos"			"-4"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"	"BackgroundColor"
+		"bgcolor_override"	"Background"
 	}
 
 	"Shade"

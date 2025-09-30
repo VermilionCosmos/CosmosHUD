@@ -4,5 +4,6 @@
 // BASE
 
 #base "scheme/customfontfiles.res"
+#base "scheme/sourcescheme_cosmos.res"
 #base "scheme/sourcescheme.res"
 #base "SourceSchemeBase.res"
