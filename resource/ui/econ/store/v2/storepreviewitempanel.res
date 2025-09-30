@@ -1250,25 +1250,25 @@
 			"all"
 			{
 				"userdata"			"2"
-				"image_default"		"replay/thumbnails/loadout/loadout_red"
-				"image_armed"		"replay/thumbnails/loadout/loadout_red"
-				"image_selected"	"replay/thumbnails/loadout/loadout_red"
+				"image_default"		"replay/thumbnails/loadout/teambutton_red"
+				"image_armed"		"replay/thumbnails/loadout/teambutton_red"
+				"image_selected"	"replay/thumbnails/loadout/teambutton_red"
 				
 				"SubImage"
 				{
-					"image"			"replay/thumbnails/loadout/loadout_red"
+					"image"			"replay/thumbnails/loadout/teambutton_red"
 				}				
 			}
 			"scout"
 			{
 				"userdata"			"3"
-				"image_default"		"replay/thumbnails/loadout/loadout_blu"
-				"image_armed"		"replay/thumbnails/loadout/loadout_blu"
-				"image_selected"	"replay/thumbnails/loadout/loadout_blu"
+				"image_default"		"replay/thumbnails/loadout/teambutton_blue"
+				"image_armed"		"replay/thumbnails/loadout/teambutton_blue"
+				"image_selected"	"replay/thumbnails/loadout/teambutton_blue"
 				
 				"SubImage"
 				{
-					"image"			"replay/thumbnails/loadout/loadout_blu"
+					"image"			"replay/thumbnails/loadout/teambutton_blue"
 				}				
 			}
 		}

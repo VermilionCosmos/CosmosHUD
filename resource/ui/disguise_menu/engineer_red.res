@@ -14,7 +14,7 @@
 	
 	"ClassIcon"	
 	{
-		"image"			"replay/thumbnails/class_icons/engi"
+		"image"			"replay/thumbnails/class_icons/engineer"
 	}
 
 	"NumberLabel"

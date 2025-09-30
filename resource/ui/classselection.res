@@ -1025,7 +1025,7 @@
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/class_icons/engi"
+			"image"			"replay/thumbnails/class_icons/engineer"
 			"scaleImage"	"1"
 		}				
 	}
@@ -1041,7 +1041,7 @@
 		"tall"						"30"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
-		"image"						"replay/thumbnails/class_icons/engi"
+		"image"						"replay/thumbnails/class_icons/engineer"
 
 		"pin_to_sibling"			"engineer"
 	}

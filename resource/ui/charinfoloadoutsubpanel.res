@@ -452,7 +452,7 @@
 			"wide"					"35"
 			"tall"					"35"
 			"scaleimage"			"1"
-			"image"					"replay/thumbnails/class_icons/engi"
+			"image"					"replay/thumbnails/class_icons/engineer"
 		}
 
 		"pin_to_sibling" 			"HeavyButton"
@@ -471,7 +471,7 @@
 		"tall"						"35"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
-		"image"						"replay/thumbnails/class_icons/engi"
+		"image"						"replay/thumbnails/class_icons/engineer"
 
 		"pin_to_sibling" 			"EngineerButton"
 	}

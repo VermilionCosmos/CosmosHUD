@@ -714,7 +714,7 @@
 			"wide"			"16"
 			"tall"			"16"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/loadout_red"
+			"image"			"replay/thumbnails/loadout/teambutton_red"
 		}
 	}
 
@@ -746,7 +746,7 @@
 			"wide"			"16"
 			"tall"			"16"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/loadout_blu"
+			"image"			"replay/thumbnails/loadout/teambutton_blue"
 		}
 
 		"pin_to_sibling" 		"RedButton"

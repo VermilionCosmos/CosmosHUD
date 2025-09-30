@@ -263,7 +263,7 @@
 				"userdata"			"2"
 				"SubImage"
 				{
-					"image"			"replay/thumbnails/loadout/loadout_red"		
+					"image"			"replay/thumbnails/loadout/teambutton_red"		
 				}				
 			}
 			"blu"
@@ -271,7 +271,7 @@
 				"userdata"			"3"
 				"SubImage"
 				{
-					"image"			"replay/thumbnails/loadout/loadout_blu"		
+					"image"			"replay/thumbnails/loadout/teambutton_blue"		
 				}				
 			}
 		}
