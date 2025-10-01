@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/teambutton_blue"
+	"$baseTexture" "vgui/replay/thumbnails/loadout/teambutton_blue"
 	"$translucent" 1
 	"$vertexcolor" 1
 	"$vertexalpha" 1

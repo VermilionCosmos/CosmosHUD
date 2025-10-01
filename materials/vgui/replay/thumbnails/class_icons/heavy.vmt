@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\class_icons\heavy"
+	"$basetexture" "vgui/replay/thumbnails/class_icons/heavy"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\class_icons\sniper"
+	"$basetexture" "vgui/replay/thumbnails/class_icons/sniper"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1

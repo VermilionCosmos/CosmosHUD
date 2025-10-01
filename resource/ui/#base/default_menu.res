@@ -561,9 +561,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_HeaderContainer"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"280"
+			"xpos"			"2"
+			"ypos"			"2"
+			"wide"			"276"
 			"tall"			"22"
 			"visible"		"1"
 
@@ -576,7 +576,7 @@
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"280"
+				"wide"			"276"
 				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
@@ -590,8 +590,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"262"
-			"ypos"			"4"
+			"xpos"			"260"
+			"ypos"			"6"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
@@ -899,11 +899,12 @@
 		{
 			"ControlName"				"CExImageButton"
 			"fieldName"					"Notifications_CloseButton"
-			"xpos"						"186"
-			"ypos"						"8"
+			"xpos"						"190"
+			"ypos"						"6"
 			"zpos"						"10"
 			"wide"						"14"
 			"tall"						"14"
+			"visible"					"1"
 			"visible"					"1"
 			"enabled"					"1"
 			"labeltext"					""
@@ -920,12 +921,12 @@
 
 			"paintbackground"			"0"
 	
-			"defaultFgColor_override" 	"46 43 42 255"
-			"armedFgColor_override" 	"235 226 202 255"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 
-			"image_drawcolor"			"117 107 94 255"
-			"image_armedcolor"			"200 80 60 255"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"			"ImagePanel"
@@ -948,15 +949,17 @@
 			"fieldName"					"Notifications_TitleLabel"
 			"font"						"HudFontSmallBold"
 			"labelText"					"%notititle%"
-			"textAlignment"				"north-west"
-			"xpos"						"12"
-			"ypos"						"8"
-			"wide"						"250"
-			"tall"						"20"
+			"textAlignment"				"center"
+			"xpos"						"2"
+			"ypos"						"2"
+			"zpos"						"9"
+			"wide"						"206"
+			"tall"						"22"
 			"visible"					"1"
 			"enabled"					"1"
-			"fgcolor"					"LabelDark"
-			"wrap"						"1"
+			"PaintBackgroundType" "2"
+			"fgcolor_override"	"235 226 202 255"
+			"bgcolor_override"	"36 33 32 255"
 		}
 
 		"Notifications_Scroller"
@@ -965,6 +968,7 @@
 			"fieldName"					"Notifications_Scroller"
 			"xpos"						"8"
 			"ypos"						"25"
+			
 			"wide"						"210"
 			"tall"						"135"
 			"PaintBackgroundType"		"2"
@@ -1079,7 +1083,7 @@
 		"ypos"							"265"
 		"zpos"							"5"
 		"wide"							"260"
-		"tall"							"150"
+		"tall"							"146"
 		"visible"						"1"
 
 		"border"						"MainMenuBGBorder"
@@ -1095,8 +1099,8 @@
 			"ypos"						"0"
 			"wide"						"f0"
 			"tall"						"30"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"
+			"enabled"					"0"
 			"textinsetx"				"0"
 			"fgcolor_override"			"235 227 203 255"
 			"mouseinputenabled"			"0"
@@ -1106,11 +1110,11 @@
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"InnerShadow"
-			"xpos"						"cs-0.5"
-			"ypos"						"28"
+			"xpos"						"0"
+			"ypos"						"0"
 			"zpos"						"501"
-			"wide"						"f15"
-			"tall"						"115"
+			"wide"						"244"
+			"tall"						"130"
 			"visible"					"1"	
 			"PaintBackgroundType"		"0"
 			"proportionaltoparent"		"1"
@@ -1118,6 +1122,27 @@
 
 			"paintborder"				"1"
 			"border"					"InnerShadowBorder"
+			
+			"pin_to_sibling"			"SteamFriendsList"
+		}
+
+		"BelowDarken"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"BelowDarken"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"499"
+			"wide"			"244"
+			"tall"			"130"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"bgcolor_override"	"0 0 0 100"
+			
+			"pin_to_sibling"			"SteamFriendsList"
 		}
 
 		"SteamFriendsList"
@@ -1125,15 +1150,15 @@
 			"ControlName"				"CSteamFriendsListPanel"
 			"fieldname"					"SteamFriendsList"
 			"xpos"						"cs-0.5"
-			"ypos"						"28"
+			"ypos"						"8"
 			"zpos"						"500"
-			"wide"						"f15"
-			"tall"						"115"
+			"wide"						"244"
+			"tall"						"130"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 
 			"columns_count"				"2"
-			"inset_x"					"10"
+			"inset_x"					"5"
 			"inset_y"					"5"
 			"row_gap"					"5"
 			"column_gap"				"10"
@@ -1141,7 +1166,7 @@
 
 			"friendpanel_kv"
 			{
-				"wide"					"110"
+				"wide"					"112"
 				"tall"					"20"
 			}
 
@@ -1176,23 +1201,6 @@
 					"visible"		"0"
 				}
 			}
-		}
-
-		"BelowDarken"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"BelowDarken"
-			"xpos"			"cs-0.5"
-			"ypos"			"28"
-			"zpos"			"499"
-			"wide"			"f15"
-			"tall"			"115"
-			"visible"		"1"	
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"bgcolor_override"	"0 0 0 100"
 		}
 
 		"DisabledLabel"
@@ -2129,11 +2137,11 @@
 			{
 				"ControlName"			"ImagePanel"
 				"fieldName"				"SubImage"
-				"xpos"					"6"
-				"ypos"					"7"
+				"xpos"					"8"
+				"ypos"					"9"
 				"zpos"					"1"
-				"wide"					"16"
-				"tall"					"16"
+				"wide"					"12"
+				"tall"					"12"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"

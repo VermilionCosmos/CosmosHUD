@@ -11,14 +11,14 @@
 		"tall"			"26"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFThinLineBorderOpaque"
+		"border"		"MainMenuHighlightBorder"
 	}
 
 	"TextLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"TanDarker"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"2"

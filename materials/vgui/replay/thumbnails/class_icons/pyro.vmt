@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\class_icons\pyro"
+	"$basetexture" "vgui/replay/thumbnails/class_icons/pyro"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1

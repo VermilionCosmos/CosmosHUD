@@ -604,7 +604,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"glyph_items"
+			"image"			"replay/thumbnails/menu/glyph_items"
 		}
 	}
 

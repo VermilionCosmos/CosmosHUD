@@ -31,7 +31,7 @@
 		"label"			"#MMenu_CharacterSetup"
 		"tooltip"		""
 		"command"		"engine open_charinfo"
-		"subimage"		"glyph_items"
+		"subimage"		"replay/thumbnails/menu/glyph_items"
 	}
 
 	"ViewContrackerButton"
@@ -47,7 +47,7 @@
 		"label"			""
 		"tooltip"		"#MMenu_Tooltip_Armory"
 		"command"		"engine open_store"
-		"subimage"		"glyph_store"
+		"subimage"		"replay/thumbnails/menu/glyph_store"
 	}
 	
 	"ViewOptionsButton"
@@ -55,7 +55,7 @@
 		"label"			"#TF_Options_Title"
 		"tooltip"		""
 		"command"		"OpenOptionsDialog"
-		"subimage"		"glyph_options"
+		"subimage"		"replay/thumbnails/menu/glyph_options"
 	}
 	
 	"ViewAdvOptionsButton"
