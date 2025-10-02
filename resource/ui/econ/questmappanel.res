@@ -364,7 +364,7 @@
 				"xpos"			"c-200"
 				"ypos"			"553"
 				"wide"			"100"
-				"tall"			"15"
+				"tall"			"10"
 				"zpos"			"1001"
 				"font"			"QuestMap_Small"
 				"TextAlignment"		"center"
@@ -1081,7 +1081,7 @@
 					"proportionaltoparent" "1"
 					"mouseinputenabled"		"1"
 					"keyboardinputenabled"	"0"
-					"border"	"CYOANodeViewBorder"
+					"bgcolor_override"	"Black"
 					"collapsed_height"	"165"
 					"expanded_height"	"220"
 				}

@@ -246,45 +246,53 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"10"
-				"weight"		"700"
+				"tall"			"12"
+				"weight"		"900"
 				"yres"			"480 599"
 				"outline"		"1"
 				"dropshadow"	"1"
+				"antialias" 	"0"
 			}
 			"2"
 			{
 				"name"			"Verdana"
-				"tall"			"10"
-				"weight"		"700"
+				"tall"			"14"
+				"weight"		"900"
 				"yres"			"600 767"
 				"outline"		"1"
 				"dropshadow"	"1"
+				"antialias" 	"0"
 			}
 			"3"
 			{
 				"name"			"Verdana"
-				"tall"			"12"
-				"weight"		"700"
+				"tall"			"15"
+				"weight"		"900"
 				"yres"			"768 1023"
 				"outline"		"1"
 				"dropshadow"	"1"
+				"antialias" 	"0"
 			}
 			"4"
 			{
 				"name"			"Verdana"
-				"tall"			"14"
-				"weight"		"700"
+				"tall"			"17"
+				"weight"		"900"
 				"yres"			"1024 1199"
 				"outline"		"1"
 				"dropshadow"	"1"
+				"antialias" 	"0"
 			}
 			"5"
 			{
 				"name"			"Verdana"
-				"tall"			"18"
-				"weight"		"700"
+				"tall"			"19"
+				"weight"		"900"
 				"yres"			"1200 10000"
 				"outline"		"1"
 				"dropshadow"	"1"
+				"antialias" 	"0"
 			}
+		}
+	}
+}

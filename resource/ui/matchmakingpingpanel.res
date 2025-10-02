@@ -36,15 +36,15 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"13"
-		"ypos"		"25"
+		"xpos"		"26"
+		"ypos"		"21"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"25"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontMediumSmallBold"
 		"fgcolor_override"	"TanLight"
 		
 		"mouseinputenabled"	"0"
@@ -55,7 +55,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"InviteModeLabel"
 		"xpos"		"26"
-		"ypos"		"50"
+		"ypos"		"48"
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
@@ -64,7 +64,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
-		"fgcolor_override"	"TanDark"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"InviteModeComboBox"
@@ -127,6 +127,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
+		"visible"	"0"
 		"enabled"	"0"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
@@ -140,13 +141,15 @@
 		"xpos"		"42"
 		"ypos"		"95"
 		"zpos"		"3"
-		"wide"		"250`"
+		"wide"		"250"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_PartySameTeam"
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
+		"visible"	"0"
+		"enabled"	"0"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"2"
@@ -158,7 +161,7 @@
 		"ControlName"		"CvarToggleCheckButton"
 		"fieldName"		"CustomPingCheckButton"
 		"xpos"		"23"
-		"ypos"		"110"
+		"ypos"		"95" // 110
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
@@ -177,17 +180,12 @@
 		"cvar_name"	"tf_mm_custom_ping_enabled"
 	}
 
-	// VGUI is weird and makes some checkboxes have their text lower than it's supposed to be
-	// and the above checkbox has that behavior.  To get around it, make another label
-	//
-	// You're stupid :] -Rose
-
 	"DescLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DescLabel"
 		"xpos"		"43"
-		"ypos"		"127"
+		"ypos"		"112"
 		"zpos"		"3"
 		"wide"		"p0.81"
 		"tall"		"45"
@@ -208,8 +206,8 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"CurrentPingLabel"
-		"xpos"		"27"
-		"ypos"		"182"
+		"xpos"		"30"
+		"ypos"		"180"
 		"zpos"		"0"
 		"wide"		"f0"
 		"tall"		"20"
@@ -226,7 +224,7 @@
 		"ControlName"		"CCvarSlider"
 		"fieldName"		"PingSlider"
 		"xpos"		"rs1-8"
-		"ypos"		"158"
+		"ypos"		"150"
 		"wide"		"f40"
 		"tall"		"32"
 		"RoundedCorners"		"15"
@@ -235,6 +233,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
+		"fgcolor_override"		"TanLight"
 
 		"cvar_name"	"tf_mm_custom_ping"
 		"use_convar_minmax" "1"
@@ -248,7 +247,7 @@
 		"ypos"			"200"
 		"zpos"			"100"
 		"wide"			"f37"
-		"tall"			"f220"
+		"tall"			"f210"
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
@@ -329,6 +328,17 @@
 			"paintborder"	"1"
 			"border"		"ReplayDefaultBorder"
 		}
+	}
+	
+	"CloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"0"
+		"visible"		"1"
+		"labeltext"		"<"
+		"textAlignment"	"west"
+		
 	}
 	
 	"ReturnButton"

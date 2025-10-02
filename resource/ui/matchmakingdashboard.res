@@ -82,14 +82,72 @@
 			"proportionaltoparent"		"1"
 		}
 
+		"MatchmakingSettingsButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"MatchmakingSettingsButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"101"
+			"wide"						"25"
+			"tall"						"f6"
+			"visible"					"1"
+			"enabled"					"1"
+			
+			"labeltext"					""
+			"Command"					"Context_OpenSettings"
+			
+			"use_proportional_insets" 	"1"
+			"proportionaltoparent"		"1"
+			
+			"font"						"HudFontSmallestBold"
+			"textAlignment"				"west"
+			
+			"mouseinputenabled"			"1"
+			"keyboardinputenabled"		"0"
+			"actionsignallevel"			"2"
+			"roundedcorners"			"1"
+
+			"armedBgColor_override"		"120 120 120 255"
+			"defaultBgColor_override"	"100 100 100 180"
+			"depressedFgColor_override" "235 235 235 255"
+			
+			"image_drawcolor"			"235 226 202 255"
+			"image_armedcolor"			"235 226 202 255"
+			"image_selectedcolor"		"235 235 235 255"
+			
+			"sound_armed"				"ui/buttonrollover.wav"
+			"sound_depressed"			"ui/buttonclick.wav"
+			"sound_released"			"ui/buttonclickrelease.wav"
+			"stay_armed_on_click"		"1"
+			"button_activation_type"	"2"
+
+			"SubImage"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"5"
+				"ypos"					"rs1-4"
+				"zpos"					"1"
+				"wide"					"15"
+				"tall"					"15"
+				"visible"				"1"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionaltoparent"	"1"
+				"image"					"glyph_server"
+				"drawcolor_override" 	"235 226 202 255"
+			}
+		}
+		
 		"ToggleChatButton"
 		{
 			"ControlName"				"CExImageButton"
 			"fieldName"					"ToggleChatButton"
-			"xpos"						"0"
+			"xpos"						"25"
 			"ypos"						"0"
 			"zpos"						"100"
-			"wide"						"100"
+			"wide"						"75"
 			"tall"						"f6"
 			"visible"					"1"
 			"enabled"					"1"
@@ -103,7 +161,7 @@
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"west"
 			"textinsety"				"2.5"
-			"textinsetx"				"25"
+			"textinsetx"				"26"
 			
 			"mouseinputenabled"			"1"
 			"keyboardinputenabled"		"0"
@@ -111,7 +169,7 @@
 			"roundedcorners"			"1"
 
 			"armedBgColor_override"		"104 124 155 255"
-			"defaultBgColor_override"	"104 124 155 127"
+			"defaultBgColor_override"	"104 124 155 180"
 			"depressedFgColor_override" "235 235 235 255"
 			
 			"image_drawcolor"			"235 226 202 255"
@@ -129,10 +187,10 @@
 				"ControlName"			"ImagePanel"
 				"fieldName"				"SubImage"
 				"xpos"					"6"
-				"ypos"					"rs1-5"
+				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"14"
-				"tall"					"14"
+				"wide"					"15"
+				"tall"					"15"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -151,8 +209,8 @@
 			"zpos"						"100"
 			"wide"						"o1"
 			"tall"						"24"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"	// 1
+			"enabled"					"0"	// 1
 
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"1"
@@ -165,7 +223,7 @@
 		{
 			"ControlName"				"CDashboardPartyMember"
 			"fieldName"					"PartySlot1"
-			"xpos"						"124"
+			"xpos"						"100" // 24
 			"ypos"						"rs1-6"
 			"zpos"						"100"
 			"wide"						"o1"
@@ -178,14 +236,18 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"1"
+			
+		//	"pin_to_sibling"			"PartySlot0"
+		//	"pin_corner_to_sibling"		"7"
+		//	"pin_to_sibling_corner"		"5"
 		}
 
 		"PartySlot2"
 		{
 			"ControlName"				"CDashboardPartyMember"
 			"fieldName"					"PartySlot2"
-			"xpos"						"148"
-			"ypos"						"rs1-6"
+			"xpos"						"0"
+			"ypos"						"0"
 			"zpos"						"100"
 			"wide"						"o1"
 			"tall"						"24"
@@ -197,14 +259,18 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"2"
+			
+			"pin_to_sibling"			"PartySlot1"
+			"pin_corner_to_sibling"		"7"
+			"pin_to_sibling_corner"		"5"
 		}
 
 		"PartySlot3"
 		{
 			"ControlName"				"CDashboardPartyMember"
 			"fieldName"					"PartySlot3"
-			"xpos"						"172"
-			"ypos"						"rs1-6"
+			"xpos"						"0"
+			"ypos"						"0"
 			"zpos"						"100"
 			"wide"						"o1"
 			"tall"						"24"
@@ -216,14 +282,18 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"3"
+			
+			"pin_to_sibling"			"PartySlot2"
+			"pin_corner_to_sibling"		"7"
+			"pin_to_sibling_corner"		"5"
 		}
 
 		"PartySlot4"
 		{
 			"ControlName"				"CDashboardPartyMember"
 			"fieldName"					"PartySlot4"
-			"xpos"						"196"
-			"ypos"						"rs1-6"
+			"xpos"						"0"
+			"ypos"						"0"
 			"zpos"						"100"
 			"wide"						"o1"
 			"tall"						"24"
@@ -235,14 +305,18 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"4"
+			
+			"pin_to_sibling"			"PartySlot3"
+			"pin_corner_to_sibling"		"7"
+			"pin_to_sibling_corner"		"5"
 		}
 
 		"PartySlot5"
 		{
 			"ControlName"				"CDashboardPartyMember"
 			"fieldName"					"PartySlot5"
-			"xpos"						"220"
-			"ypos"						"rs1-6"
+			"xpos"						"0"
+			"ypos"						"0"
 			"zpos"						"100"
 			"wide"						"o1"
 			"tall"						"24"
@@ -254,6 +328,10 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"5"
+			
+			"pin_to_sibling"			"PartySlot4"
+			"pin_corner_to_sibling"		"7"
+			"pin_to_sibling_corner"		"5"
 		}
 
 		"QueueContainer"
@@ -607,7 +685,7 @@
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"west"
 			"textinsety"				"2.5"
-			"textinsetx"				"25"
+			"textinsetx"				"26"
 			
 			"mouseinputenabled"			"1"
 			"keyboardinputenabled"		"0"
@@ -615,7 +693,7 @@
 			"roundedcorners"			"1"
 
 			"armedBgColor_override"		"180 92 77 255"
-			"defaultBgColor_override"	"180 92 77 127"
+			"defaultBgColor_override"	"180 92 77 180"
 			"depressedFgColor_override" "235 235 235 255"
 			
 			"image_drawcolor"			"235 226 202 255"
@@ -633,10 +711,10 @@
 				"ControlName"			"ImagePanel"
 				"fieldName"				"SubImage"
 				"xpos"					"6"
-				"ypos"					"rs1-5"
+				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"14"
-				"tall"					"14"
+				"wide"					"15"
+				"tall"					"15"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -667,15 +745,15 @@
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"west"
 			"textinsety"				"2.5"
-			"textinsetx"				"25"
+			"textinsetx"				"26"
 			
 			"mouseinputenabled"			"1"
 			"keyboardinputenabled"		"0"
 			"actionsignallevel"			"2"
 			"roundedcorners"			"1"
 
-			"armedBgColor_override"		"180 92 77 255"
-			"defaultBgColor_override"	"180 92 77 127"
+			"armedBgColor_override"		"180 90 70 255"
+			"defaultBgColor_override"	"180 90 70 180"
 			"depressedFgColor_override" "235 235 235 255"
 			
 			"image_drawcolor"			"235 226 202 255"
@@ -693,10 +771,10 @@
 				"ControlName"			"ImagePanel"
 				"fieldName"				"SubImage"
 				"xpos"					"6"
-				"ypos"					"rs1-5"
+				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"14"
-				"tall"					"14"
+				"wide"					"15"
+				"tall"					"15"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -727,7 +805,7 @@
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"west"
 			"textinsety"				"2.5"
-			"textinsetx"				"25"
+			"textinsetx"				"26"
 			
 			"mouseinputenabled"			"1"
 			"keyboardinputenabled"		"0"
@@ -736,8 +814,13 @@
 
 			"depressedFgColor_override" "235 235 235 255"
 			
+			"armedBgColor_override"		"200 140 50 255"
+			"defaultBgColor_override"	"200 140 50 180"
+			"depressedFgColor_override" "235 235 235 255"
+			
 			"image_drawcolor"			"235 226 202 255"
 			"image_armedcolor"			"235 226 202 255"
+			"image_selectedcolor"		"235 235 235 255"
 			
 			"sound_armed"				"ui/buttonrollover.wav"
 			"sound_depressed"			"ui/buttonclick.wav"
@@ -750,10 +833,10 @@
 				"ControlName"			"ImagePanel"
 				"fieldName"				"SubImage"
 				"xpos"					"6"
-				"ypos"					"10"
+				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"14"
-				"tall"					"14"
+				"wide"					"15"
+				"tall"					"15"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -788,15 +871,15 @@
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"west"
 			"textinsety"				"2.5"
-			"textinsetx"				"25"
+			"textinsetx"				"26"
 			
 			"mouseinputenabled"			"1"
 			"keyboardinputenabled"		"0"
 			"actionsignallevel"			"2"
 			"roundedcorners"			"1"
 
-			"armedBgColor_override"		"94 150 49 255"
-			"defaultBgColor_override"	"76 107 34 255"
+			"armedBgColor_override"		"100 160 90 255"
+			"defaultBgColor_override"	"100 160 90 180"
 			"depressedFgColor_override" "235 235 235 255"
 			
 			"image_drawcolor"			"235 226 202 255"
@@ -814,10 +897,10 @@
 				"ControlName"			"ImagePanel"
 				"fieldName"				"SubImage"
 				"xpos"					"6"
-				"ypos"					"10"
+				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"14"
-				"tall"					"14"
+				"wide"					"15"
+				"tall"					"15"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"

@@ -8,7 +8,7 @@
 		"xpos"							"0"
 		"ypos"							"10"
 		"zpos"							"1001"
-		"wide"							"244"
+		"wide"							"220"
 		"tall"							"200"
 		"proportionaltoparent"			"1"
 		"keyboardinputenabled"			"1"

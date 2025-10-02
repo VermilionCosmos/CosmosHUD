@@ -399,8 +399,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-
 	}
 
 	//

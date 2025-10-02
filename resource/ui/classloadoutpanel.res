@@ -106,12 +106,12 @@
 	"Background"
 	{
 		"controlname"	"EditablePanel"
-		"ypos"			"c40"
 		"zpos"			"-3"
 		"wide"			"f0"
-		"tall"			"100"
+		"tall"			"f0"
 		"visible"		"1"
 		"bgcolor_override"	"Background"
+		"mouseinputenabled"		"0"
 	}
 	
 	"CaratLabel"
@@ -912,5 +912,43 @@
 			
 			"pin_to_sibling"	"RotateButton"
 		}
+	}
+	
+	"CTFLogoPanel"
+	{
+		"ControlName"	"CTFLogoPanel"
+		"fieldname"		"CTFLogoPanel"
+		"xpos"			"-90"
+		"ypos"			"60"
+		"zpos"			"-1"
+		"wide"			"200"
+		"tall"			"200"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"radius"		"100"
+		"velocity"		"8"
+
+		"fgcolor_override"	"178 82 22 255"
+	}
+	
+	"CTFLogoPanelShadow"
+	{
+		"ControlName"	"CTFLogoPanel"
+		"fieldname"		"CTFLogoPanelShadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"-2"
+		"wide"			"200"
+		"tall"			"200"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"radius"		"100"
+		"velocity"		"8"
+
+		"fgcolor_override"	"65 65 65 255"
+		
+		"pin_to_sibling"	"CTFLogoPanel"
 	}
 }

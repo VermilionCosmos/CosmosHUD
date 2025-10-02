@@ -2,53 +2,61 @@
 {
 	"item_pickup"
 	{
-		"ControlName"		"Frame"
-		"fieldName"		"item_pickup"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"settitlebarvisible"	"0"
+		"ControlName"			"Frame"
+		"fieldName"				"item_pickup"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"10000"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 255"
-		"infocus_bgcolor_override" 		"46 43 42 255"
-		"outoffocus_bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"		"0 0 0 230"
 		
-		"modelpanels_spacing"		"300"
-		"modelpanels_width"			"500"
-		"modelpanels_height"		"260"
-		"modelpanels_ypos"			"110"
+		"modelpanels_spacing"	"300"
+		"modelpanels_width"		"500"
+		"modelpanels_height"	"260"
+		"modelpanels_ypos"		"110"
 		
 		
 		"modelpanelskv"	
 		{
-			"PaintBackgroundType"	"2"
-			"paintborder"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"model_xpos"			"0"
+			"model_center_y"		"1"
+			"model_tall"			"120"
+			"model_wide"			"180"
 			
-			"model_xpos"	"0"
-			"model_center_y"	"1"
-			"model_tall"	"160"
-			"model_wide"	"240"
-			
-			"text_forcesize"	"1"
-			"text_xpos"		"245"
-			"text_wide"		"230"
-			"text_center"	"1"
-			"is_mouseover"		"1"
+			"text_forcesize"		"1"
+			"text_xpos"				"245"
+			"text_wide"				"230"
+			"text_center"			"1"
+			"is_mouseover"			"1"
 			"hide_collection_panel" "1"
+			
+			"zpos"					"2"
+			
+			"paintborder"			"0"
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
 				"inventory_image_type" "1"
+				"use_item_rendertarget" "0"
 			}
+		}
+		
+		"Border"
+		{
+			"controlname"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"wide"			"620"
+			"tall"			"320"
+			"proportionaltoparent"	"1"
+			"alpha"			"245"
+			"border"		"TFFatLineBorderOpaque"
 		}
 	}
 	

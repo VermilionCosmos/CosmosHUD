@@ -270,6 +270,7 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
+					"smallcheckimage" "1"
 		
 		"sound_depressed"	"ui/buttonclick.wav"
 		"button_activation_type"	"2"

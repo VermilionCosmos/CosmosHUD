@@ -144,6 +144,54 @@
 		"pin_to_sibling" "ClassLabel"
 	}
 	
+	"ItemSelectCaratLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemSelectCaratLabel"
+		"font"			"HudFontSmallestBold"
+		"labeltext"		">>"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+		"fgcolor_override"	"LightRed"
+		
+		"pin_to_sibling" "ClassLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"ItemSelectLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemSelectLabel"
+		"font"			"HudFontBiggerBold"
+		"labeltext"		"#LoadoutTitleItemSelect"
+		"xpos"			"-15"
+		"zpos"			"2"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+
+		"pin_to_sibling" "ItemSelectCaratLabel"
+	}
+
+	"ItemSelectLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemSelectLabelShadow"
+		"font"			"HudFontBiggerBold"
+		"labeltext"		"#LoadoutTitleItemSelect"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+		"fgcolor"		"65 65 65 255"
+
+		"pin_to_sibling" "ItemSelectLabel"
+	}
+	
 	"NameFilterTextEntry"
 	{
 		"ControlName"		"TextEntry"

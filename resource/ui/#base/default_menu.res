@@ -254,6 +254,35 @@
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
+		
+		if_halloween_0
+		{
+			"image"		"../console/title_team_halloween2011_widescreen"
+		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012_widescreen"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013_widescreen"
+		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014_widescreen"
+		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015_widescreen"
+		}
+		if_halloween_5
+		{
+			"image"		"../console/title_scream_fortress_2017_widescreen"
+		}
+		if_fullmoon
+		{
+			"image"		"../console/title_fullmoon_widescreen"
+		}
 	}
 
 	"TFLogoImage"
@@ -270,6 +299,28 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
+	}
+
+	"FullMoon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FullMoon"
+		"xpos"			"c-230"
+		"ypos"			"47"
+		"zpos"			"2"
+		"wide"			"23"
+		"tall"			"23"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu/moon"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+		//"drawcolor"		"240 110 70 255"
+		
+		if_fullmoon
+		{
+			"visible"		"1"
+		}
 	}
 
 	"TFCharacterImage"
