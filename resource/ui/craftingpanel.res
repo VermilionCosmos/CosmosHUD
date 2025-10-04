@@ -7,12 +7,9 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"500"
-		"wide"			"800"
+		"wide"			"780"
 		"tall"			"310"
-		"zpos"			"500"
 		"visible"		"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"enabled"		"1"
 
 		"item_ypos"						"85"

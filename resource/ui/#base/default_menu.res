@@ -44,7 +44,7 @@
 		"ControlName"					"EditablePanel"
 		"fieldName"						"WelcomeLabel"
 		"xpos"							"0"
-		"ypos"							"-10"
+		"ypos"							"-11"
 		"zpos"							"-4"
 		"wide"							"196"
 		"tall"							"30"
@@ -53,8 +53,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Label"
-			"font"			"HudFontMediumSmallBold"
-			"labelText"		"Welcome back,"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#MMenu_Greeting_Message"
+			
+			"if_halloween"
+			{
+				"labelText"		"#MMenu_Greeting_Message_Halloween"
+			}
+			
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -76,7 +82,7 @@
 		"ControlName"					"EditablePanel"
 		"fieldName"						"InGameLabel"
 		"xpos"							"0"
-		"ypos"							"-10"
+		"ypos"							"-11"
 		"zpos"							"-4"
 		"wide"							"196"
 		"tall"							"30"
@@ -85,8 +91,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Label"
-			"font"			"HudFontMediumSmallBold"
-			"labelText"		"Get back to it,"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#MMenu_InGame_Message"
+			
+			"if_halloween"
+			{
+				"labelText"		"#MMenu_InGame_Message_Halloween"
+			}
+			
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -297,6 +309,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
+		
+		"if_halloween"
+		{
+			"image"		"replay/thumbnails/menu/tf2_logo_black"
+		}
+		
+		if_fullmoon
+		{
+			"image"		"replay/thumbnails/menu/tf2_logo_black"
+		}
+		
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -315,7 +338,12 @@
 		"image"			"replay/thumbnails/menu/moon"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
-		//"drawcolor"		"240 110 70 255"
+		
+		if_halloween
+		{
+			"drawcolor"		"240 100 70 255"
+			"visible"		"1"
+		}
 		
 		if_fullmoon
 		{
@@ -2534,19 +2562,19 @@
 		
 		"CTFLogoPanel"
 		{
-		"ControlName"	"CTFLogoPanel"
-		"fieldname"		"CTFLogoPanel"
-		"xpos"			"330"
-		"ypos"			"100"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
+			"ControlName"	"CTFLogoPanel"
+			"fieldname"		"CTFLogoPanel"
+			"xpos"			"330"
+			"ypos"			"100"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
 
-		"radius"		"180"
-		"velocity"		"8"
+			"radius"		"180"
+			"velocity"		"8"
 
-		"fgcolor_override"	"178 82 22 255"
+			"fgcolor_override"	"178 82 22 255"
 		}
 		
 		"CTFLogoPanelShadow"
@@ -2563,7 +2591,7 @@
 			"radius"		"180"
 			"velocity"		"8"
 
-			"fgcolor_override"	"65 65 65 255"
+			"fgcolor_override"	"45 45 45 255"
 			
 			"pin_to_sibling"	"CTFLogoPanel"
 		}

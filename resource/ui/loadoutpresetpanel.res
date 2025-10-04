@@ -7,10 +7,10 @@
 		
 		"presetbutton_kv"
 		{
-			"xpos"			"0"
+			"xpos"			"-2"
 			"ypos"			"0"
 			"zpos"			"20"
-			"wide"			"25"
+			"wide"			"18"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"

@@ -18,7 +18,7 @@
 			"ControlName"			"CExLabel"
 			"fieldName"				"NameLabel"
 			"xpos"					"60"
-			"ypos"					"32"
+			"ypos"					"30"
 			"zpos"					"100"
 			"wide"					"190"
 			"tall"					"18"

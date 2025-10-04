@@ -3,12 +3,12 @@
 	"ComboBoxBackpackOverlayDialogBase"
 	{
 		"fieldName"				"ComboBoxBackpackOverlayDialogBase"
-		"visible"				"1"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"cs-0.5"
 		"wide"					"280"
 		"tall"					"240"
+		"visible"				"1"
+		"enabled"				"1"
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
@@ -52,14 +52,16 @@
 		"model_ypos"	"1"
 		"model_wide"	"158"
 		"model_tall"	"118"
-		"text_ypos"		"200" \\ hidden
+		"text_ypos"		"9999" \\ hidden
 		
-		"name_only"		"1"
-		"paint_icon_hide" "1"
+		"name_only"			"1"
+		"paint_icon_hide"	"1"
+		
 		"itemmodelpanel"
-			"inventory_image_type" "1"
+		{
+			"inventory_image_type"	"1"
 			"force_use_model"		"1"
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"allow_rot"				"1"
 		}
 	}
@@ -72,15 +74,12 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"170"
 		"zpos"				"1"
-		"wide"				"220"
-		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
+		"wide"				"160"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"1"
 		"editable"			"0"
-		"maxchars"			"-1"
+		"proportionaltoparent"	"1"
 		"fgcolor_override"			"TanLight"
 		"selectionColor_override"	"Blank"
 	}

@@ -49,9 +49,6 @@
 		
 		"bgcolor_override"				"0 0 0 50"
 
-		"pinCorner"						"2"
-		"autoResize"					"1"
-
 		"ScrollBar"
 		{
 			"FieldName"					"ScrollBar"

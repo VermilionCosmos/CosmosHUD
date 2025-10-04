@@ -28,6 +28,7 @@
 		"enabled"			"1"
 		"image"				"../hud/class_spy_outline"
 		"scaleImage"		"1"	
+		"alpha"				"0"	
 	}
 	"PlayerStatusSpyOutlineImageOverrideMinMode"
 	{
@@ -42,6 +43,7 @@
 		"visible_minmode"	"1"
 		"enabled"			"1"
 		"image"				"../hud/class_spy_outline"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
+		"alpha"				"0"	
 	}
 }

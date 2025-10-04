@@ -89,7 +89,7 @@
 			"xpos"						"0"
 			"ypos"						"0"
 			"zpos"						"101"
-			"wide"						"25"
+			"wide"						"24"
 			"tall"						"f6"
 			"visible"					"1"
 			"enabled"					"1"
@@ -126,11 +126,11 @@
 			{
 				"ControlName"			"ImagePanel"
 				"fieldName"				"SubImage"
-				"xpos"					"5"
+				"xpos"					"4"
 				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"15"
-				"tall"					"15"
+				"wide"					"16"
+				"tall"					"16"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -144,10 +144,10 @@
 		{
 			"ControlName"				"CExImageButton"
 			"fieldName"					"ToggleChatButton"
-			"xpos"						"25"
+			"xpos"						"24"
 			"ypos"						"0"
 			"zpos"						"100"
-			"wide"						"75"
+			"wide"						"76"
 			"tall"						"f6"
 			"visible"					"1"
 			"enabled"					"1"
@@ -189,8 +189,8 @@
 				"xpos"					"6"
 				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"15"
-				"tall"					"15"
+				"wide"					"16"
+				"tall"					"16"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -236,18 +236,14 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"1"
-			
-		//	"pin_to_sibling"			"PartySlot0"
-		//	"pin_corner_to_sibling"		"7"
-		//	"pin_to_sibling_corner"		"5"
 		}
 
 		"PartySlot2"
 		{
 			"ControlName"				"CDashboardPartyMember"
 			"fieldName"					"PartySlot2"
-			"xpos"						"0"
-			"ypos"						"0"
+			"xpos"						"124"
+			"ypos"						"rs1-6"
 			"zpos"						"100"
 			"wide"						"o1"
 			"tall"						"24"
@@ -259,18 +255,14 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"2"
-			
-			"pin_to_sibling"			"PartySlot1"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
 		}
 
 		"PartySlot3"
 		{
 			"ControlName"				"CDashboardPartyMember"
 			"fieldName"					"PartySlot3"
-			"xpos"						"0"
-			"ypos"						"0"
+			"xpos"						"148"
+			"ypos"						"rs1-6"
 			"zpos"						"100"
 			"wide"						"o1"
 			"tall"						"24"
@@ -282,18 +274,14 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"3"
-			
-			"pin_to_sibling"			"PartySlot2"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
 		}
 
 		"PartySlot4"
 		{
 			"ControlName"				"CDashboardPartyMember"
 			"fieldName"					"PartySlot4"
-			"xpos"						"0"
-			"ypos"						"0"
+			"xpos"						"172"
+			"ypos"						"rs1-6"
 			"zpos"						"100"
 			"wide"						"o1"
 			"tall"						"24"
@@ -305,18 +293,14 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"4"
-			
-			"pin_to_sibling"			"PartySlot3"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
 		}
 
 		"PartySlot5"
 		{
 			"ControlName"				"CDashboardPartyMember"
 			"fieldName"					"PartySlot5"
-			"xpos"						"0"
-			"ypos"						"0"
+			"xpos"						"196"
+			"ypos"						"rs1-6"
 			"zpos"						"100"
 			"wide"						"o1"
 			"tall"						"24"
@@ -328,10 +312,6 @@
 			"keyboardinputenabled"		"0"
 
 			"party_slot"				"5"
-			
-			"pin_to_sibling"			"PartySlot4"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
 		}
 
 		"QueueContainer"
@@ -713,8 +693,8 @@
 				"xpos"					"6"
 				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"15"
-				"tall"					"15"
+				"wide"					"16"
+				"tall"					"16"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -773,8 +753,8 @@
 				"xpos"					"6"
 				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"15"
-				"tall"					"15"
+				"wide"					"16"
+				"tall"					"16"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -835,8 +815,8 @@
 				"xpos"					"6"
 				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"15"
-				"tall"					"15"
+				"wide"					"16"
+				"tall"					"16"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -899,8 +879,8 @@
 				"xpos"					"6"
 				"ypos"					"rs1-4"
 				"zpos"					"1"
-				"wide"					"15"
-				"tall"					"15"
+				"wide"					"16"
+				"tall"					"16"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
