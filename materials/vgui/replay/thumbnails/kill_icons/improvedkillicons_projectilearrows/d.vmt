@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\replay\thumbnails\kill_icons\Improvedkill_icons_ProjectileArrows\d"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	"$no_fullbright"	1
+}
