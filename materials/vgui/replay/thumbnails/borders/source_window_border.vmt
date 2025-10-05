@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"vgui/button_holder_central"
-	"$alphatest"	1
-	"$allowalphatocoverage"	1
-}
