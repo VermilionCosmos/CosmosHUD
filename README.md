@@ -6,7 +6,7 @@ This HUD is a many months attempt to bring old TF2 and new TF2 together. It's st
 
 I hope you really enjoy it, and please let me know any feedback you have!
 
-![20251004211215_2](https://github.com/user-attachments/assets/f9e0f86d-8cc6-46d3-a048-a909a26b16a4)
+<img width="1920" height="1080" alt="20251004211215_2" src="https://github.com/user-attachments/assets/6c21ba4e-4da5-4dfb-891c-7773a3f1016d" />
 
 # Features
 
