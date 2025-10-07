@@ -844,12 +844,11 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"60" // 220
-		"wide"					"300"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
 		"tall"					"480"
 		"zpos"					"4"
-		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -1340,8 +1339,8 @@
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}

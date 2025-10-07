@@ -321,7 +321,7 @@
 			"xpos"						"cs-0.5"
 			"ypos"						"-50"
 			"zpos"						"111"
-			"wide"						"220"
+			"wide"						"200"
 			"tall"						"f0"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
@@ -390,7 +390,7 @@
 				"ControlName"			"CTFLogoPanel"
 				"fieldname"				"CTFLogoPanel"
 				"xpos"					"0"
-				"ypos"					"1"
+				"ypos"					"0"
 				"zpos"					"5"
 				"wide"					"o1"
 				"tall"					"f0"
@@ -408,7 +408,7 @@
 				"ControlName"			"CAutoFittingLabel"
 				"fieldName"				"QueueText"
 				"xpos"					"33"
-				"ypos"					"1"
+				"ypos"					"0"
 				"wide"					"f55"
 				"zpos"					"100"
 				"tall"					"f0"
@@ -420,22 +420,6 @@
 				"labelText"				"%queue_state%"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"		"0"
-
-				"fonts"
-				{
-					"0"
-					{
-						"font"			"HudFontSmallestBold" // TF2 Build 11
-					}
-					"1"
-					{
-						"font"			"StorePromotionsTitle" // TF2 Build 10
-					}
-					"2"
-					{
-						"font"			"FontStorePrice" // TF2 Build 9
-					}
-				}
 			}
 
 			"MultiQueuesManageButton"
@@ -493,8 +477,8 @@
 			{
 				"ControlName"			"CExImageButton"
 				"fieldName"				"CloseButton"
-				"xpos"					"rs1-6"
-				"ypos"					"11"
+				"xpos"					"rs1-10"
+				"ypos"					"10"
 				"zpos"					"10"
 				"wide"					"14"
 				"tall"					"14"

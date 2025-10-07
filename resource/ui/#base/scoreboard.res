@@ -719,7 +719,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapName"
-		"font"			ScoreboardMediumSmallBold
+		"font"			"ScoreboardMediumSmallBold"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
  		"xpos"			"0"
@@ -742,7 +742,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapNameShadow"
-		"font"			ScoreboardMediumSmallBold
+		"font"			"ScoreboardMediumSmallBold"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
  		"xpos"			"-1"

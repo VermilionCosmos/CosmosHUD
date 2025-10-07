@@ -308,20 +308,47 @@
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
+		"image"			"replay/thumbnails/menu/tf2_title_logo"
 		
 		"if_halloween"
 		{
-			"image"		"replay/thumbnails/menu/tf2_logo_black"
+			"image"		"replay/thumbnails/menu/tf2_title_logo_black"
 		}
 		
 		if_fullmoon
 		{
-			"image"		"replay/thumbnails/menu/tf2_logo_black"
+			"image"		"replay/thumbnails/menu/tf2_title_logo_black"
 		}
 		
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
+	}
+
+	"TFLogoSpinner"
+	{
+		"ControlName"	"CTFLogoPanel"
+		"fieldname"		"TFLogoSpinner"
+		"xpos"			"c-230"
+		"ypos"			"46"
+		"zpos"			"2"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+
+		"radius"		"10"
+		"velocity"		"8"
+		
+		"fgcolor_override"	"0 0 0 255"
+		
+		"if_halloween"
+		{
+			"fgcolor_override"	"Orange"
+		}
+		
+		if_fullmoon
+		{
+			"fgcolor_override"	"Orange"
+		}
 	}
 
 	"FullMoon"
@@ -342,12 +369,12 @@
 		if_halloween
 		{
 			"drawcolor"		"240 100 70 255"
-			"visible"		"1"
+			//"visible"		"1"
 		}
 		
 		if_fullmoon
 		{
-			"visible"		"1"
+			//"visible"		"1"
 		}
 	}
 

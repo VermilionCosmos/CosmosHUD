@@ -2,39 +2,6 @@
 
 "Resource/UI/HudRocketPack.res"
 {
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c212"
-		"ypos"			"r54"
-		"wide"			"90"
-		"tall"			"50"
-		
-		"xpos_minmode"			"0"	
-		"ypos_minmode"			"0"
-	}
-
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/meter/hud_main_meter"
-		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/meter/hud_main_meter_red"
-		"teambg_3"		"replay/thumbnails/meter/hud_main_meter_blue"
-		
-		"visible_minmode" "0"
-	}
-
 	"ItemEffectIcon"
 	{
 		"ControlName"	"CTFImagePanel"
