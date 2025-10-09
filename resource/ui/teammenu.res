@@ -378,6 +378,20 @@
 		"pin_to_sibling"	"TeamMenuSpectate"
 	}
 
+	"EdgeBars"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"EdgeBars"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-10"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"0 0 0 255"
+	}
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"

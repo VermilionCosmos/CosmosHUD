@@ -60,6 +60,27 @@
 		"image"			"../hud/cart_point_neutral_opaque"
 	}
 	
+	// MvM
+	"bigbanner"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bigbanner"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"mvm/bigbanner"
+	}
+
+	"class_upgraded"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"class_upgraded"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+	}
+	
 	// Class Portraits
 	"class_spy_outline"
 	{

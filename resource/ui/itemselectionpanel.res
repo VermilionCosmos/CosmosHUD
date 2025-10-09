@@ -15,7 +15,7 @@
 		
 		"item_ypos"		"45"
 		"item_ydelta"	"80"
-		"item_backpack_offcenter_x"		"-252"
+		"item_backpack_offcenter_x"		"-250"
 		"item_backpack_xdelta"			"5"
 		"item_backpack_ydelta"			"5"
 

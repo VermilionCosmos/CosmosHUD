@@ -148,75 +148,6 @@
 		"bgcolor_override"	"117 107 94 255"
 	}
 	
-	"AvatarBGPanelRing"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"AvatarBGPanelRing"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"1"
-		
-		"pin_to_sibling"	"AvatarBGPanel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		
-		"TopSide"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"TopSide"
-			"xpos"			"1"
-			"ypos"			"1"
-			"zpos"			"2"
-			"wide"			"48"
-			"tall"			"4"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"117 107 94 255"
-		}
-		"BottomSide"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BottomSide"
-			"xpos"			"1"
-			"ypos"			"45"
-			"zpos"			"3"
-			"wide"			"48"
-			"tall"			"4"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"117 107 94 255"
-		}
-		"LeftSide"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"LeftSide"
-			"xpos"			"1"
-			"ypos"			"1"
-			"zpos"			"2"
-			"wide"			"4"
-			"tall"			"48"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"117 107 94 255"
-		}
-		"RightSide"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"RightSide"
-			"xpos"			"45"
-			"ypos"			"1"
-			"zpos"			"2"
-			"wide"			"4"
-			"tall"			"48"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"117 107 94 255"
-		}
-	}
-	
 	"AvatarSlot"
 	{
 		"ControlName"	"CDashboardPartyMember"
@@ -336,7 +267,7 @@
 		"visible"		"1"
 
 		"radius"		"10"
-		"velocity"		"8"
+		"velocity"		"12"
 		
 		"fgcolor_override"	"0 0 0 255"
 		
@@ -351,44 +282,15 @@
 		}
 	}
 
-	"FullMoon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FullMoon"
-		"xpos"			"c-230"
-		"ypos"			"47"
-		"zpos"			"2"
-		"wide"			"23"
-		"tall"			"23"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/moon"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-		
-		if_halloween
-		{
-			"drawcolor"		"240 100 70 255"
-			//"visible"		"1"
-		}
-		
-		if_fullmoon
-		{
-			//"visible"		"1"
-		}
-	}
-
 	"TFCharacterImage"
 	{
-		// "ControlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
-		"ypos"			"-80"
+		"xpos"			"c-150"
+		"ypos"			"20"
 		"zpos"			"-99"
-		"wide"			"600"
-		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"500"
+		"tall"			"500"
 		"scaleImage"	"1"
 	}
 
@@ -405,15 +307,15 @@
 		"mouseinputenabled"	"0"
 	}
 
-	"RankBorder"
+	"MenuBorder"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"RankBorder"
+		"fieldName"		"MenuBorder"
 		"xpos"			"c-298"
 		"ypos"			"94"
 		"zpos"			"-54"
 		"wide"			"260"
-		"tall"			"95"
+		"tall"			"295"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
@@ -1186,13 +1088,11 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"FriendsContainer"
 		"xpos"							"c-298"
-		"ypos"							"265"
+		"ypos"							"242"
 		"zpos"							"5"
 		"wide"							"260"
 		"tall"							"146"
 		"visible"						"1"
-
-		"border"						"MainMenuBGBorder"
 
 		"TitleLabel"
 		{
@@ -1251,13 +1151,30 @@
 			"pin_to_sibling"			"SteamFriendsList"
 		}
 
+		"FriendListLogo"
+		{
+			"ControlName"	"CTFLogoPanel"
+			"fieldname"		"FriendListLogo"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"500"
+			"wide"			"260"
+			"tall"			"146"
+			"visible"		"1"
+
+			"radius"		"50"
+			"velocity"		"4"
+			
+			"fgcolor_override"	"BackgroundLogo"
+		}
+
 		"SteamFriendsList"
 		{
 			"ControlName"				"CSteamFriendsListPanel"
 			"fieldname"					"SteamFriendsList"
 			"xpos"						"cs-0.5"
 			"ypos"						"8"
-			"zpos"						"500"
+			"zpos"						"501"
 			"wide"						"244"
 			"tall"						"130"
 			"visible"					"1"
@@ -1366,7 +1283,6 @@
 		"wide"			"260"
 		"tall"			"75"
 		"visible"		"1"
-		"border"		"MainMenuBGBorder"
 	}
 
 	"ViewItemsButton"
@@ -1374,7 +1290,7 @@
 		"ControlName"					"EditablePanel"
 		"fieldName"						"ViewItemsButton"
 		"xpos"							"c-292"
-		"ypos"							"198"
+		"ypos"							"186"
 		"zpos"							"2"
 		"wide"							"124"
 		"tall"							"30"
@@ -1815,7 +1731,6 @@
 
 			"image_drawcolor"			"235 226 202 255"
 			"image_armedcolor"			"235 226 202 255"
-			
 			
 			"sound_armed"				"ui/buttonrollover.wav"
 			"sound_depressed"			"ui/buttonclick.wav"
@@ -2575,53 +2490,6 @@
 		"ControlName"					"Panel"
 		"xpos"							"23"
 		"ypos"							"c-244"
-	}
-	
-	"InGameMenuLogo"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldName"						"InGameMenuLogo"
-		"xpos"							"0"
-		"ypos"							"0"
-		"zpos"							"-100"
-		"wide"							"f0"
-		"tall"							"f0"
-		
-		"CTFLogoPanel"
-		{
-			"ControlName"	"CTFLogoPanel"
-			"fieldname"		"CTFLogoPanel"
-			"xpos"			"330"
-			"ypos"			"100"
-			"zpos"			"1"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-
-			"radius"		"180"
-			"velocity"		"8"
-
-			"fgcolor_override"	"178 82 22 255"
-		}
-		
-		"CTFLogoPanelShadow"
-		{
-			"ControlName"	"CTFLogoPanel"
-			"fieldname"		"CTFLogoPanelShadow"
-			"xpos"			"-4"
-			"ypos"			"-4"
-			"zpos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-
-			"radius"		"180"
-			"velocity"		"8"
-
-			"fgcolor_override"	"45 45 45 255"
-			
-			"pin_to_sibling"	"CTFLogoPanel"
-		}
 	}
 			
 	"TransRights"

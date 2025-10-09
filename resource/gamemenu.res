@@ -167,11 +167,6 @@
 		"subimage"		"icon_checkbox"
 		"OnlyInGame"	"1"
 	}
-	"InGameMenuLogo"
-	{
-		"command"		"null" // Needs to think its a button to hide from main menu
-		"OnlyInGame"	"1"
-	}
 	"InGameLabel"
 	{
 		"command"		"null" // Needs to think its a button to hide from main menu
@@ -188,6 +183,5 @@
 		"tooltip"		""
 		"command"		"engine play vo/robin_atkin_transrights.wav"
 		"subimage"		"replay/thumbnails/menu/glyph_transrights"
-		"OnlyAtMenu"	"1"
 	}
 }

@@ -86,7 +86,7 @@
 
 	"RandomButton"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"RandomButton"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -171,20 +171,7 @@
 		"font"			"MenuClassBuckets"
 		"fgcolor"		"TanDark"
 	}
-
-	"randomShortcut"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"randomShortcut"
-		"wide"				"0"
-		"visible"			"1"
-		"labelText"			"&0"
-		"Command"			"select 12"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
 	
-		
 	"Offense"
 	{
 		"ControlName"	"CExLabel"
@@ -293,11 +280,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"55"
 			"zpos"			"7"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/class_icons/scout"
@@ -309,16 +296,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"ScoutButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-9"
 		"ypos"						"-56"
 		"zpos"						"6"
-		"wide"						"30"
-		"tall"						"30"
+		"wide"						"32"
+		"tall"						"32"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/scout"
 
 		"pin_to_sibling"		"scout"
+	}
+	
+	"ScoutLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Scout"
+		"ypos"			"-58"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "ScoutButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"ScoutLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Scout"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "ScoutLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"ScoutKeyLabel"
@@ -434,11 +455,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"55"
 			"zpos"			"7"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/class_icons/soldier"
@@ -450,16 +471,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SoldierButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-9"
 		"ypos"						"-56"
 		"zpos"						"6"
-		"wide"						"30"
-		"tall"						"30"
+		"wide"						"32"
+		"tall"						"32"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/soldier"
 
 		"pin_to_sibling"		"soldier"
+	}
+	
+	"SoldierLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Soldier"
+		"ypos"			"-58"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SoldierButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"SoldierLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Soldier"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SoldierLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"SoldierKeyLabel"
@@ -575,11 +630,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"55"
 			"zpos"			"7"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/class_icons/pyro"
@@ -591,16 +646,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PyroButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-9"
 		"ypos"						"-56"
 		"zpos"						"6"
-		"wide"						"30"
-		"tall"						"30"
+		"wide"						"32"
+		"tall"						"32"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/pyro"
 
 		"pin_to_sibling"			"pyro"
+	}
+	
+	"PyroLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Pyro"
+		"ypos"			"-58"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "PyroButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"PyroLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Pyro"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "PyroLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"PyroKeyLabel"
@@ -734,11 +823,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"55"
 			"zpos"			"7"
-			"wide"			"31"
-			"tall"			"31"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/class_icons/demo"
@@ -750,16 +839,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"DemomanButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-9"
 		"ypos"						"-56"
 		"zpos"						"6"
-		"wide"						"31"
-		"tall"						"31"
+		"wide"						"32"
+		"tall"						"32"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/demo"
 
 		"pin_to_sibling"		"demoman"
+	}
+	
+	"DemomanLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Demoman"
+		"ypos"			"-58"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "DemomanButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"DemomanLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Demoman"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "DemomanLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"DemomanKeyLabel"
@@ -876,11 +999,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"55"
 			"zpos"			"7"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/class_icons/heavy"
@@ -892,16 +1015,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"HeavyWeaponsButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-9"
 		"ypos"						"-56"
 		"zpos"						"6"
-		"wide"						"30"
-		"tall"						"30"
+		"wide"						"32"
+		"tall"						"32"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/heavy"
 
 		"pin_to_sibling"		"heavyweapons"
+	}
+	
+	"HeavyWeaponsLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_HWGuy"
+		"ypos"			"-58"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "HeavyWeaponsButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"HeavyWeaponsLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_HWGuy"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "HeavyWeaponsLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"HeavyWeaponsKeyLabel"
@@ -1018,11 +1175,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"55"
 			"zpos"			"7"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/class_icons/engineer"
@@ -1034,16 +1191,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"EngineerButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-9"
 		"ypos"						"-56"
 		"zpos"						"6"
-		"wide"						"30"
-		"tall"						"30"
+		"wide"						"32"
+		"tall"						"32"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/engineer"
 
 		"pin_to_sibling"			"engineer"
+	}
+	
+	"EngineerLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Engineer"
+		"ypos"			"-58"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "EngineerButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"EngineerLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Engineer"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "EngineerLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"EngineerKeyLabel"
@@ -1177,11 +1368,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"55"
 			"zpos"			"7"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/class_icons/medic"
@@ -1193,16 +1384,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"MedicButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-9"
 		"ypos"						"-56"
 		"zpos"						"6"
-		"wide"						"30"
-		"tall"						"30"
+		"wide"						"32"
+		"tall"						"32"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/medic"
 
 		"pin_to_sibling"		"medic"
+	}
+	
+	"MedicLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Medic"
+		"ypos"			"-58"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "MedicButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"MedicLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Medic"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "MedicLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"MedicKeyLabel"
@@ -1319,11 +1544,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"55"
 			"zpos"			"7"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/class_icons/sniper"
@@ -1335,16 +1560,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SniperButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-9"
 		"ypos"						"-56"
 		"zpos"						"6"
-		"wide"						"30"
-		"tall"						"30"
+		"wide"						"32"
+		"tall"						"32"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/sniper"
 
 		"pin_to_sibling"	"sniper"
+	}
+	
+	"SniperLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Sniper"
+		"ypos"			"-58"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SniperButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"SniperLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Sniper"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SniperLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"SniperKeyLabel"
@@ -1461,11 +1720,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"55"
 			"zpos"			"7"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/class_icons/spy"
@@ -1477,16 +1736,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SpyButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-9"
 		"ypos"						"-56"
 		"zpos"						"6"
-		"wide"						"30"
-		"tall"						"30"
+		"wide"						"32"
+		"tall"						"32"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/spy"
 
 		"pin_to_sibling"		"spy"
+	}
+
+	"SpyLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Spy"
+		"ypos"			"-58"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SpyButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"SpyLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Spy"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SpyLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 
 	"SpyKeyLabel"
@@ -1613,6 +1906,20 @@
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
+	}
+	
+	"EdgeBars"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"EdgeBars"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-10"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"0 0 0 255"
 	}
 	
 	"MenuBG"
@@ -1848,7 +2155,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
 		"xpos"			"c-302"
-		"ypos"			"34"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"12"
@@ -1865,7 +2172,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
 		"xpos"			"c-252"
-		"ypos"			"34"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"12"
@@ -1882,7 +2189,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
 		"xpos"			"c-202"
-		"ypos"			"34"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"12"
@@ -1899,7 +2206,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
 		"xpos"			"c-113"
-		"ypos"			"34"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"12"
@@ -1916,7 +2223,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
 		"xpos"			"c-63"
-		"ypos"			"34"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"12"
@@ -1933,7 +2240,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
 		"xpos"			"c-13"
-		"ypos"			"34"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"12"
@@ -1950,7 +2257,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
 		"xpos"			"c72"
-		"ypos"			"34"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"12"
@@ -1967,7 +2274,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
 		"xpos"			"c122"
-		"ypos"			"34"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"12"
@@ -1984,7 +2291,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
 		"xpos"			"c172"
-		"ypos"			"34"
+		"ypos"			"25"
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"12"
@@ -2000,11 +2307,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
-		"xpos"			"c-270"
-		"ypos"			"30"
+		"xpos"			"c-283"
+		"ypos"			"10"
 		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
@@ -2015,11 +2322,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSolider"
-		"xpos"			"c-220"
-		"ypos"			"30"
+		"xpos"			"c-233"
+		"ypos"			"10"
 		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
@@ -2030,11 +2337,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImagePyro" 
-		"xpos"			"c-170"
-		"ypos"			"30"
+		"xpos"			"c-183"
+		"ypos"			"10"
 		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
@@ -2045,11 +2352,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageDemoman" 
-		"xpos"			"c-80"
-		"ypos"			"30"
+		"xpos"			"c-94"
+		"ypos"			"10"
 		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
@@ -2060,11 +2367,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageHeavy" 
-		"xpos"			"c-30"
-		"ypos"			"30"
+		"xpos"			"c-44"
+		"ypos"			"10"
 		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
@@ -2075,11 +2382,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageEngineer"
-		"xpos"			"c20"
-		"ypos"			"30"
+		"xpos"			"c6"
+		"ypos"			"10"
 		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
@@ -2090,11 +2397,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageMedic"
-		"xpos"			"c108"
-		"ypos"			"30"
+		"xpos"			"c91"
+		"ypos"			"10"
 		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
@@ -2105,11 +2412,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSniper"
-		"xpos"			"c158"
-		"ypos"			"30"
+		"xpos"			"c141"
+		"ypos"			"10"
 		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
@@ -2120,11 +2427,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSpy"
-		"xpos"			"c208"
-		"ypos"			"30"
+		"xpos"			"c191"
+		"ypos"			"10"
 		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"

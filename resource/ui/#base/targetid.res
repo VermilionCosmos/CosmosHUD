@@ -112,9 +112,10 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"SpectatorGUIHealth"
-		"xpos"						"2"
+		"xpos"						"3"
+		"xpos_minmode"				"2"
 		"ypos"						"0"
-		"wide"						"36"
+		"wide"						"44"
 		"tall"						"36"
 		"visible"					"0"
 		"enabled"					"0"
@@ -123,15 +124,15 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"HudOffWhite"
 		
-		"wide_minmode"	"26"
+		"wide_minmode"	"30"
 	}
 
 	"AmmoIcon"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"AmmoIcon"
-		"xpos"						"46"
-		"xpos_minmode"				"36"
+		"xpos"						"44"
+		"xpos_minmode"				"33"
 		"ypos"						"21"
 		"ypos_minmode"				"15"
 		"zpos"						"12"
@@ -146,40 +147,14 @@
 		"drawcolor"					"TanLight"
 	}
 
-	"KillstreakIconAnchor"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"KillstreakIconAnchor"
-		"xpos"			"93"
-		"xpos_minmode"	"68"
-		"ypos"			"18"
-		"ypos_minmode"	"13"
-		"wide"			"14"
-		"tall"			"14"
-		"wide_minmode"	"12"
-		"tall_minmode"	"12"
-		"visible"		"0"
-		"enabled"		"1"
-	}
-
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"12"
-		"wide"			"14"
-		"tall"			"14"
-		"wide_minmode"	"10"
-		"tall_minmode"	"10"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
-		"pin_to_sibling"	"KillstreakIconAnchor"
-		"pin_corner_to_sibling" "PIN_RIGHT"
-		"pin_to_sibling_corner"	"PIN_RIGHT"
+		"enabled"		"0"
 	}
 
 	"MoveableSubPanel"

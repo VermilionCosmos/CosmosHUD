@@ -85,7 +85,7 @@
 			"font"			"ItemFontNameLarge"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"2"
+			"zpos"			"3"
 			"wide"			"140"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -97,6 +97,7 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
+		
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -122,11 +123,9 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
 			"font"			"BackpackItemFont"
-			"xpos"			"37"
-			"ypos"			"28"
 			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"10"
+			"wide"			"34"
+			"tall"			"8"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -135,7 +134,8 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"4"
+			"PaintBackgroundType"	"2"
+			"roundedcorners"	"0"
 		}
 	
 		"paint_icon"
@@ -156,12 +156,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"BackpackItemFont"
 			"xpos"			"2"
 			"ypos"			"2"
 			"zpos"			"2"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"11"
+			"tall"			"8"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -170,7 +170,8 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"4"
+			"PaintBackgroundType"	"2"
+			"roundedcorners"	"0"
 		}
 
 		"serieslabel"

@@ -12,8 +12,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"item_xpos_offcenter_a"	"-252"
-		"item_xpos_offcenter_b"	"140"
+		"item_xpos_offcenter_a"	"-250"
+		"item_xpos_offcenter_b"	"235"
 		"item_ypos"				"45"
 		"item_ydelta"			"59"
 		"item_mod_wide"			"0"
@@ -109,47 +109,27 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Background"
+		"ypos"			"r200"
 		"zpos"			"-3"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"	"Background"
-	}
-	
-	"ModelBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ModelBG"
-		"xpos"			"c-192"
-		"ypos"			"70"
-		"zpos"			"-2"
-		"wide"			"290"
-		"tall"			"206"
-		"visible"		"1"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"2"
-		
-		"bgcolor_override"	"TanDark"
 	}
 	
 	"LoadoutPresetBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"LoadoutPresetBG"
-		"xpos"			"-60"
-		"ypos"			"5"
+		"xpos"			"cs-0.5"
+		"ypos"			"281"
 		"zpos"			"-2"
-		"wide"			"80"
-		"tall"			"20"
+		"wide"			"84"
+		"tall"			"24"
 		"visible"		"1"
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"2"
-		
-		"bgcolor_override"	"TanDark"
-		
-		"pin_to_sibling"		"ModelBG"
-		"pin_corner_to_sibling" "3"
-		"pin_to_sibling_corner" "1"
+		"bgcolor_override"	"BackgroundLogo"
 	}
 	
 	"PanelSwitchBG"
@@ -159,13 +139,12 @@
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"40"
-		"tall"			"20"
+		"wide"			"44"
+		"tall"			"24"
 		"visible"		"1"
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"2"
-		
-		"bgcolor_override"	"TanDark"
+		"bgcolor_override"	"BackgroundLogo"
 		
 		"pin_to_sibling"		"LoadoutPresetBG"
 		"pin_corner_to_sibling" "5"
@@ -179,17 +158,16 @@
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"40"
-		"tall"			"20"
+		"wide"			"44"
+		"tall"			"24"
 		"visible"		"1"
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"2"
+		"bgcolor_override"	"BackgroundLogo"
 		
-		"bgcolor_override"	"TanDark"
-		
-		"pin_to_sibling"		"PanelSwitchBG"
-		"pin_corner_to_sibling" "5"
-		"pin_to_sibling_corner" "7"
+		"pin_to_sibling"		"LoadoutPresetBG"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
 	}
 	
 	"CaratLabel"
@@ -326,11 +304,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"				"0"
+		"xpos"				"cs-0.5"
 		"ypos"				"0"
-		"zpos"				"1"		
-		"wide"				"f0"
-		"tall"				"f0"
+		"zpos"				"2"		
+		"wide"				"306"
+		"tall"				"280"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -383,93 +361,93 @@
 			}
 			"Scout"
 			{
-			"fov"  		"70"
+			"fov"  		"50"
 			"angles_x"	"0"
 			"angles_y" 	"170"
 			"angles_z" 	"0"
-			"origin_x" 	"280"
-			"origin_y" 	"22"
-			"origin_z"  "-10"
+			"origin_x" 	"170"
+			"origin_y" 	"0"
+			"origin_z"  "-55"
 			}
 			"Sniper"
 			{
-			"fov"  		"70"
+			"fov"  		"50"
 			"angles_x"	"0"
 			"angles_y" 	"160"
 			"angles_z" 	"0"
-			"origin_x" 	"280"
-			"origin_y" 	"22"
-			"origin_z"  "-10"
+			"origin_x" 	"170"
+			"origin_y" 	"0"
+			"origin_z"  "-55"
 			}
 			"Soldier"
 			{
-			"fov"  		"70"
+			"fov"  		"50"
 			"angles_x"	"0"
-			"angles_y" 	"185"
+			"angles_y" 	"190"
 			"angles_z" 	"0"
-			"origin_x" 	"280"
-			"origin_y" 	"22"
-			"origin_z" 	"-10"
+			"origin_x" 	"170"
+			"origin_y" 	"0"
+			"origin_z" 	"-55"
 			}
 			"Demoman"
 			{
-			"fov"  		"70"
+			"fov"  		"50"
 			"angles_x"	"0"
 			"angles_y" 	"220"
 			"angles_z" 	"0"
-			"origin_x" 	"280"
-			"origin_y" 	"22"
-			"origin_z" 	"-10"
+			"origin_x" 	"170"
+			"origin_y" 	"0"
+			"origin_z" 	"-55"
 			}
 			"Medic"
 			{
-			"fov"  		"70"
+			"fov"  		"50"
 			"angles_x"	"0"
 			"angles_y" 	"210"
 			"angles_z" 	"0"
-			"origin_x" 	"280"
-			"origin_y" 	"22"
-			"origin_z" 	"-10"
+			"origin_x" 	"170"
+			"origin_y" 	"0"
+			"origin_z" 	"-55"
 			}
 			"Heavy"
 			{
-			"fov"  		"70"
+			"fov"  		"50"
 			"angles_x"	"0"
 			"angles_y" 	"220"
 			"angles_z" 	"0"
-			"origin_x" 	"280"
-			"origin_y" 	"22"
-			"origin_z" 	"-10"
+			"origin_x" 	"170"
+			"origin_y" 	"0"
+			"origin_z" 	"-55"
 			}
 			"Pyro"
 			{
-			"fov"  		"70"
+			"fov"  		"50"
 			"angles_x"	"0"
 			"angles_y" 	"205"
 			"angles_z" 	"0"
-			"origin_x" 	"280"
-			"origin_y" 	"22"
-			"origin_z" 	"-10"
+			"origin_x" 	"170"
+			"origin_y" 	"0"
+			"origin_z" 	"-55"
 			}
 			"Spy"
 			{
-			"fov"  		"70"
+			"fov"  		"50"
 			"angles_x"	"0"
 			"angles_y" 	"160"
 			"angles_z" 	"0"
-			"origin_x" 	"280"
-			"origin_y" 	"22"
-			"origin_z" 	"-10"
+			"origin_x" 	"170"
+			"origin_y" 	"0"
+			"origin_z" 	"-55"
 			}
 			"Engineer"
 			{
-			"fov"  		"70"
+			"fov"  		"50"
 			"angles_x"	"0"
 			"angles_y" 	"210"
 			"angles_z" 	"0"
-			"origin_x" 	"280"
-			"origin_y" 	"22"
-			"origin_z" 	"-10"
+			"origin_x" 	"170"
+			"origin_y" 	"0"
+			"origin_z" 	"-55"
 			}
 		}
 	}
@@ -519,10 +497,10 @@
 		"controlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribSmall"
-		"xpos"			"c200"
+		"xpos"			"c-190"
 		"ypos"			"45"
 		"zpos"			"10"
-		"wide"			"200"
+		"wide"			"100"
 		"tall"			"275"
 		"labeltext"		""
 		"textalignment"	"north"
@@ -534,12 +512,11 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"zpos"			"2"
-		"wide"			"120"
-		"tall"			"20"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"IgnoreScheme"	"1"
 	}
 
 	"ItemOptionsPanel"
@@ -562,8 +539,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			""
-		"ypos"			"0"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"10"
 		"wide"			"20"
 		"tall"			"20"
@@ -607,8 +584,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-22"
+		"ypos"			"-2"
 		"zpos"			"10"
 		"wide"			"20"
 		"tall"			"20"
@@ -644,17 +621,15 @@
 			"image"			"replay/thumbnails/loadout/glyph_taunts"
 		}
 		
-		"pin_to_sibling"		"CharacterLoadoutButton"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"		"PanelSwitchBG"
 	}
 	
 	"RedButton"
 	{
 		"controlname"	"CExImageButton"
 		"fieldname"		"RedButton"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
@@ -687,8 +662,8 @@
 	{
 		"controlname"	"CExImageButton"
 		"fieldname"		"BluButton"
-		"xpos"			"-20"
-		"ypos"			"0"
+		"xpos"			"-22"
+		"ypos"			"-2"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
@@ -876,43 +851,5 @@
 			
 			"pin_to_sibling"	"RotateButton"
 		}
-	}
-	
-	"CTFLogoPanel"
-	{
-		"ControlName"	"CTFLogoPanel"
-		"fieldname"		"CTFLogoPanel"
-		"xpos"			"-90"
-		"ypos"			"60"
-		"zpos"			"-1"
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"radius"		"100"
-		"velocity"		"8"
-
-		"fgcolor_override"	"178 82 22 255"
-	}
-	
-	"CTFLogoPanelShadow"
-	{
-		"ControlName"	"CTFLogoPanel"
-		"fieldname"		"CTFLogoPanelShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"zpos"			"-2"
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"radius"		"100"
-		"velocity"		"8"
-
-		"fgcolor_override"	"65 65 65 255"
-		
-		"pin_to_sibling"	"CTFLogoPanel"
 	}
 }

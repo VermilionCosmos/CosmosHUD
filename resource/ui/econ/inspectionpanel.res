@@ -362,7 +362,6 @@
 			"zpos"				"100"
 			"wide"				"205"
 			"tall"				"20"
-			"tall"				"15"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"proportionaltoparent"	"1"
@@ -381,7 +380,7 @@
 			"fgcolor_override"			"TanLight"
 			"selectionColor_override"	"Blank"
 
-			"fixed_item"
+			"fixed_paintkit"
 			{
 				"ypos"			"25"
 			}
@@ -405,6 +404,7 @@
 
 			"fixed_paintkit"
 			{
+				"ypos"			"4"
 				"labeltext"		"#TF_ItemPreview_RedeemItem"
 			}
 		}
@@ -583,7 +583,7 @@
 	{
 		"ControlName"	"CTFLogoPanel"
 		"fieldname"		"CTFLogoPanel"
-		"xpos"			"-90"
+		"xpos"			"-95"
 		"ypos"			"60"
 		"zpos"			"-1"
 		"wide"			"200"
@@ -592,38 +592,8 @@
 		"proportionaltoparent"	"1"
 
 		"radius"		"100"
-		"velocity"		"8"
+		"velocity"		"4"
 
-		"fgcolor_override"	"178 82 22 255"
-		
-		"fixed_paintkit"
-		{
-			"visible"	"0"
-		}
-	}
-	
-	"CTFLogoPanelShadow"
-	{
-		"ControlName"	"CTFLogoPanel"
-		"fieldname"		"CTFLogoPanelShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"zpos"			"-2"
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"radius"		"100"
-		"velocity"		"8"
-
-		"fgcolor_override"	"65 65 65 255"
-		
-		"pin_to_sibling"	"CTFLogoPanel"
-		
-		"fixed_paintkit"
-		{
-			"visible"	"0"
-		}
+		"fgcolor_override"	"BackgroundLogo"
 	}
 }

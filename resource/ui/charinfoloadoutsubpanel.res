@@ -93,9 +93,12 @@
 		"ypos"			"310"
 		"zpos"			"-3"
 		"wide"			"560"
-		"tall"			"50"
+		"tall"			"80"
 		"visible"		"1"
-		"border"		"OutlinedGreyBox"
+		"paintbackground"	"1"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"	"BackgroundLogo"
+		
 		"mouseinputenabled"		"0"
 	}
 
@@ -126,10 +129,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"10"
+			"xpos"					"14"
 			"ypos"					"5"
-			"wide"					"35"
-			"tall"					"35"
+			"wide"					"27"
+			"tall"					"27"
 			"scaleimage"			"1"
 			"image"					"replay/thumbnails/class_icons/scout"
 		}
@@ -143,16 +146,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"ScoutButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-14"
 		"ypos"						"-6"
 		"zpos"						"100"
-		"wide"						"35"
-		"tall"						"35"
+		"wide"						"27"
+		"tall"						"27"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/scout"
 
 		"pin_to_sibling" 			"ScoutButton"
+	}
+	
+	"ScoutLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Scout"
+		"ypos"			"-15"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "ScoutButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"ScoutLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Scout"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "ScoutLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"scout"
@@ -191,10 +228,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"10"
+			"xpos"					"14"
 			"ypos"					"5"
-			"wide"					"35"
-			"tall"					"35"
+			"wide"					"27"
+			"tall"					"27"
 			"scaleimage"			"1"
 			"image"					"replay/thumbnails/class_icons/soldier"
 		}
@@ -208,16 +245,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SoldierButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-14"
 		"ypos"						"-6"
 		"zpos"						"100"
-		"wide"						"35"
-		"tall"						"35"
+		"wide"						"27"
+		"tall"						"27"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/soldier"
 
 		"pin_to_sibling" 			"SoldierButton"
+	}
+	
+	"SoldierLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Soldier"
+		"ypos"			"-15"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SoldierButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"SoldierLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Soldier"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SoldierLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"soldier"
@@ -256,10 +327,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"10"
+			"xpos"					"14"
 			"ypos"					"5"
-			"wide"					"35"
-			"tall"					"35"
+			"wide"					"27"
+			"tall"					"27"
 			"scaleimage"			"1"
 			"image"					"replay/thumbnails/class_icons/pyro"
 		}
@@ -273,16 +344,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PyroButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-14"
 		"ypos"						"-6"
 		"zpos"						"100"
-		"wide"						"35"
-		"tall"						"35"
+		"wide"						"27"
+		"tall"						"27"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/pyro"
 
 		"pin_to_sibling" 			"PyroButton"
+	}
+	
+	"PyroLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Pyro"
+		"ypos"			"-15"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "PyroButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"PyroLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Pyro"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "PyroLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"pyro"
@@ -321,10 +426,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"10"
+			"xpos"					"14"
 			"ypos"					"5"
-			"wide"					"35"
-			"tall"					"35"
+			"wide"					"27"
+			"tall"					"27"
 			"scaleimage"			"1"
 			"image"					"replay/thumbnails/class_icons/demo"
 		}
@@ -338,16 +443,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"DemomanButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-14"
 		"ypos"						"-6"
 		"zpos"						"100"
-		"wide"						"35"
-		"tall"						"35"
+		"wide"						"27"
+		"tall"						"27"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/demo"
 
 		"pin_to_sibling" 			"DemomanButton"
+	}
+	
+	"DemomanLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Demoman"
+		"ypos"			"-15"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "DemomanButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"DemomanLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Demoman"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "DemomanLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 	
 	"demoman"
@@ -387,10 +526,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"10"
+			"xpos"					"14"
 			"ypos"					"5"
-			"wide"					"35"
-			"tall"					"35"
+			"wide"					"27"
+			"tall"					"27"
 			"scaleimage"			"1"
 			"image"					"replay/thumbnails/class_icons/heavy"
 		}
@@ -404,16 +543,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"HeavyButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-14"
 		"ypos"						"-6"
 		"zpos"						"100"
-		"wide"						"35"
-		"tall"						"35"
+		"wide"						"27"
+		"tall"						"27"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/heavy"
 
 		"pin_to_sibling" 			"HeavyButton"
+	}
+
+	"HeavyLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_HWGuy"
+		"ypos"			"-15"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "HeavyButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"HeavyLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_HWGuy"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "HeavyLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 
 	"heavyweapons"
@@ -452,10 +625,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"10"
+			"xpos"					"14"
 			"ypos"					"5"
-			"wide"					"35"
-			"tall"					"35"
+			"wide"					"27"
+			"tall"					"27"
 			"scaleimage"			"1"
 			"image"					"replay/thumbnails/class_icons/engineer"
 		}
@@ -469,16 +642,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"EngineerButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-14"
 		"ypos"						"-6"
 		"zpos"						"100"
-		"wide"						"35"
-		"tall"						"35"
+		"wide"						"27"
+		"tall"						"27"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/engineer"
 
 		"pin_to_sibling" 			"EngineerButton"
+	}
+
+	"EngineerLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Engineer"
+		"ypos"			"-15"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "EngineerButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"EngineerLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Engineer"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "EngineerLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 
 	"engineer"
@@ -517,10 +724,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"10"
+			"xpos"					"14"
 			"ypos"					"5"
-			"wide"					"35"
-			"tall"					"35"
+			"wide"					"27"
+			"tall"					"27"
 			"scaleimage"			"1"
 			"image"					"replay/thumbnails/class_icons/medic"
 		}
@@ -534,16 +741,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"MedicButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-14"
 		"ypos"						"-6"
 		"zpos"						"100"
-		"wide"						"35"
-		"tall"						"35"
+		"wide"						"27"
+		"tall"						"27"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/medic"
 
 		"pin_to_sibling" 			"MedicButton"
+	}
+
+	"MedicLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Medic"
+		"ypos"			"-15"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "MedicButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"MedicLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Medic"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "MedicLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 
 	"medic"
@@ -582,10 +823,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"10"
+			"xpos"					"14"
 			"ypos"					"5"
-			"wide"					"35"
-			"tall"					"35"
+			"wide"					"27"
+			"tall"					"27"
 			"scaleimage"			"1"
 			"image"					"replay/thumbnails/class_icons/sniper"
 		}
@@ -599,16 +840,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SniperButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-14"
 		"ypos"						"-6"
 		"zpos"						"100"
-		"wide"						"35"
-		"tall"						"35"
+		"wide"						"27"
+		"tall"						"27"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/sniper"
 
 		"pin_to_sibling" 			"SniperButton"
+	}
+
+	"SniperLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Sniper"
+		"ypos"			"-15"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SniperButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"SniperLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Sniper"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SniperLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 
 	"sniper"
@@ -647,10 +922,10 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"10"
+			"xpos"					"14"
 			"ypos"					"5"
-			"wide"					"35"
-			"tall"					"35"
+			"wide"					"27"
+			"tall"					"27"
 			"scaleimage"			"1"
 			"image"					"replay/thumbnails/class_icons/spy"
 		}
@@ -664,16 +939,50 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SpyButtonShadow"
-		"xpos"						"-10"
+		"xpos"						"-14"
 		"ypos"						"-6"
 		"zpos"						"100"
-		"wide"						"35"
-		"tall"						"35"
+		"wide"						"27"
+		"tall"						"27"
 		"drawcolor"					"65 65 65 255"
 		"scaleimage"				"1"
 		"image"						"replay/thumbnails/class_icons/spy"
 
 		"pin_to_sibling" 			"SpyButton"
+	}
+
+	"SpyLabel"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Spy"
+		"ypos"			"-15"
+		"zpos"			"100"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SpyButton"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "6"
+	}
+
+	"SpyLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"font"			"LoadoutButtonFont"
+		"labeltext"		"#TF_Class_Name_Spy"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"99"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
+		"fgcolor"		"65 65 65 255"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "SpyLabel"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "2"
 	}
 
 	"spy"
@@ -694,7 +1003,10 @@
 		"wide"			"70"
 		"tall"			"305"
 		"visible"		"1"
-		"border"		"OutlinedGreyBoxRotated"
+		"paintbackground"	"1"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"	"BackgroundLogo"
+		
 		"mouseinputenabled"		"0"
 	}
 
@@ -1074,7 +1386,7 @@
 		"labeltext"		"#NoSteamNoItems"
 		"textalignment"	"north"
 		"xpos"			"0"
-		"ypos"			"340"
+		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
@@ -1157,28 +1469,8 @@
 		"proportionaltoparent"	"1"
 
 		"radius"		"100"
-		"velocity"		"8"
+		"velocity"		"4"
 
-		"fgcolor_override"	"178 82 22 255"
-	}
-	
-	"CTFLogoPanelShadow"
-	{
-		"ControlName"	"CTFLogoPanel"
-		"fieldname"		"CTFLogoPanelShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"zpos"			"-2"
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"radius"		"100"
-		"velocity"		"8"
-
-		"fgcolor_override"	"65 65 65 255"
-		
-		"pin_to_sibling"	"CTFLogoPanel"
+		"fgcolor_override"	"BackgroundLogo"
 	}
 }

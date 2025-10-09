@@ -105,10 +105,10 @@
 		{
 			"ControlName"				"CTFFreezePanelHealth"
 			"fieldName"					"FreezePanelHealth"
-			"xpos"						"10"
+			"xpos"						"9"
 			"ypos"						"50"
 			"zpos"						"2"
-			"wide"						"36"
+			"wide"						"44"
 			"tall"						"36"
 			"visible"					"1"
 			"enabled"					"1"	
@@ -117,7 +117,8 @@
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
 			
-			"wide_minmode"	"26"
+			"xpos_minmode"				"10"
+			"wide_minmode"				"30"
 		}
 
 		"FreezeLabel"
@@ -149,7 +150,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"TargetIDFont"
-			"xpos"			"61"
+			"xpos"			"68"
 			"ypos"			"56"
 			"zpos"			"5"
 			"wide"			"150"
@@ -159,7 +160,7 @@
 			"labelText"		"%killername%"
 			"textAlignment"	"South-West"
 			
-			"xpos_minmode"	"100"
+			"xpos_minmode"	"104"
 			"ypos_minmode"	"54"
 			"wide_minmode"	"180"
 			"tall_minmode"	"18"
@@ -170,7 +171,8 @@
 		{
 			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"52"
+			"xpos"			"59"
+			"xpos_minmode"	"56"
 			"ypos"			"58"
 			"zpos"			"4"
 			
