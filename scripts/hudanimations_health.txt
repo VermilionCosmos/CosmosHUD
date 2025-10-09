@@ -6,8 +6,8 @@ event HudHealthBonusPulse
 	Animate		PlayerStatusHealthValueTargetID			FgColor		"40 210 100 255"	Linear 0.1 0.4
 	Animate		PlayerStatusKillerHealthValue			FgColor		"TanLight"			Linear 0.0 0.1
 	Animate		PlayerStatusKillerHealthValue			FgColor		"40 210 100 255"	Linear 0.1 0.4
-	Animate		PlayerStatusHealthValueCentered			FgColor		"White"				Linear 0.0 0.1
-	Animate		PlayerStatusHealthValueCentered			FgColor		"40 210 100 255"	Linear 0.1 0.4
+	Animate		PlayerStatusHealthValueCenter			FgColor		"White"				Linear 0.0 0.1
+	Animate		PlayerStatusHealthValueCenter			FgColor		"40 210 100 255"	Linear 0.1 0.4
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"140"				Linear 0.0 0.2
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					Linear 0.2 0.4
 	RunEvent 	HudHealthBonusPulseLoop					0.4
