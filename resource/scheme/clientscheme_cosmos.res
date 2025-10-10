@@ -35,6 +35,8 @@ Scheme
 	
 		Label.DisabledFgColor1			"Black"
 		Label.DisabledFgColor2			"Blank"
+		
+		ScrollBar.Wide						"8"
 	}
 
 	"Borders"
@@ -236,18 +238,7 @@ Scheme
 			}
 		}
 		
-		OutlinedGreyBoxRotated
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"replay/thumbnails/borders/loadout_round_rect_selected_rotated"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}
-	
+		// Backpack
 		BackpackItemGrayedOut
 		{
 			"bordertype"			"scalable_image"
@@ -274,7 +265,6 @@ Scheme
 			"draw_corner_height" 	"5"		
 		}
 		
-		// Standard ------------------------------------------------------------------------------------------------
 		BackpackItemBorder
 		{
 			"bordertype"			"scalable_image"
@@ -286,6 +276,7 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"		
 		}
+		
 		BackpackItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
@@ -297,6 +288,7 @@ Scheme
 			"draw_corner_width"		"5"					// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"		
 		}
+		
 		BackpackItemSelectedBorder
 		{
 			"bordertype"			"scalable_image"
@@ -308,6 +300,7 @@ Scheme
 			"draw_corner_width"		"5"					// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"		
 		}
+		
 		BackpackItemGreyedOutBorder
 		{
 			"bordertype"			"scalable_image"
@@ -320,6 +313,7 @@ Scheme
 			"draw_corner_width"		"5"					// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"		
 		}
+		
 		BackpackItemGreyedOutSelectedBorder
 		{
 			"bordertype"			"scalable_image"
@@ -331,6 +325,29 @@ Scheme
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"					// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"		
+		}
+		
+		ArmoryScrollbarBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"scroll_button_off"
+			"src_corner_height"		"16"
+			"src_corner_width"		"16"
+			"draw_corner_width"		"4"
+			"draw_corner_height" 	"4"	
+		}
+		ArmoryScrollbarWell
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"scroll_well"
+			"src_corner_height"		"16"
+			"src_corner_width"		"16"
+			"draw_corner_width"		"4"
+			"draw_corner_height" 	"4"	
 		}
 	}
 	

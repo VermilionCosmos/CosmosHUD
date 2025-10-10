@@ -198,45 +198,52 @@ Scheme
 	{
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"400"
+				"tall"		"12" [!$POSIX]
+				"tall"		"14" [$POSIX]
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"		"480 599"
+				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"400"
+				"tall"		"13" [!$POSIX]
+				"tall"		"16" [$POSIX]
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"		"600 767"
+				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"400"
+				"tall"		"14" [!$POSIX]
+				"tall"		"16" [$POSIX]
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"		"768 1023"
+				"yres"	"768 1023"
+				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"400"
+				"tall"		"16" [!$POSIX]
+				"tall"		"18" [$POSIX]
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"		"1024 1199"
+				"yres"	"1024 1199"
+				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"400"
+				"tall"		"8"
+				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"		"1200 6000"
+				"antialias"	"1"
 			}
 		}
 	
@@ -246,7 +253,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"12"
+				"tall"			"12"	[!$POSIX]
+				"tall"			"15"	[$POSIX]
 				"weight"		"900"
 				"yres"			"480 599"
 				"outline"		"1"
@@ -256,7 +264,8 @@ Scheme
 			"2"
 			{
 				"name"			"Verdana"
-				"tall"			"14"
+				"tall"			"14"	[!$POSIX]
+				"tall"			"17"	[$POSIX]
 				"weight"		"900"
 				"yres"			"600 767"
 				"outline"		"1"
@@ -266,7 +275,8 @@ Scheme
 			"3"
 			{
 				"name"			"Verdana"
-				"tall"			"15"
+				"tall"			"15"	[!$POSIX]
+				"tall"			"18"	[$POSIX]
 				"weight"		"900"
 				"yres"			"768 1023"
 				"outline"		"1"
@@ -276,19 +286,19 @@ Scheme
 			"4"
 			{
 				"name"			"Verdana"
-				"tall"			"17"
+				"tall"			"17"	[!$POSIX]
+				"tall"			"20"	[$POSIX]
 				"weight"		"900"
 				"yres"			"1024 1199"
 				"outline"		"1"
 				"dropshadow"	"1"
 				"antialias" 	"0"
 			}
-			"5"
+			"5"	 // Misyl: Proportional
 			{
 				"name"			"Verdana"
-				"tall"			"19"
-				"weight"		"900"
-				"yres"			"1200 10000"
+				"tall"			"8"
+				"weight"		"300"
 				"outline"		"1"
 				"dropshadow"	"1"
 				"antialias" 	"0"

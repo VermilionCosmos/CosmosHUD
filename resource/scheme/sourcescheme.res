@@ -35,6 +35,7 @@ Scheme
 		"SelectionBG2"				"69 64 57 255"	// selection background in window w/o focus
 		"ListBG"					"39 36 34 255"	// background of server browser, buddy list, etc.
 	}
+	
 	BaseSettings
 	{
 		// scheme-specific colors
@@ -113,8 +114,8 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
 		ScrollBarButton.DepressedBgColor	"TFTanLight"
 
-		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed
+		ScrollBarSlider.BgColor				"TFTanMedium"
+		ScrollBarSlider.FgColor				"TFTanLight"
 
 		Slider.NobColor						"TFTanLight"
 		Slider.TextColor					"TFTextBright"
@@ -127,19 +128,6 @@ Scheme
 		TextEntry.SelectedBgColor	        "TFOrangeBright"
 	}
 	
-	Borders
-	{
-		FrameBorder
-		{
-			"bordertype"			"scalable_image"
-
-			"image"					"replay/thumbnails/borders/source_window_border"
-			"src_corner_height"		"64"
-			"src_corner_width"		"64"
-			"draw_corner_width"		"4"
-			"draw_corner_height"	"4"
-		}
-	}
 	Fonts
 	{
 		"MainMenuFont"
@@ -159,36 +147,14 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"16"
+				"tall"		"35"
 				"weight"	"300"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
 
-		"Default"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-			}
-		}
-
-		"DefaultSmall" // server browser text, small dull text, console completion list text
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-			}
-		}
-
-		"DefaultVerySmall" // legacy options text, slider text
+		"Default" [$OSX]
 		{
 			"1"
 			{
@@ -278,16 +244,78 @@ Scheme
 				"tall"		"15"
 			}
 		}
-		"ConsoleText"
+	}
+	
+	CustomFontFiles
+	{
+		"6" 
 		{
-			"1"
+			"font" "resource/TF2Build.ttf"
+			"name" "TF2 Build"
+			"turkish"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
+				"range" "0x0000 0x015F"
 			}
+			"swedish"
+			{
+				"range" "0x0000 0x00F6"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x021B"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x017C"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x0171"
+			}
+			"german"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"french"
+			{
+				"range" "0x0000 0x0178"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x0451"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x0451"
+			}	
 		}
-		
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }

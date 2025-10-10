@@ -18,7 +18,7 @@
 		"item_ydelta"			"59"
 		"item_mod_wide"			"0"
 		
-		"item_backpack_offcenter_x"	"-288"
+		"item_backpack_offcenter_x"	"-255"
 		"item_backpack_xdelta"		"4"
 		"item_backpack_ydelta"		"3"
 

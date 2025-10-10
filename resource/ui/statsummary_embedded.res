@@ -1670,9 +1670,9 @@
 		"defaultbgColor_override"	"0 0 0 0"
 		"armedbgColor_override"		"0 0 0 0"
 		"depressedbgColor_override"	"0 0 0 0"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
+
+		"sound_released"			"UI/buttonclick.wav"
+		"button_activation_type"	"1"
 		
 		"pin_to_sibling"			"TipImage"
 	}

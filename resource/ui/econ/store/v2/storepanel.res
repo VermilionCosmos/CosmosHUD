@@ -1,18 +1,15 @@
-"Resource/UI/CharInfoPanel.res"
+"Resource/UI/StorePanel.res"
 {
-	"character_info"
+	"store_panel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"character_info"
+		"fieldName"		"store_panel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
 		
@@ -24,15 +21,6 @@
 		"sheetinset_bottom"				"0"
 	}
 	
-	"Background"
-	{
-		"controlname"	"EditablePanel"
-		"zpos"			"-3"
-		"wide"			"f0"
-		"tall"			"f0"
-		"bgcolor_override"	"Background"
-	}
-	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -41,12 +29,12 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}		
+	}				
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -116,43 +104,30 @@
 		}
 	}
 	
-	"BackButton"
+	"armory_panel"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
-		"xpos"			"c-60+200"
-		"ypos"			"436"
-		"zpos"			"6"
-		"wide"			"120"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
+		"ControlName"		"CArmoryPanel"
+		"fieldName"			"armory_panel"
+		"xpos"				"0"
+		"ypos"				"30"
+		"wide"				"f0"
+		"tall"				"390"
+		"zpos"				"500"
+		"visible"			"0"
+	}
+
+	"NotificationsPresentPanel"
+	{
+		"ControlName"	"CNotificationsPresentPanel"
+		"fieldName"		"NotificationsPresentPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"r42"
+		"zpos"			"10000"
+		"wide"			"220"
+		"tall"			"50"
+		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#CHud_Back"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"back"
-		
-		"paintbackground"   		"0"
-
-		"border_default"    		"MainMenuButtonDefault"
-		"border_armed"      		"MainMenuButtonArmed"
-
-		"defaultFgColor_override" 	"46 43 42 255"
-		"armedFgColor_override" 	"235 226 202 255"
-		"depressedFgColor_override" "235 235 235 255"
-		
-		"sound_armed"				"ui/buttonrollover.wav"
-		"sound_depressed"			"ui/buttonclick.wav"
-		"sound_released"			"ui/buttonclickrelease.wav"
-		"stay_armed_on_click"		"1"
-		"button_activation_type"	"2"
-	}		
+	}
 	
 	"CloseButton"
 	{
@@ -190,18 +165,73 @@
 		"sound_released"			"ui/buttonclickrelease.wav"
 		"stay_armed_on_click"		"1"
 		"button_activation_type"	"2"
-	}		
+	}
 	
-	"NotificationsPresentPanel"
+	"CheckoutButton"
 	{
-		"ControlName"	"CNotificationsPresentPanel"
-		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"r42"
-		"zpos"			"10000"
-		"wide"			"220"
-		"tall"			"50"
-		"visible"		"0"
+		"ControlName"	"CExButton"
+		"fieldName"		"CheckoutButton"
+		"xpos"			"c-60+200"
+		"ypos"			"436"
+		"zpos"			"6"
+		"wide"			"120"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
 		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Store_Checkout"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"checkout"
+		
+		"paintbackground"   		"0"
+
+		"border_default"    		"MainMenuButtonDefault"
+		"border_armed"      		"MainMenuButtonArmed"
+
+		"defaultFgColor_override" 	"46 43 42 255"
+		"armedFgColor_override" 	"235 226 202 255"
+		"depressedFgColor_override" "235 235 235 255"
+		
+		"sound_armed"				"ui/buttonrollover.wav"
+		"sound_depressed"			"ui/buttonclick.wav"
+		"sound_released"			"ui/buttonclickrelease.wav"
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+	}	
+	
+	"SupportCommunityMapMakersCheckButton"
+	{
+		"ControlName"	"CheckButton"
+		"fieldName"		"SupportCommunityMapMakersCheckButton"
+		"xpos"			"c260"
+		"ypos"			"438"
+		"zpos"			"5"
+		"wide"			"26"
+		"tall"			"26"
+		"font"			"HudFontSmall"
+		"labelText"		""
+		"visible"		"0"
+	}
+
+	"SupportCommunityMapMakersLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"SupportCommunityMapMakersLabel"
+		"textAlignment"		"west"
+		"xpos"				"c287"
+		"ypos"				"436"
+		"zpos"				"5"
+		"wide"				"100"
+		"tall"				"30"
+		"font"				"HudFontSmallest"
+		"wrap"				"1"
+		"labelText"			"#Store_ConfirmStampDonationAddTitle"
+		"visible"			"0"
 	}
 }

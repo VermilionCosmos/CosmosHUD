@@ -40,17 +40,55 @@ Scheme
 		Label.DisabledFgColor2				"Blank"
 	}
 	
+	Borders
+	{
+		FrameBorder
+		{
+			"bordertype"			"scalable_image"
+
+			"image"					"replay/thumbnails/borders/source_window_border"
+			"src_corner_height"		"64"
+			"src_corner_width"		"64"
+			"draw_corner_width"		"4"
+			"draw_corner_height"	"4"
+		}
+	}
+	
 	Fonts
 	{
-		"ServerBrowserTitle"
+		"DefaultSmall" // server browser text, small dull text, console completion list text
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"35"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"		"Verdana"
+				"tall"		"14"	[!$POSIX]
+				"tall"		"17"	[$POSIX]
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+			}
+		}
+
+		"DefaultVerySmall" // legacy options text, slider text
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"	[!$POSIX]
+				"tall"		"17"	[$POSIX]
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+			}
+		}
+		
+		"ConsoleText"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"	[!$POSIX]
+				"tall"		"17"	[$POSIX]
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
 			}
 		}
 	}
