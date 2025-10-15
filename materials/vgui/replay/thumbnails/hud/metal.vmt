@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+    "$translucent"		"1"
+    "$baseTexture"		"vgui\replay\thumbnails\hud\metal"
+    "$vertexcolor"		1
+	"$no_fullbright"	1
+	"$ignorez"			1
+	"$softedges"		"1"
+	"$alpha"			"0.7"
+	"%keywords"			"tf"
+}

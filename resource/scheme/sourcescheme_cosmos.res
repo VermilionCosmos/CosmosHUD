@@ -1,6 +1,6 @@
 Scheme
 {
-	Colors
+	"BaseSettings"
 	{
 		Button.TextColor					"TFTanLight"
 		Button.BgColor						"TFDarkBrownTransparent"
@@ -40,7 +40,7 @@ Scheme
 		Label.DisabledFgColor2				"Blank"
 	}
 	
-	Borders
+	"Borders"
 	{
 		FrameBorder
 		{
@@ -54,7 +54,7 @@ Scheme
 		}
 	}
 	
-	Fonts
+	"Fonts"
 	{
 		"DefaultSmall" // server browser text, small dull text, console completion list text
 		{
@@ -89,6 +89,36 @@ Scheme
 				"tall"		"17"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
+			}
+		}
+		
+		"AchievementItemTitle"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"weight"	"300"
+				"tall"		"16"
+			}
+		}
+
+		"AchievementItemTitleLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"weight"	"500"
+				"tall"		"18"
+			}
+		}
+
+		"AchievementItemDescription"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"weight"	"0"
+				"tall"		"15"
 			}
 		}
 	}

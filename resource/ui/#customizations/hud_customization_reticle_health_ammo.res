@@ -8,8 +8,8 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"Reticle_Health_Ammo"
-				"xpos"								"5"
-				"ypos"								"406"
+				"xpos"								"155"
+				"ypos"								"55"
 				"zpos"								"0"
 				"wide"								"218"
 				"tall"								"80"

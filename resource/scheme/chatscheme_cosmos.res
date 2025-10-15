@@ -196,57 +196,6 @@ Scheme
 
 	Fonts
 	{
-		"Default"
-		{
-			"isproportional" "only"
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12" [!$POSIX]
-				"tall"		"14" [$POSIX]
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13" [!$POSIX]
-				"tall"		"16" [$POSIX]
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14" [!$POSIX]
-				"tall"		"16" [$POSIX]
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"16" [!$POSIX]
-				"tall"		"18" [$POSIX]
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"antialias"	"1"
-			}
-		}
-	
 		"ChatFont"
 		{
 			"isproportional" "only"
@@ -258,8 +207,7 @@ Scheme
 				"weight"		"900"
 				"yres"			"480 599"
 				"outline"		"1"
-				"dropshadow"	"1"
-				"antialias" 	"0"
+				"dropshadow"	"0"
 			}
 			"2"
 			{
@@ -269,8 +217,7 @@ Scheme
 				"weight"		"900"
 				"yres"			"600 767"
 				"outline"		"1"
-				"dropshadow"	"1"
-				"antialias" 	"0"
+				"dropshadow"	"0"
 			}
 			"3"
 			{
@@ -280,8 +227,7 @@ Scheme
 				"weight"		"900"
 				"yres"			"768 1023"
 				"outline"		"1"
-				"dropshadow"	"1"
-				"antialias" 	"0"
+				"dropshadow"	"0"
 			}
 			"4"
 			{
@@ -291,17 +237,17 @@ Scheme
 				"weight"		"900"
 				"yres"			"1024 1199"
 				"outline"		"1"
-				"dropshadow"	"1"
-				"antialias" 	"0"
+				"dropshadow"	"0"
 			}
-			"5"	 // Misyl: Proportional
+			"5"
 			{
 				"name"			"Verdana"
-				"tall"			"8"
-				"weight"		"300"
+				"tall"			"19"	[!$POSIX]
+				"tall"			"22"	[$POSIX]
+				"weight"		"700"
+				"yres"			"1200 10000"
 				"outline"		"1"
 				"dropshadow"	"1"
-				"antialias" 	"0"
 			}
 		}
 	}

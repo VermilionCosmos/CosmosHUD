@@ -577,25 +577,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-		"RefontTF"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"12"
-				"antialias" 	"1"
-			}
-		}
-		"RefontVerdana"
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"antialias" 	"1"
-			}
-		}
+		
 		"CenterFont"
 		{
 			"1"

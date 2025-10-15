@@ -214,36 +214,6 @@ Scheme
 				"yres"		"1200 6000"
 			}
 		}
-
-		"AchievementItemTitle"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"weight"	"300"
-				"tall"		"16"
-			}
-		}
-
-		"AchievementItemTitleLarge"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"weight"	"500"
-				"tall"		"18"
-			}
-		}
-
-		"AchievementItemDescription"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"weight"	"0"
-				"tall"		"15"
-			}
-		}
 	}
 	
 	CustomFontFiles

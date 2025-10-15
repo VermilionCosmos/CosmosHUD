@@ -1,10 +1,7 @@
-// REFONT
-
-#base "../cfg/cosmoshud/hud_chatscheme.txt"
+#base "scheme/chatscheme_cosmos.res"
 
 // BASE
 
 #base "scheme/customfontfiles.res"
-#base "scheme/chatscheme_cosmos.res"
 #base "scheme/chatscheme.res"
 

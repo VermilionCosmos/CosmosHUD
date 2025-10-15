@@ -799,7 +799,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"PlayerStatusHealthValueCenter"
-		"xpos"					"c-30-50"
+		"xpos"					"c-30-61"
 		"ypos"					"c-5"
 		"zpos"					"-1"
 		"wide"					"30"
@@ -834,7 +834,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"PlayerStatusHealthIconCenter"
-		"xpos"					"2"
+		"xpos"					"3"
 		"ypos"					"-1"
 		"zpos"					"-2"
 		"wide"					"8"

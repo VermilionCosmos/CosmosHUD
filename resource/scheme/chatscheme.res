@@ -403,7 +403,7 @@ Scheme
 				"weight" "300"
 				//"weight"	"700"
 				"dropshadow"	"1"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 	}

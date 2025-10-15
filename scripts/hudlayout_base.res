@@ -252,14 +252,12 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-196"
-		"xpos_minmode"			"c-196"
-		"ypos"					"r158"
-		"ypos_minmode"			"r124"
-		"wide"					"116"
-		"tall"  				"180"
-		"visible" 				"1"
-		"enabled" 				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"visible" 				"0"
+		"enabled" 				"0"
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -699,7 +697,7 @@
 		"fieldName" "HudScopeCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "c64"
+		"xpos"	 "c84"
 		"ypos"	 "c-64"
 		"wide"	 "64"
 		"tall"	 "128"

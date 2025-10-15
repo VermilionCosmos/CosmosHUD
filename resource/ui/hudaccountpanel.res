@@ -22,7 +22,7 @@
 	
 	"MetalIcon"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"ImagePanel"
 		"fieldName"			"MetalIcon"
 		"xpos"				"c256"
 		"ypos"				"r33"
@@ -31,20 +31,20 @@
 		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"$"
-		"textAlignment"		"center"
-		"font"				"MetalAccountFont"
+		"image"				"replay\thumbnails\hud\metal"
+		"scaleImage"		"1"
+		"drawcolor"			"TanLight"
 		
-		"xpos_minmode"		"c-4-13"
-		"ypos_minmode"		"c-3+30"
-		"wide_minmode"		"10"
-		"tall_minmode"		"10"
-		"fgcolor_minmode"	"white"
+		"xpos_minmode"		"c-4-12"
+		"ypos_minmode"		"c-3+31"
+		"wide_minmode"		"8"
+		"tall_minmode"		"8"
+		"drawcolor_minmode"	"White"
 	}
 
 	"MetalIconShadow"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"ImagePanel"
 		"fieldName"			"MetalIconShadow"
 		"xpos"				"-1"
 		"ypos"				"-1"
@@ -53,13 +53,12 @@
 		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"$"
-		"textAlignment"		"center"
-		"font"				"MetalAccountFont"
-		"fgcolor"			"TransparentBlack"
+		"image"				"replay\thumbnails\hud\metal"
+		"scaleImage"		"1"
+		"drawcolor"			"TransparentBlack"
 		
-		"wide_minmode"		"10"
-		"tall_minmode"		"10"
+		"wide_minmode"		"8"
+		"tall_minmode"		"8"
 		
 		pin_to_sibling 		"MetalIcon"
 	}
@@ -79,9 +78,9 @@
 		"textAlignment"		"center"
 		"font"				"StockpileFont"
 		
-		"xpos_minmode"		"c-10+6"
+		"xpos_minmode"		"c-10+5"
 		"ypos_minmode"		"c-5+32"
-		"wide_minmode"		"20"
+		"wide_minmode"		"25"
 		"tall_minmode"		"10"
 		"font_minmode"		"StockpileFontSmall"
 		"fgcolor_minmode"	"white"
@@ -103,7 +102,7 @@
 		"font"				"StockpileFont"
 		"fgcolor"			"TransparentBlack"
 		
-		"wide_minmode"		"20"
+		"wide_minmode"		"25"
 		"tall_minmode"		"10"
 		"font_minmode"		"StockpileFontSmall"
 		
