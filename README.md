@@ -52,7 +52,7 @@ Everything in this HUD has been used with permission. If I have somehow made a m
 
 - Kaia Brodbecker - <a href="https://gamebanana.com/mods/440617">Kaia's Improved HUD Portraits</a>
 
-- trowoglodyte - <a href="https://gamebanana.com/mods/463048">Default VTF Crosshairs Remade</a>
+- trowoglodyte - <a href="https://gamebanana.com/mods/464818">Default VTF Crosshairs Remade</a>
 
 - jakadak - <a href="https://github.com/jakadak/TF2-extended-fonts">TF2 Extended Fonts</a>
 
