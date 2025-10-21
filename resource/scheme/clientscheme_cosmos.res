@@ -17,6 +17,8 @@ Scheme
 		"QuestGreen"		"76 130 34 255"
 		
 		"PartyMember1"		"0 0 0 0"
+		
+		//"TanDark"			"235 226 202 255"
 	}
 
 
@@ -36,7 +38,14 @@ Scheme
 		Label.DisabledFgColor1			"Black"
 		Label.DisabledFgColor2			"Blank"
 		
-		ScrollBar.Wide						"8"
+		ScrollBar.Wide						"6"
+		
+		ScrollBarButton.FgColor				"Blank"
+		ScrollBarButton.BgColor				"Blank"
+		ScrollBarButton.ArmedFgColor		"Blank"
+		ScrollBarButton.ArmedBgColor		"Blank"
+		ScrollBarButton.DepressedFgColor	"Blank"
+		ScrollBarButton.DepressedBgColor	"Blank"
 	}
 
 	"Borders"
@@ -425,7 +434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Biuld"
+				"name"		"TF2 Secondary"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"

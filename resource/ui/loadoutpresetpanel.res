@@ -20,6 +20,7 @@
 			"Command"		""
 		}
 	
+		// Loadout Buttons
 		"A"
 		{
 			"ControlName"	"CExButton"
@@ -98,6 +99,99 @@
 			"command"		"loadpreset_3"
 			"textAlignment"	"center"
 					
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"240 207 78 255"
+			"depressedFgColor_override"	"240 207 78 255"
+			
+			"sound_released"			"UI/buttonclick.wav"
+			"stay_armed_on_click"		"1"
+			"button_activation_type"	"1"
+		}
+		
+		// Item Quickswitch Buttons
+		"A_QS"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"tall"			"24"
+			"wide"			"24"
+			"font"			"HudFontMediumSmallBold"
+			"labeltext"		"A"
+			"command"		"loadpreset_0"
+			"textAlignment"	"center"
+			
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"240 207 78 255"
+			"depressedFgColor_override"	"240 207 78 255"
+			
+			"sound_released"			"UI/buttonclick.wav"
+			"stay_armed_on_click"		"1"
+			"button_activation_type"	"1"
+		}
+		
+		"B_QS"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"24"
+			"tall"			"24"
+			"wide"			"24"
+			"font"			"HudFontMediumSmallBold"
+			"labeltext"		"B"
+			"command"		"loadpreset_1"
+			"textAlignment"	"center"
+			
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"240 207 78 255"
+			"depressedFgColor_override"	"240 207 78 255"
+			
+			"sound_released"			"UI/buttonclick.wav"
+			"stay_armed_on_click"		"1"
+			"button_activation_type"	"1"
+		}
+		
+		"C_QS"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"48"
+			"tall"			"24"
+			"wide"			"24"
+			"font"			"HudFontMediumSmallBold"
+			"labeltext"		"C"
+			"command"		"loadpreset_2"
+			"textAlignment"	"center"
+			
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"240 207 78 255"
+			"depressedFgColor_override"	"240 207 78 255"
+			
+			"sound_released"			"UI/buttonclick.wav"
+			"stay_armed_on_click"		"1"
+			"button_activation_type"	"1"
+		}
+		
+		"D_QS"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"72"
+			"tall"			"24"
+			"wide"			"24"
+			"font"			"HudFontMediumSmallBold"
+			"labeltext"		"D"
+			"command"		"loadpreset_3"
+			"textAlignment"	"center"
+			
 			"paintbackground"			"0"
 			
 			"defaultFgColor_override"	"235 226 202 255"

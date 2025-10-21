@@ -1,8 +1,17 @@
 Scheme
 {
+	Colors
+	{
+		"TanLight"							"235 226 202 255"
+	}
+
 	"BaseSettings"
 	{
-		Button.TextColor					"TFTanLight"
+		Border.Bright						"TFTanLightDark"
+		Border.Dark							"TFTanLightDark"
+		Border.Selection					"TFTanLight"
+
+		Button.TextColor					"TanLight"
 		Button.BgColor						"TFDarkBrownTransparent"
 		Button.ArmedTextColor				"TFDarkBrown"
 		Button.ArmedBgColor					"TFTanBright"
@@ -17,6 +26,7 @@ Scheme
 		ComboBoxButton.ArmedArrowColor		"TFTanBright"
 		ComboBoxButton.BgColor				"Blank"
 		ComboBoxButton.DisabledBgColor		"Blank"
+		ComboBoxButton.BorderColor			"TFTanLightDark"
 
 		RadioButton.TextColor				"TFTextBright"
 		RadioButton.SelectedTextColor		"TFTanLight"
@@ -56,12 +66,25 @@ Scheme
 	
 	"Fonts"
 	{
+		"Default"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"13"	[!$POSIX]
+				"tall"		"17"	[$POSIX]
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+			}
+		}
+	
+	
 		"DefaultSmall" // server browser text, small dull text, console completion list text
 		{
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"14"	[!$POSIX]
+				"tall"		"13"	[!$POSIX]
 				"tall"		"17"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -73,7 +96,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"14"	[!$POSIX]
+				"tall"		"13"	[!$POSIX]
 				"tall"		"17"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -85,7 +108,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[!$POSIX]
 				"tall"		"17"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -119,6 +142,30 @@ Scheme
 				"name"		"TF2 Secondary"
 				"weight"	"0"
 				"tall"		"15"
+			}
+		}
+		
+		"LoadingScreenFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"LoadingScreenFontLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 	}

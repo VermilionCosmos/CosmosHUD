@@ -18,7 +18,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CasualEntry"
 		"xpos"			"0"
-		"ypos"			"13"
+		"ypos"			"0"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
@@ -39,22 +39,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CompetitiveEntry"
-		"xpos"			"0"
-		"ypos"			"133"
-		"tall"			"45"
-		"wide"			"255"
-		"proportionaltoparent"	"1"
-
-		"image_name"		"casual/gametype_arena"
-		"button_token"		"#YouTube_Stats"
-		"button_command"	"play_competitive"
-		"desc_token"		"#YouTube_PrivateVideo"
-		"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
-
-		if_event
-		{
-			"ypos"			"103"
-		}
+		"visible"		"0"
 	}
 
 	"MvMEntry"
@@ -62,7 +47,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"MvMEntry"
 		"xpos"			"0"
-		"ypos"			"63"
+		"ypos"			"50"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
@@ -79,12 +64,44 @@
 		}
 	}
 
+	"ComfigQuickplayEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"ComfigQuickplayEntry"
+		"xpos"			"0"
+		"ypos"			"260"
+		"tall"			"45"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
+
+		"image_name"		"replay\thumbnails\menu\comfig_quickplay"
+		"button_token"		"#MMenu_PlayList_Comfig_Quickplay_Button"
+		"button_command"	"url https://quickplay.tf"
+		"desc_token"		"#MMenu_PlayList_Comfig_Quickplay_Desc"
+	}
+
+	"PotatoMvMEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"PotatoMvMEntry"
+		"xpos"			"0"
+		"ypos"			"310"
+		"tall"			"45"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
+
+		"image_name"		"replay\thumbnails\menu\potato_mvm"
+		"button_token"		"#MMenu_PlayList_Potato_MvM_Button"
+		"button_command"	"url https://potato.tf"
+		"desc_token"		"#MMenu_PlayList_Potato_MvM_Desc"
+	}
+
 	"ServerBrowserEntry"
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"ServerBrowserEntry"
 		"xpos"			"0"
-		"ypos"			"183"
+		"ypos"			"100"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
@@ -105,7 +122,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CreateServerEntry"
 		"xpos"			"0"
-		"ypos"			"233"
+		"ypos"			"150"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
@@ -126,7 +143,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"TrainingEntry"
 		"xpos"			"0"
-		"ypos"			"303"
+		"ypos"			"200"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"

@@ -145,7 +145,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"117 107 94 255"
+		"bgcolor_override"	"TanDark"
 	}
 	
 	"AvatarSlot"
@@ -173,59 +173,56 @@
 
 	"Background"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"cs-0.5"
 		"zpos"			"-200"
-		"wide"			"o1.6"
+		"wide"			"854"
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
+		"image"			"replay/thumbnails/menu/background_dustbowl_widescreen"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
-
-		if_wider
-		{
-			"wide"			"f0"
-			"tall"			"o0.628"
-		}
-
-		if_taller
-		{
-			"wide"			"o1.6"
-			"tall"			"f0"
-		}
+		"bgcolor_override"	"Black"
 		
-		if_halloween_0
+		if_halloween
 		{
-			"image"		"../console/title_team_halloween2011_widescreen"
-		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012_widescreen"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013_widescreen"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014_widescreen"
-		}
-		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015_widescreen"
-		}
-		if_halloween_5
-		{
-			"image"		"../console/title_scream_fortress_2017_widescreen"
+			"image"		"replay/thumbnails/menu/background_halloween_widescreen"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/title_fullmoon_widescreen"
+			"image"		"replay/thumbnails/menu/background_halloween_widescreen"
 		}
+	}
+
+	"LeftEdgeBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"LeftEdgeBar"
+		"xpos"				"c-1427"
+		"ypos"				"0"
+		"zpos"				"-199"
+		"wide"				"1000"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"Black"
+	}
+	
+	"RightEdgeBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"RightEdgeBar"
+		"xpos"				"c427"
+		"ypos"				"0"
+		"zpos"				"-199"
+		"wide"				"1000"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"Black"
 	}
 
 	"TFLogoImage"
@@ -298,13 +295,18 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-363"
+		"xpos"			"c-298"
 		"ypos"			"72"
-		"wide"			"325"
+		"zpos"			"0"
+		"wide"			"260"
 		"tall"			"380"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
+		"mouseinputenabled"	"1"
+		
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		
+		"show_model"	"1"
 	}
 
 	"MenuBorder"
@@ -558,8 +560,8 @@
 		"xpos"			"c-35"
 		"ypos"			"96"
 		"zpos"			"10"
-		"wide"			"280"
-		"tall"			"316"
+		"wide"			"230"
+		"tall"			"290"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
@@ -571,7 +573,7 @@
 			"fieldName"		"MOTD_HeaderContainer"
 			"xpos"			"2"
 			"ypos"			"2"
-			"wide"			"276"
+			"wide"			"226"
 			"tall"			"22"
 			"visible"		"1"
 
@@ -584,7 +586,7 @@
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"276"
+				"wide"			"226"
 				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
@@ -598,7 +600,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"260"
+			"xpos"			"210"
 			"ypos"			"6"
 			"zpos"			"10"
 			"wide"			"14"
@@ -642,21 +644,6 @@
 			}
 		}
 
-		"MOTD_HeaderIcon"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MOTD_HeaderIcon"
-			"xpos"			"265"
-			"ypos"			"25"
-			"zpos"			"100"
-			"wide"			"25"
-			"tall"			"25"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"class_icons/filter_all_motd"
-			"scaleImage"	"1"
-		}
-
 		"MOTD_TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -666,7 +653,7 @@
 			"textAlignment"	"west"
 			"xpos"			"15"
 			"ypos"			"25"
-			"wide"			"250"
+			"wide"			"200"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
@@ -683,7 +670,7 @@
 			"textAlignment"	"north-west"
 			"xpos"			"15"
 			"ypos"			"40"
-			"wide"			"300"
+			"wide"			"220"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
@@ -697,8 +684,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"99"
-			"wide"			"250"
-			"tall"			"150"
+			"wide"			"200"
+			"tall"			"120"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"item_bg"
@@ -713,8 +700,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"100"
-			"wide"			"250"
-			"tall"			"150"
+			"wide"			"200"
+			"tall"			"120"
 			"visible"		"1"
 			"proportionaltoparent" "1"
 
@@ -725,8 +712,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"100"
-				"wide"			"250"
-				"tall"			"250"
+				"wide"			"200"
+				"tall"			"200"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"class_icons/filter_all"
@@ -739,11 +726,28 @@
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
 			"xpos"			"15"
-			"ypos"			"215"
-			"wide"			"250"
+			"ypos"			"180"
+			"wide"			"200"
 			"tall"			"90"
 			"PaintBackgroundType"	"2"
 			"fgcolor"		"LabelDark"
+
+			"Scrollbar"
+			{
+				"xpos"							"rs1+2"
+				"ypos"							"0"
+				"wide"							"6"
+				"tall"							"f0"
+				"zpos"							"1000"
+				"proportionaltoparent"			"1"
+				"nobuttons"						"1"
+
+				"Slider"
+				{
+					"PaintBackgroundType"		"0"
+					"fgcolor_override"			"Gray"
+				}
+			}
 
 			"MOTD_TextPanel"
 			{
@@ -751,7 +755,7 @@
 				"fieldName"		"MOTD_TextPanel"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"245"
+				"wide"			"215"
 				"tall"			"300"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
@@ -765,7 +769,7 @@
 					"textAlignment"	"north-west"
 					"xpos"			"0"
 					"ypos"			"0"
-					"wide"			"245"
+					"wide"			"215"
 					"tall"			"300"
 					"visible"		"1"
 					"enabled"		"1"
@@ -779,8 +783,8 @@
 		{
 			"ControlName"				"CExButton"
 			"fieldName"					"MOTD_URLButton"
-			"xpos"						"65"
-			"ypos"						"rs1.3"
+			"xpos"						"cs-0.5"
+			"ypos"						"r20"
 			"wide"						"150"
 			"tall"						"15"
 			"visible"					"1"

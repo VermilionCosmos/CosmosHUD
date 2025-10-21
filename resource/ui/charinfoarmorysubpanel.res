@@ -191,11 +191,11 @@
 			"highlight_color"	"177 168 149 255"
 			"itemset_color"		"216 244 9 255"
 			"link_color"		"252 191 27 255"
-			"image_up_arrow"				"scroll_up_off"
-			"image_up_arrow_mouseover"		"scroll_up_on"
-			"image_down_arrow"				"scroll_down_off"
-			"image_down_arrow_mouseover"	"scroll_down_on"
-			"image_line"		"ArmoryScrollbarWell"
+			"image_up_arrow"				""
+			"image_up_arrow_mouseover"		""
+			"image_down_arrow"				""
+			"image_down_arrow_mouseover"	""
+			"image_line"		""
 			"image_box"			"ArmoryScrollbarBox"
 		}
 	}

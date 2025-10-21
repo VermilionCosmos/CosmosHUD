@@ -1,11 +1,6 @@
-
 // TRANSPARENT VIEWMODELS
 
-#base "../cfg/cosmoshud/hud_transparent_viewmodels.txt"
-
-// KILLFEED ROWS
-
-#base "../cfg/cosmoshud/hud_killfeed.txt"
+#base "../cfg/cosmoshud/hud_trans_viewmodels.txt"
 
 // BASE
 

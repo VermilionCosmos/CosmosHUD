@@ -1,5 +1,10 @@
 #base "vguipreload.res"
 
+// CUSTOMIZATIONS
+
+#base "../../../../cfg/cosmoshud/hud_background.txt"
+#base "../../../../cfg/cosmoshud/hud_character_image.txt"
+
 // BASE
 
 #base "#base/default_menu.res"

@@ -1,15 +1,6 @@
-// CROSSHAIRS
-
-#base "../../../../cfg/cosmoshud/hud_crosshair_visibility.txt"
-#base "../../../../cfg/cosmoshud/hud_crosshair_size.txt"
-#base "../../../../cfg/cosmoshud/hud_crosshair_color.txt"
-#base "../../../../cfg/cosmoshud/hud_crosshair_style.txt"
-#base "#customizations/crosshair/crosshair_base.res"
-
-// OTHER CUSTOMIZATIONS
+// CUSTOMIZATIONS
 
 #base "../../../../cfg/cosmoshud/hud_speedometer.txt"
-#base "../../../../cfg/cosmoshud/hud_player_class.txt"
 
 // BASE
 

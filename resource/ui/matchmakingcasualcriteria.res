@@ -177,14 +177,14 @@
 			"ControlName"		"Label"
 			"fieldName"		"Title"
 			"xpos"		"10"
-			"ypos"		"47"
+			"ypos"		"49"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFontSmallBold"
 		
 			"mouseinputenabled"	"0"
 		}

@@ -1,0 +1,38 @@
+"UnlitGeneric"
+{
+"$basetexture" "vgui\replay\thumbnails\loading\stamp_background_map"
+"$ignorez" 1
+"$no_fullbright" "1"
+"$nolod" "1"
+
+$frame 1000
+$fh 500
+$rand 0
+
+"Proxies"
+{
+"UniformNoise"
+{
+"minVal" "0"
+"maxVal" "5.99" // im using vtf with 3 frames
+"resultVar" "$rand"
+}
+
+"LessOrEqual"
+{
+"LessEqualVar" "$frame"
+"greaterVar" "$rand"
+"srcVar1" "$frame"
+"srcVar2" "$fh"
+"resultVar" "$frame"
+}
+
+"AnimatedTexture"
+{
+"animatedTextureVar" "$basetexture"
+"animatedTextureFrameNumVar" "$frame"
+"animatedTextureFrameRate" "0.1" // once every 10 seconds. each second 0.1 of a frame is shifted (10*0.1 = 1, so it scrolls 1 frame)
+}
+
+}
+}

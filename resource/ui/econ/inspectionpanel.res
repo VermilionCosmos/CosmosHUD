@@ -112,7 +112,7 @@
 		"xpos"			"c-298"
 		"ypos"			"50"
 		"zpos"			"-2"
-		"wide"			"416"
+		"wide"			"371"
 		"tall"			"20"	
 		"visible"		"1"
 		"paintborder"	"0"
@@ -132,7 +132,7 @@
 		"xpos"			"c-298"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"416"
+		"wide"			"360"
 		"tall"			"435"
 		"visible"		"1"
 
@@ -200,7 +200,7 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"c291"
+		"xpos"				"c252"
 		"ypos"				"50"
 		"zpos"				"100"
 		"wide"				"45"
@@ -281,7 +281,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
-		"xpos"			"c113" 
+		"xpos"			"c73" 
 		"ypos"			"45"
 		"zpos"			"100"
 		"wide"			"225"
@@ -595,5 +595,10 @@
 		"velocity"		"4"
 
 		"fgcolor_override"	"BackgroundLogo"
+		
+		"fixed_paintkit"
+		{
+			"visible"		"0"
+		}
 	}
 }

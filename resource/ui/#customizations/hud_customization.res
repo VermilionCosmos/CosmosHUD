@@ -21,22 +21,32 @@
 //==============================================================
 // TRANSPARENT VIEWMODELS
 //==============================================================
-#base "hud_customization_transparent_viewmodels.res"
+#base "hud_customization_trans_viewmodels.res"
 
 //==============================================================
-// KILLFEED
+// RANK MEDAL
 //==============================================================
-#base "hud_customization_killfeed.res"
+#base "hud_customization_rank_medal.res"
 
 //==============================================================
-// CROSSHAIR
+// CHARACTER IMAGE
 //==============================================================
-#base "hud_customization_crosshair.res"
+#base "hud_customization_character_image.res"
 
 //==============================================================
-// TARGET ID
+// LOADOUT MODEL MANINPULATION
 //==============================================================
-#base "hud_customization_targetid.res"
+#base "hud_customization_loadout_model.res"
+
+//==============================================================
+// LOADING SCREEN STYLE
+//==============================================================
+#base "hud_customization_loading_screen.res"
+
+//==============================================================
+// BACKGROUND ANIMATION
+//==============================================================
+#base "hud_customization_background.res"
 
 //==============================================================
 // FOLDERCHECK

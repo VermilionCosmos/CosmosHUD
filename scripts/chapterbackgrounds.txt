@@ -1,10 +1,2 @@
-"chapters"
-{
-	1	"background_dustbowl"
-	2	"background_foundry"
-}
-"BackgroundMaps"
-{
-	1	"background_dustbowl"
-	2	"background_foundry"
-}
+"chapters" { }
+"BackgroundMaps" { }

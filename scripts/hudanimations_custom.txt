@@ -28,20 +28,6 @@ event RDNegativeScorePulse
 
 //==================================================================================
 
-event DamagedPlayer
-{
-	StopEvent HitMarker			0.0
-	RunEvent HitMarker			0.00001
-}
-
-event HitMarker
-{
-	Animate CustomCrosshair		FgColor     "Hitmarker"		Linear 	0.0 	0.00001
-	Animate CustomCrosshair		FgColor     "Crosshair"		Linear 	0.10 	0.10001
-}
-
-//==================================================================================
-
 event HudSnapShotReminderIn
 {
 	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001

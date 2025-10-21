@@ -1,4 +1,4 @@
-// OTHER CUSTOMIZATIONS
+// CUSTOMIZATION
 
 #base "../../../../cfg/cosmoshud/hud_reticle_health.txt"
 

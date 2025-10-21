@@ -266,7 +266,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 226 202 255"
+		"image_drawcolor"		"225 216 192 255"
 		"image_armedcolor"		"240 207 78 255"
 		"image_selectedcolor"	"160 140 69 255"
 		
@@ -441,7 +441,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 226 202 255"
+		"image_drawcolor"		"225 216 192 255"
 		"image_armedcolor"		"240 207 78 255"
 		"image_selectedcolor"	"160 140 69 255"
 		
@@ -616,7 +616,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 226 202 255"
+		"image_drawcolor"		"225 216 192 255"
 		"image_armedcolor"		"240 207 78 255"
 		"image_selectedcolor"	"160 140 69 255"
 		
@@ -809,7 +809,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 226 202 255"
+		"image_drawcolor"		"225 216 192 255"
 		"image_armedcolor"		"240 207 78 255"
 		"image_selectedcolor"	"160 140 69 255"
 		
@@ -985,7 +985,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 226 202 255"
+		"image_drawcolor"		"225 216 192 255"
 		"image_armedcolor"		"240 207 78 255"
 		"image_selectedcolor"	"160 140 69 255"
 		
@@ -1161,7 +1161,7 @@
 
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 226 202 255"
+		"image_drawcolor"		"225 216 192 255"
 		"image_armedcolor"		"240 207 78 255"
 		"image_selectedcolor"	"160 140 69 255"
 		
@@ -1354,7 +1354,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 226 202 255"
+		"image_drawcolor"		"225 216 192 255"
 		"image_armedcolor"		"240 207 78 255"
 		"image_selectedcolor"	"160 140 69 255"
 		
@@ -1530,7 +1530,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 226 202 255"
+		"image_drawcolor"		"225 216 192 255"
 		"image_armedcolor"		"240 207 78 255"
 		"image_selectedcolor"	"160 140 69 255"
 		
@@ -1706,7 +1706,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"235 226 202 255"
+		"image_drawcolor"		"225 216 192 255"
 		"image_armedcolor"		"240 207 78 255"
 		"image_selectedcolor"	"160 140 69 255"
 		
@@ -1891,45 +1891,15 @@
 		"font"			"HudFontMediumSmall"
 		"fgcolor"		"HudOffWhite"
 	}
-
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"zpos"			"6"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"EdgeBars"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"EdgeBars"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-10"
-		"wide"				"f0"
-		"tall"				"f0"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 255"
-	}
 	
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"0"		
-		"wide"			"f0"
+		"wide"			"854"
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1949,6 +1919,50 @@
 			"origin_z" "-40"
 		}
 	}	
+
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"zpos"			"6"
+		"wide"			"f0"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+		"PaintBackgroundType"	"0"
+	}
+
+	"LeftEdgeBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"LeftEdgeBar"
+		"xpos"				"c-1427"
+		"ypos"				"0"
+		"zpos"				"100"
+		"wide"				"1000"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"Black"
+	}
+	
+	"RightEdgeBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"RightEdgeBar"
+		"xpos"				"c427"
+		"ypos"				"0"
+		"zpos"				"100"
+		"wide"				"1000"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"Black"
+	}
 
 	"Hint"
 	{	
@@ -2443,11 +2457,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"5"		
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"854"
+		"tall"			"480"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"

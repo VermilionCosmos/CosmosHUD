@@ -33,7 +33,7 @@
 		"fieldName"					"class_loadout_panel"
 		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"p0.914" // "780"
+		"wide"						"f0"
 		"tall"						"310"
 		"zpos"						"500"
 		"visible"					"0"
@@ -45,7 +45,7 @@
 		"fieldName"					"backpack_panel"
 		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"p0.914" // "780"
+		"wide"						"f0"
 		"tall"						"310"
 		"zpos"						"500"
 		"visible"					"0"
@@ -57,7 +57,7 @@
 		"fieldName"					"crafting_panel"
 		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"p0.914" // "780"
+		"wide"						"f0"
 		"tall"						"310"
 		"zpos"						"500"
 		"visible"					"0"
@@ -69,7 +69,7 @@
 		"fieldName"					"armory_panel"
 		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"p0.914" // "780"
+		"wide"						"f0"
 		"tall"						"310"
 		"zpos"						"500"
 		"visible"					"0"
@@ -81,7 +81,7 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"2000"
-		"wide"						"p0.914" // "780"
+		"wide"						"f0"
 		"tall"						"310"
 		"visible"					"0"
 	}
@@ -92,7 +92,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"310"
 		"zpos"			"-3"
-		"wide"			"560"
+		"wide"			"420"
 		"tall"			"80"
 		"visible"		"1"
 		"paintbackground"	"1"
@@ -106,9 +106,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"ScoutButton"
-		"xpos"						"5"
+		"xpos"						"0"
 		"zpos"						"101"
-		"wide"						"55"
+		"wide"						"45"
 		"tall"						"50"
 		"labeltext"					"&1"
 		"textinsetx"				"2000"
@@ -116,7 +116,7 @@
 
 		"paintbackground"			"0"
 
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"225 216 192 255"
 		"image_armedcolor"			"240 207 78 255"
 		"image_selectedcolor"		"160 140 69 255"
 		
@@ -129,7 +129,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"14"
+			"xpos"					"9"
 			"ypos"					"5"
 			"wide"					"27"
 			"tall"					"27"
@@ -146,7 +146,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"ScoutButtonShadow"
-		"xpos"						"-14"
+		"xpos"						"-9"
 		"ypos"						"-6"
 		"zpos"						"100"
 		"wide"						"27"
@@ -205,9 +205,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"SoldierButton"
-		"xpos"						"5"
+		"xpos"						"0"
 		"zpos"						"101"
-		"wide"						"55"
+		"wide"						"45"
 		"tall"						"50"
 		"labeltext"					"&2"
 		"textinsetx"				"2000"
@@ -215,7 +215,7 @@
 
 		"paintbackground"			"0"
 
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"225 216 192 255"
 		"image_armedcolor"			"240 207 78 255"
 		"image_selectedcolor"		"160 140 69 255"
 		
@@ -228,7 +228,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"14"
+			"xpos"					"9"
 			"ypos"					"5"
 			"wide"					"27"
 			"tall"					"27"
@@ -245,7 +245,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SoldierButtonShadow"
-		"xpos"						"-14"
+		"xpos"						"-9"
 		"ypos"						"-6"
 		"zpos"						"100"
 		"wide"						"27"
@@ -304,9 +304,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"PyroButton"
-		"xpos"						"5"
+		"xpos"						"0"
 		"zpos"						"101"
-		"wide"						"55"
+		"wide"						"45"
 		"tall"						"50"
 		"labeltext"					"&3"
 		"textinsetx"				"2000"
@@ -314,7 +314,7 @@
 
 		"paintbackground"			"0"
 
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"225 216 192 255"
 		"image_armedcolor"			"240 207 78 255"
 		"image_selectedcolor"		"160 140 69 255"
 		
@@ -327,7 +327,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"14"
+			"xpos"					"9"
 			"ypos"					"5"
 			"wide"					"27"
 			"tall"					"27"
@@ -344,7 +344,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PyroButtonShadow"
-		"xpos"						"-14"
+		"xpos"						"-9"
 		"ypos"						"-6"
 		"zpos"						"100"
 		"wide"						"27"
@@ -403,9 +403,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"DemomanButton"
-		"xpos"						"5"
+		"xpos"						"0"
 		"zpos"						"101"
-		"wide"						"55"
+		"wide"						"45"
 		"tall"						"50"
 		"labeltext"					"&4"
 		"textinsetx"				"2000"
@@ -413,7 +413,7 @@
 
 		"paintbackground"			"0"
 
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"225 216 192 255"
 		"image_armedcolor"			"240 207 78 255"
 		"image_selectedcolor"		"160 140 69 255"
 		
@@ -426,7 +426,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"14"
+			"xpos"					"9"
 			"ypos"					"5"
 			"wide"					"27"
 			"tall"					"27"
@@ -443,7 +443,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"DemomanButtonShadow"
-		"xpos"						"-14"
+		"xpos"						"-9"
 		"ypos"						"-6"
 		"zpos"						"100"
 		"wide"						"27"
@@ -505,7 +505,7 @@
 		"xpos"						"0"
 		"ypos"						"-2"
 		"zpos"						"101"
-		"wide"						"55"
+		"wide"						"45"
 		"tall"						"50"
 		"labeltext"					"&5"
 		"textinsetx"				"2000"
@@ -513,7 +513,7 @@
 
 		"paintbackground"			"0"
 
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"225 216 192 255"
 		"image_armedcolor"			"240 207 78 255"
 		"image_selectedcolor"		"160 140 69 255"
 		
@@ -526,7 +526,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"14"
+			"xpos"					"9"
 			"ypos"					"5"
 			"wide"					"27"
 			"tall"					"27"
@@ -543,7 +543,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"HeavyButtonShadow"
-		"xpos"						"-14"
+		"xpos"						"-9"
 		"ypos"						"-6"
 		"zpos"						"100"
 		"wide"						"27"
@@ -602,9 +602,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"EngineerButton"
-		"xpos"						"5"
+		"xpos"						"0"
 		"zpos"						"101"
-		"wide"						"55"
+		"wide"						"45"
 		"tall"						"50"
 		"labeltext"					"&6"
 		"textinsetx"				"2000"
@@ -612,7 +612,7 @@
 
 		"paintbackground"			"0"
 
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"225 216 192 255"
 		"image_armedcolor"			"240 207 78 255"
 		"image_selectedcolor"		"160 140 69 255"
 		
@@ -625,7 +625,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"14"
+			"xpos"					"9"
 			"ypos"					"5"
 			"wide"					"27"
 			"tall"					"27"
@@ -642,7 +642,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"EngineerButtonShadow"
-		"xpos"						"-14"
+		"xpos"						"-9"
 		"ypos"						"-6"
 		"zpos"						"100"
 		"wide"						"27"
@@ -701,9 +701,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"MedicButton"
-		"xpos"						"5"
+		"xpos"						"0"
 		"zpos"						"101"
-		"wide"						"55"
+		"wide"						"45"
 		"tall"						"50"
 		"labeltext"					"&7"
 		"textinsetx"				"2000"
@@ -711,7 +711,7 @@
 
 		"paintbackground"			"0"
 
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"225 216 192 255"
 		"image_armedcolor"			"240 207 78 255"
 		"image_selectedcolor"		"160 140 69 255"
 		
@@ -724,7 +724,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"14"
+			"xpos"					"9"
 			"ypos"					"5"
 			"wide"					"27"
 			"tall"					"27"
@@ -741,7 +741,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"MedicButtonShadow"
-		"xpos"						"-14"
+		"xpos"						"-9"
 		"ypos"						"-6"
 		"zpos"						"100"
 		"wide"						"27"
@@ -800,9 +800,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"SniperButton"
-		"xpos"						"5"
+		"xpos"						"0"
 		"zpos"						"101"
-		"wide"						"55"
+		"wide"						"45"
 		"tall"						"50"
 		"labeltext"					"&8"
 		"textinsetx"				"2000"
@@ -810,7 +810,7 @@
 
 		"paintbackground"			"0"
 
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"225 216 192 255"
 		"image_armedcolor"			"240 207 78 255"
 		"image_selectedcolor"		"160 140 69 255"
 		
@@ -823,7 +823,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"14"
+			"xpos"					"9"
 			"ypos"					"5"
 			"wide"					"27"
 			"tall"					"27"
@@ -840,7 +840,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SniperButtonShadow"
-		"xpos"						"-14"
+		"xpos"						"-9"
 		"ypos"						"-6"
 		"zpos"						"100"
 		"wide"						"27"
@@ -899,9 +899,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"SpyButton"
-		"xpos"						"5"
+		"xpos"						"0"
 		"zpos"						"101"
-		"wide"						"55"
+		"wide"						"45"
 		"tall"						"50"
 		"labeltext"					"&9"
 		"textinsetx"				"2000"
@@ -909,7 +909,7 @@
 
 		"paintbackground"			"0"
 
-		"image_drawcolor"			"235 226 202 255"
+		"image_drawcolor"			"225 216 192 255"
 		"image_armedcolor"			"240 207 78 255"
 		"image_selectedcolor"		"160 140 69 255"
 		
@@ -922,7 +922,7 @@
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"SubImage"
-			"xpos"					"14"
+			"xpos"					"9"
 			"ypos"					"5"
 			"wide"					"27"
 			"tall"					"27"
@@ -939,7 +939,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SpyButtonShadow"
-		"xpos"						"-14"
+		"xpos"						"-9"
 		"ypos"						"-6"
 		"zpos"						"100"
 		"wide"						"27"
@@ -994,30 +994,52 @@
 		"enabled"					"0"
 	}
 
-	"CategoryButtonsBackground"
+	"LeftCategoryButtonsBackground"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"r60"
-		"ypos"			"27"
+		"xpos"			"10"
+		"ypos"			"0"
 		"zpos"			"-3"
-		"wide"			"70"
-		"tall"			"305"
+		"wide"			"105"
+		"tall"			"80"
 		"visible"		"1"
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"2"
 		"bgcolor_override"	"BackgroundLogo"
-		
 		"mouseinputenabled"		"0"
+		
+		"pin_to_sibling" "LoadoutButtonsBackground"
+		"pin_corner_to_sibling" "3"
+		"pin_to_sibling_corner" "2"
+	}
+	
+	"RightCategoryButtonsBackground"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"-3"
+		"wide"			"150"
+		"tall"			"80"
+		"visible"		"1"
+		"paintbackground"	"1"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"	"BackgroundLogo"
+		"mouseinputenabled"		"0"
+		
+		"pin_to_sibling" "LoadoutButtonsBackground"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
 	}
 
 	"BackpackButton"
 	{
 		"controlname"		"CExImageButton"
-		"xpos"				"r45"
-		"ypos"				"37"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"7"
-		"wide"				"35"
-		"tall"				"55"
+		"wide"				"45"
+		"tall"				"50"
 		"labeltext"			""
 		"command"			"backpack"
 		
@@ -1034,13 +1056,17 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"35"
-			"tall"			"35"
+			"xpos"			"9"
+			"ypos"			"5"
+			"wide"			"27"
+			"tall"			"27"
 			"scaleimage"	"1"
 			"image"			"..\hud\backpack_01"
 		}
+		
+		"pin_to_sibling" 			"CraftingButton"
+		"pin_corner_to_sibling" 	"3"
+		"pin_to_sibling_corner"		"2"
 	}
 
 	"BackpackLabel"
@@ -1048,7 +1074,7 @@
 		"controlname"	"label"
 		"font"			"LoadoutButtonFont"
 		"labeltext"		"#LoadoutButtonBackpack"
-		"ypos"			"-20"
+		"ypos"			"-15"
 		"zpos"			"1"
 		"auto_wide_tocontents"	"1"
 		"tall"			"10"
@@ -1080,10 +1106,11 @@
 	"CraftingButton"
 	{
 		"controlname"	"CExImageButton"
-		"ypos"			"5"
+		"xpos"			"25"
+		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"35"
-		"tall"			"55"
+		"wide"			"45"
+		"tall"			"50"
 		"labeltext"		""
 		"command"		"crafting"
 
@@ -1100,17 +1127,17 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"35"
-			"tall"			"35"
+			"xpos"			"9"
+			"ypos"			"5"
+			"wide"			"27"
+			"tall"			"27"
 			"scaleimage"	"1"
 			"image"			"../backpack/weapons/w_models/w_toolbox"
 		}
 
-		"pin_to_sibling"		"BackpackButton"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "6"
+		"pin_to_sibling"		"ScoutButton"
+		"pin_corner_to_sibling" "3"
+		"pin_to_sibling_corner" "2"
 	}
 
 	"CraftingLabel"
@@ -1118,7 +1145,7 @@
 		"controlname"	"label"
 		"font"			"LoadoutButtonFont"
 		"labeltext"		"#LoadoutButtonCrafting"
-		"ypos"			"-20"
+		"ypos"			"-15"
 		"zpos"			"1"
 		"auto_wide_tocontents"	"1"
 		"tall"			"10"
@@ -1150,10 +1177,11 @@
 	"ArmoryButton"
 	{
 		"controlname"	"CExImageButton"
-		"ypos"			"5"
+		"xpos"			"25"
+		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"35"
-		"tall"			"55"
+		"wide"			"45"
+		"tall"			"50"
 		"labeltext"		""
 		"command"		"armory"
 
@@ -1168,15 +1196,19 @@
 		
 		"subimage"
 		{
-			"wide"			"35"
-			"tall"			"35"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"9"
+			"ypos"			"5"
+			"wide"			"27"
+			"tall"			"27"
 			"scaleimage"	"1"
 			"image"			"catalog_book"
 		}
 		
-		"pin_to_sibling"		"CraftingButton"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "6"
+		"pin_to_sibling"		"SpyButton"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
 	}
 
 	"ArmoryLabel"
@@ -1184,11 +1216,10 @@
 		"controlname"	"label"
 		"font"			"LoadoutButtonFont"
 		"labeltext"		"#LoadoutButtonArmory"
-		"ypos"			"-20"
+		"ypos"			"-15"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"20"
-		"centerwrap"	"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
 		"mouseinputenabled"	"0"
 
 		"pin_to_sibling" "ArmoryButton"
@@ -1204,9 +1235,8 @@
 		"xpos"			"-1"
 		"ypos"			"1"
 		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"20"
-		"centerwrap"	"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
 		"fgcolor"		"65 65 65 255"
 		"mouseinputenabled"	"0"
 
@@ -1218,10 +1248,11 @@
 	"PaintKitsButton"
 	{
 		"controlname"	"CExImageButton"
-		"ypos"			"5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"35"
-		"tall"			"55"
+		"wide"			"45"
+		"tall"			"50"
 		"labeltext"		""
 		"command"		"paintkit_preview"
 
@@ -1236,15 +1267,19 @@
 		
 		"subimage"
 		{
-			"wide"			"35"
-			"tall"			"35"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"9"
+			"ypos"			"5"
+			"wide"			"27"
+			"tall"			"27"
 			"scaleimage"	"1"
 			"image"			"paintkit_tool"
 		}
 
 		"pin_to_sibling" "ArmoryButton"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "6"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
 	}
 
 	"PaintKitsLabel"
@@ -1252,11 +1287,10 @@
 		"controlname"	"label"
 		"font"			"LoadoutButtonFont"
 		"labeltext"		"#LoadoutButtonWarPaints"
-		"ypos"			"-20"
+		"ypos"			"-15"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"20"
-		"centerwrap"	"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
 		"mouseinputenabled"	"0"
 
 		"pin_to_sibling" "PaintKitsButton"
@@ -1272,9 +1306,8 @@
 		"xpos"			"-1"
 		"ypos"			"1"
 		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"20"
-		"centerwrap"	"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"10"
 		"fgcolor"		"65 65 65 255"
 		"mouseinputenabled"	"0"
 
@@ -1286,10 +1319,11 @@
 	"TradingButton"
 	{
 		"controlname"	"CExImageButton"
-		"ypos"			"5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"35"
-		"tall"			"55"
+		"wide"			"45"
+		"tall"			"50"
 		"labeltext"		""
 		"command"		"trading"
 
@@ -1304,15 +1338,19 @@
 		
 		"subimage"
 		{
-			"wide"			"35"
-			"tall"			"35"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"9"
+			"ypos"			"5"
+			"wide"			"27"
+			"tall"			"27"
 			"scaleimage"	"1"
-			"image"			"../backpack/player/items/crafting/key_large" // trading_parcel
+			"image"			"../backpack/player/items/crafting/key_large"
 		}
 
 		"pin_to_sibling" "PaintKitsButton"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "6"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
 	}
 
 	"TradingLabel"
@@ -1320,7 +1358,7 @@
 		"controlname"	"label"
 		"font"			"LoadoutButtonFont"
 		"labeltext"		"#LoadoutButtonTrading"
-		"ypos"			"-20"
+		"ypos"			"-15"
 		"zpos"			"1"
 		"auto_wide_tocontents"	"1"
 		"tall"			"10"

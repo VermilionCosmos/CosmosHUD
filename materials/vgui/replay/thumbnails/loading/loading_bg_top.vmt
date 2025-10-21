@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/loading/loading_bg_top"
+	"$basetexture" "vgui\replay\thumbnails\loading\loading_bg_top"
 	"$translucent" 1
 	"$vertexcolor" 1
 	"$no_fullbright" 1

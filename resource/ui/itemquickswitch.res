@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
-		"xpos"			"c-13"
-		"ypos"			"c-13"
-		"wide"			"26"
-		"tall"			"93"
+		"xpos"			"c-12"
+		"ypos"			"c-12"
+		"wide"			"24"
+		"tall"			"96"
 		"visible"		"0"
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
@@ -171,85 +171,13 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"xpos"			"1"
-		"ypos"			"2"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"24"
-		"tall"			"90"
+		"tall"			"96"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
-	}
-	
-	"LoadoutShadowA"
-	{
-		"controlname"	"CExLabel"
-		"fieldname"		"LoadoutShadowA"
-		"xpos"			"3"
-		"ypos"			"3"
-		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"20"
-		"labeltext"		"A"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"fgcolor"		"65 65 65 255"
-	}
-	
-	"LoadoutShadowB"
-	{
-		"controlname"	"CExLabel"
-		"fieldname"		"LoadoutShadowB"
-		"xpos"			"0"
-		"ypos"			"3"
-		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"20"
-		"fgcolor"		"65 65 65 255"
-		"labeltext"		"B"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		
-		"pin_to_sibling"	"LoadoutShadowA"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "6"
-	}
-	
-	"LoadoutShadowC"
-	{
-		"controlname"	"CExLabel"
-		"fieldname"		"LoadoutShadowC"
-		"xpos"			"0"
-		"ypos"			"3"
-		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"20"
-		"labeltext"		"C"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"fgcolor"		"65 65 65 255"
-		
-		"pin_to_sibling"	"LoadoutShadowB"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "6"
-	}
-	
-	"LoadoutShadowD"
-	{
-		"controlname"	"CExLabel"
-		"fieldname"		"LoadoutShadowD"
-		"xpos"			"0"
-		"ypos"			"3"
-		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"20"
-		"labeltext"		"D"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"fgcolor"		"65 65 65 255"
-		
-		"pin_to_sibling"	"LoadoutShadowC"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "6"
 	}
 }

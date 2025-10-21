@@ -70,6 +70,8 @@
 		"hover"				"2.0"
 		"font"			"MenuMainTitle"
 		"alpha"			"0"
+		
+		"button_activation_type"	"1"
 	}
 
 	"TeamButton0Label"
@@ -127,6 +129,8 @@
 		"hover"				"2.0"
 		"font"			"MenuMainTitle"
 		"alpha"			"0"
+		
+		"button_activation_type"	"1"
 	}
 
 	"TeamButton1Label"
@@ -180,8 +184,11 @@
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
+		"hover"				"2.0"
 		"font"			"MenuMainTitle"
 		"alpha"			"0"
+
+		"button_activation_type"	"1"
 	}
 	
 	"TeamButton2Label"
@@ -235,8 +242,11 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"
+		"hover"				"2.0"
 		"font"			"MenuMainTitle"
 		"alpha"			"0"
+		
+		"button_activation_type"	"1"
 	}
 
 	"TeamButton3Label"
@@ -378,28 +388,14 @@
 		"pin_to_sibling"	"TeamMenuSpectate"
 	}
 
-	"EdgeBars"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"EdgeBars"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-10"
-		"wide"				"f0"
-		"tall"				"f0"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 255"
-	}
-
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"0"		
-		"wide"			"f0"
+		"wide"			"854"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
@@ -433,6 +429,34 @@
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}		
+	
+	"LeftEdgeBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"LeftEdgeBar"
+		"xpos"				"c-1427"
+		"ypos"				"0"
+		"zpos"				"100"
+		"wide"				"1000"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"Black"
+	}
+	
+	"RightEdgeBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"RightEdgeBar"
+		"xpos"				"c427"
+		"ypos"				"0"
+		"zpos"				"100"
+		"wide"				"1000"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"Black"
+	}
 	
 	"BlueCount"
 	{
@@ -472,10 +496,10 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"bluedoor"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"2"		
-		"wide"			"f0"
+		"wide"			"854"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
@@ -541,10 +565,10 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"reddoor"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"2"		
-		"wide"			"f0"
+		"wide"			"854"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
@@ -610,10 +634,10 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"autodoor"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"2"		
-		"wide"			"f0"
+		"wide"			"854"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
@@ -655,10 +679,10 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"0"		
-		"wide"			"f0"
+		"wide"			"854"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"

@@ -16,20 +16,20 @@
 
 	"Title"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"Title"
-		"xpos"		"8"
-		"ypos"		"22"
-		"zpos"		"99"
-		"wide"		"f0"
-		"tall"		"25"
+		"ControlName"			"Label"
+		"fieldName"				"Title"
+		"xpos"					"8"
+		"ypos"					"21"
+		"zpos"					"99"
+		"wide"					"f0"
+		"tall"					"25"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_HeaderCasual"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanLight"
+		"labeltext"				"#TF_Matchmaking_HeaderCasual"
+		"textAlignment"			"west"
+		"font"					"HudFontMediumBold"
+		"fgcolor_override"		"TanLight"
 		
-		"mouseinputenabled"	"0"
+		"mouseinputenabled"		"0"
 	}
 
 	"criteria"

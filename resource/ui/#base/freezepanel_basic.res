@@ -130,7 +130,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"200"
+			"wide"			"170"
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
@@ -162,7 +162,7 @@
 			
 			"xpos_minmode"	"104"
 			"ypos_minmode"	"54"
-			"wide_minmode"	"180"
+			"wide_minmode"	"170"
 			"tall_minmode"	"18"
 			"font_minmode"	"TargetIDFontSmall"
 		}

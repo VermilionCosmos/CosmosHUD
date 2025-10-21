@@ -1,0 +1,131 @@
+"resource/ui/#customizations/hud_customization_loadout_model.res"
+{
+	"SafeMode"
+	{
+		"Customizations_Scroller"
+		{
+			"LoadoutModel"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"LoadoutModel"
+				"xpos"								"10"
+				"ypos"								"260"
+				"zpos"								"0"
+				"wide"								"120"
+				"tall"								"80"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"paintBackground"					"1"
+				"paintBackgroundType"				"2"
+				"bgcolor_override"					"TanDarker"
+				
+				"Title"
+				{
+					"ControlName"						"CExLabel"
+					"fieldName"							"Title"
+					"xpos"								"0"
+					"ypos"								"0"
+					"zpos"								"0"
+					"wide"								"f0"
+					"tall"								"15"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"use_proportional_insets"			"1"
+					"labelText"							"#CHud_Customizations_LoadoutModel"
+					"font"								"ItemFontNameSmallest"
+					"centerwrap"						"1"
+					"paintbackground"					"1"
+					"paintBackgroundType"				"2"
+					"roundedcorners"					"3"
+					"bgcolor_override"					"TanDark"
+				}
+
+				"ImageBorder"
+				{
+					"ControlName"						"EditablePanel"
+					"fieldName"							"ImageBorder"
+					"xpos"								"5"
+					"ypos"								"20"
+					"zpos"								"0"
+					"wide"								"55"
+					"tall"								"55"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"paintBackground"					"1"
+					"paintBackgroundType"				"2"
+					"bgcolor_override"					"TanDark"
+				}
+
+				"Image"
+				{
+					"ControlName"						"ImagePanel"
+					"fieldName"							"Image"
+					"xpos"								"-5"
+					"ypos"								"-5"
+					"zpos"								"6"
+					"wide"								"45"
+					"tall"								"45"
+					"visible"							"1"
+					"enabled"							"1"
+					"mouseinputenabled"					"0"
+					"scaleImage"						"1"
+					"proportionaltoparent"				"1"
+					"image"								"replay/thumbnails/customizations/loadout_model"
+					
+					"pin_to_sibling"					"ImageBorder"
+				}
+
+				"Full"
+				{
+					"ControlName"						"CExButton"
+					"fieldName"							"Full"
+					"xpos"								"r55"
+					"ypos"								"20"
+					"zpos"								"20"
+					"wide"								"50"
+					"tall"								"15"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"labelText"							"#TF_Full"
+					"font"								"ItemFontNameSmallest"
+					"textAlignment"						"center"
+					"command"							"engine hud_loadout_model_full"
+					"actionsignallevel"					"4"
+					"sound_armed"						"UI/buttonrollover.wav"
+					"sound_depressed"					"UI/buttonclick.wav"
+					"sound_released"					"UI/buttonclickrelease.wav"
+				}
+
+				"Simple"
+				{
+					"ControlName"						"CExButton"
+					"fieldName"							"Simple"
+					"xpos"								"0"
+					"ypos"								"5"
+					"zpos"								"20"
+					"wide"								"50"
+					"tall"								"15"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"labelText"							"#TF_Simple"
+					"font"								"ItemFontNameSmallest"
+					"textAlignment"						"center"
+					"command"							"engine hud_loadout_model_simple"
+					"actionsignallevel"					"4"
+					"sound_armed"						"UI/buttonrollover.wav"
+					"sound_depressed"					"UI/buttonclick.wav"
+					"sound_released"					"UI/buttonclickrelease.wav"
+					
+					"pin_to_sibling"					"Full"
+					"pin_corner_to_sibling"				"4"
+					"pin_to_sibling_corner"				"6"
+				}
+			}
+		}
+	}
+}

@@ -141,7 +141,19 @@
 		"subimage"		"glyph_forums"
 		"OnlyAtMenu"	"1"
 	}
-		
+	
+	"LeftEdgeBar"
+	{
+		"command"		"null" // Needs to think its a button to hide from main menu
+		"OnlyAtMenu"	"1"
+	}
+	
+	"RightEdgeBar"
+	{
+		"command"		"null" // Needs to think its a button to hide from main menu
+		"OnlyAtMenu"	"1"
+	}
+	
 	// In-Game
 	"MutePlayersButton"
 	{

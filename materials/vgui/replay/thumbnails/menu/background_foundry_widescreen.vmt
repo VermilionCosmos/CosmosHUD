@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+
+	"$basetexture" "vgui\replay\thumbnails\menu\background_foundry_widescreen"
+
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "15" 
+		}
+	}
+}

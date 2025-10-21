@@ -1,0 +1,131 @@
+"resource/ui/#customizations/hud_customization_transparent_viewmodels.res"
+{
+	"SafeMode"
+	{
+		"Customizations_Scroller"
+		{
+			"TransparentViewmodels"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"TransparentViewmodels"
+				"xpos"								"385"
+				"ypos"								"65"
+				"zpos"								"0"
+				"wide"								"120"
+				"tall"								"80"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"paintBackground"					"1"
+				"paintBackgroundType"				"2"
+				"bgcolor_override"					"TanDarker"
+				
+				"Title"
+				{
+					"ControlName"						"CExLabel"
+					"fieldName"							"Title"
+					"xpos"								"0"
+					"ypos"								"0"
+					"zpos"								"0"
+					"wide"								"f0"
+					"tall"								"15"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"use_proportional_insets"			"1"
+					"labelText"							"#CHud_Customizations_TransViewmodels"
+					"font"								"ItemFontNameSmallest"
+					"centerwrap"						"1"
+					"paintbackground"					"1"
+					"paintBackgroundType"				"2"
+					"roundedcorners"					"3"
+					"bgcolor_override"					"TanDark"
+				}
+
+				"ImageBorder"
+				{
+					"ControlName"						"EditablePanel"
+					"fieldName"							"ImageBorder"
+					"xpos"								"5"
+					"ypos"								"20"
+					"zpos"								"0"
+					"wide"								"55"
+					"tall"								"55"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"paintBackground"					"1"
+					"paintBackgroundType"				"2"
+					"bgcolor_override"					"TanDark"
+				}
+
+				"Image"
+				{
+					"ControlName"						"ImagePanel"
+					"fieldName"							"Image"
+					"xpos"								"-5"
+					"ypos"								"-5"
+					"zpos"								"6"
+					"wide"								"45"
+					"tall"								"45"
+					"visible"							"1"
+					"enabled"							"1"
+					"mouseinputenabled"					"0"
+					"scaleImage"						"1"
+					"proportionaltoparent"				"1"
+					"image"								"replay/thumbnails/customizations/trans_viewmodels"
+					
+					"pin_to_sibling"					"ImageBorder"
+				}
+
+				"On"
+				{
+					"ControlName"						"CExButton"
+					"fieldName"							"On"
+					"xpos"								"r55"
+					"ypos"								"20"
+					"zpos"								"20"
+					"wide"								"50"
+					"tall"								"15"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"labelText"							"#TF_On"
+					"font"								"ItemFontNameSmallest"
+					"textAlignment"						"center"
+					"command"							"engine hud_trans_viewmodels_on"
+					"actionsignallevel"					"4"
+					"sound_armed"						"UI/buttonrollover.wav"
+					"sound_depressed"					"UI/buttonclick.wav"
+					"sound_released"					"UI/buttonclickrelease.wav"
+				}
+
+				"Off"
+				{
+					"ControlName"						"CExButton"
+					"fieldName"							"Off"
+					"xpos"								"0"
+					"ypos"								"5"
+					"zpos"								"20"
+					"wide"								"50"
+					"tall"								"15"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"labelText"							"#TF_Off"
+					"font"								"ItemFontNameSmallest"
+					"textAlignment"						"center"
+					"command"							"engine hud_trans_viewmodels_off"
+					"actionsignallevel"					"4"
+					"sound_armed"						"UI/buttonrollover.wav"
+					"sound_depressed"					"UI/buttonclick.wav"
+					"sound_released"					"UI/buttonclickrelease.wav"
+					
+					"pin_to_sibling"					"On"
+					"pin_corner_to_sibling"				"4"
+					"pin_to_sibling_corner"				"6"
+				}
+			}
+		}
+	}
+}

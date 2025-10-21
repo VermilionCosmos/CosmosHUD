@@ -1,20 +1,12 @@
 Scheme
 {
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	// Range specificies the characters to be used from the custom font before falling back to a default font
-	// characters in the range not specificed in the font will appear empty
-	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
-
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-		"font" "resource/fonts/tf2_linux.ttf"	[$LINUX]
-		"font" "resource/fonts/tf2.ttf"			[$WINDOWS]
+		"font" "resource/fonts/TF2.ttf"
 		"name" "TF2"
 		
 			"russian"
@@ -96,7 +88,7 @@ Scheme
 		}
 		"4" 
 		{
-		"font" "resource/fonts/tf2secondary.ttf"
+		"font" "resource/fonts/TF2Secondary.ttf"
 		"name" "TF2 Secondary"
 		
 			"russian"
@@ -178,7 +170,7 @@ Scheme
 		}
 		"5" 
 		{
-		"font" "resource/fonts/tf2professor.ttf"
+		"font" "resource/fonts/TF2Professor.ttf"
 		"name" "TF2 Professor"
 
 			"russian"
@@ -260,7 +252,7 @@ Scheme
 		}
 		"6" 
 		{
-		"font" "resource/fonts/tf2build.ttf"
+		"font" "resource/fonts/TF2Build.ttf"
 		"name" "TF2 Build"
 		
 			"russian"

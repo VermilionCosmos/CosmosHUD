@@ -34,20 +34,20 @@
 
 	"Title"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"Title"
-		"xpos"		"26"
-		"ypos"		"21"
-		"zpos"		"99"
-		"wide"		"f0"
-		"tall"		"25"
+		"ControlName"			"Label"
+		"fieldName"				"Title"
+		"xpos"					"26"
+		"ypos"					"21"
+		"zpos"					"99"
+		"wide"					"f0"
+		"tall"					"25"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_MM_OpenSettings"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumSmallBold"
-		"fgcolor_override"	"TanLight"
+		"labeltext"				"#TF_MM_OpenSettings"
+		"textAlignment"			"west"
+		"font"					"HudFontMediumSmallBold"
+		"fgcolor_override"		"TanLight"
 		
-		"mouseinputenabled"	"0"
+		"mouseinputenabled"		"0"
 	}
 
 	"InviteModeLabel"

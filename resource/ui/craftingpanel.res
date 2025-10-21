@@ -101,7 +101,7 @@
 			"depressedFgColor_override" "178 82 22 255"
 		}
 		
-		"filter_xoffset"	"-258"
+		"filter_xoffset"	"-292"
 		"filter_ypos"		"45"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
