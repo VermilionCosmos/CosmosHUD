@@ -128,6 +128,23 @@
 		}
 	}
 
+	"SeparatorBar"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"SeparatorBar"
+		"xpos"			"0"
+		"ypos"			"251"
+		"wide"			"255"
+		"tall"			"3"
+		"PaintBackgroundType" "4"
+		"bgcolor_override"	"BackgroundLogo"
+		
+		"if_event"
+		{
+			"ypos"		"301"
+		}
+	}
+
 	// Community Entries
 	"ComfigQuickplayEntry"
 	{
