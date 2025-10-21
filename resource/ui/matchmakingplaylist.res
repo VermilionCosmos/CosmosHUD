@@ -1,11 +1,12 @@
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
+	// Official Entries
 	"EventEntry"
 	{
 		"ControlName"	"CEventPlayListEntry"
 		"fieldName"		"EventEntry"
 		"xpos"			"0"
-		"ypos"			"3"
+		"ypos"			"0"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
@@ -28,14 +29,14 @@
 		"button_command"	"play_casual"
 		"desc_token"		"#MMenu_PlayList_Casual_Desc"
 		"matchgroup"		"7" // k_eTFMatchGroup_Casual_12v12
-
-		if_event
+		
+		"if_event"
 		{
-			"ypos"			"53"
+			"ypos"		"50"
 		}
 	}
 
-	"CompetitiveEntry"
+	"CompetitiveEntry" // Hidden
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CompetitiveEntry"
@@ -57,43 +58,11 @@
 		"button_command"	"play_mvm"
 		"desc_token"		"#MMenu_PlayList_MvM_Desc"
 		"matchgroup"		"1" // k_eTFMatchGroup_MvM_MannUp
-
-		if_event
+		
+		"if_event"
 		{
-			"ypos"			"153"
+			"ypos"		"100"
 		}
-	}
-
-	"ComfigQuickplayEntry"
-	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"ComfigQuickplayEntry"
-		"xpos"			"0"
-		"ypos"			"260"
-		"tall"			"45"
-		"wide"			"255"
-		"proportionaltoparent"	"1"
-
-		"image_name"		"replay\thumbnails\menu\comfig_quickplay"
-		"button_token"		"#MMenu_PlayList_Comfig_Quickplay_Button"
-		"button_command"	"url https://quickplay.tf"
-		"desc_token"		"#MMenu_PlayList_Comfig_Quickplay_Desc"
-	}
-
-	"PotatoMvMEntry"
-	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"PotatoMvMEntry"
-		"xpos"			"0"
-		"ypos"			"310"
-		"tall"			"45"
-		"wide"			"255"
-		"proportionaltoparent"	"1"
-
-		"image_name"		"replay\thumbnails\menu\potato_mvm"
-		"button_token"		"#MMenu_PlayList_Potato_MvM_Button"
-		"button_command"	"url https://potato.tf"
-		"desc_token"		"#MMenu_PlayList_Potato_MvM_Desc"
 	}
 
 	"ServerBrowserEntry"
@@ -110,10 +79,10 @@
 		"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
 		"button_command"	"play_community"
 		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
-
-		if_event
+		
+		"if_event"
 		{
-			"ypos"			"203"
+			"ypos"		"150"
 		}
 	}
 
@@ -131,10 +100,10 @@
 		"button_token"		"#MMenu_PlayList_CreateServer_Button"
 		"button_command"	"create_server"
 		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
-
-		if_event
+		
+		"if_event"
 		{
-			"ypos"			"303"
+			"ypos"		"200"
 		}
 	}
 
@@ -152,10 +121,53 @@
 		"button_token"		"#MMenu_PlayList_Training_Button"
 		"button_command"	"play_training"
 		"desc_token"		"#MMenu_PlayList_Training_Desc"
-
-		if_event
+		
+		"if_event"
 		{
-			"ypos"			"253"
+			"ypos"		"250"
+		}
+	}
+
+	// Community Entries
+	"ComfigQuickplayEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"ComfigQuickplayEntry"
+		"xpos"			"0"
+		"ypos"			"260"
+		"tall"			"45"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
+
+		"image_name"		"replay\thumbnails\menu\comfig_quickplay"
+		"button_token"		"#MMenu_PlayList_Comfig_Quickplay_Button"
+		"button_command"	"url https://quickplay.tf"
+		"desc_token"		"#MMenu_PlayList_Comfig_Quickplay_Desc"
+		
+		"if_event"
+		{
+			"ypos"		"310"
+		}
+	}
+
+	"PotatoMvMEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"PotatoMvMEntry"
+		"xpos"			"0"
+		"ypos"			"310"
+		"tall"			"45"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
+
+		"image_name"		"replay\thumbnails\menu\potato_mvm"
+		"button_token"		"#MMenu_PlayList_Potato_MvM_Button"
+		"button_command"	"url https://potato.tf"
+		"desc_token"		"#MMenu_PlayList_Potato_MvM_Desc"
+		
+		"if_event"
+		{
+			"ypos"		"360"
 		}
 	}
 
@@ -166,7 +178,7 @@
 		"xpos"			"rs1-1"
 		"ypos"			"0"
 		"tall"			"f0"
-		"wide"			"5" // This gets slammed from client schme.  GG.
+		"wide"			"6"
 		"zpos"			"1000"
 		"nobuttons"		"1"
 		"proportionaltoparent"	"1"
