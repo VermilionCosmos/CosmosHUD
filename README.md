@@ -6,7 +6,7 @@ This HUD is a many months attempt to bring old TF2 and new TF2 together. It's st
 
 I hope you really enjoy it, and please let me know any feedback you have!
 
-<img width="1920" height="1080" alt="20251004211215_2" src="https://github.com/user-attachments/assets/6c21ba4e-4da5-4dfb-891c-7773a3f1016d" />
+<img width="1920" height="1080" alt="main-menu-small" src="https://github.com/user-attachments/assets/76973c2d-4985-4ae6-a43a-b15bdbcce797" />
 
 # Features
 
@@ -34,7 +34,6 @@ I hope you really enjoy it, and please let me know any feedback you have!
 
 Everything in this HUD has been used with permission. If I have somehow made a mistake please contact me so I can fix it.
 
-
 **Based Originally On:**
 
 - RoseyLemonz - <a href="https://gamebanana.com/mods/485626">Center HUD</a>
@@ -45,7 +44,7 @@ Everything in this HUD has been used with permission. If I have somehow made a m
 
 - pilso - <a href="https://gamebanana.com/wips/86687">Classic-Style Animated Backgrounds</a>
 
-- lennyfaic - <a href="https://gamebanana.com/mods/591386">Consistent & Missing Kill Icons</a>
+- lennyfaic - <a href="https://gamebanana.com/mods/591386">Consistent & Missing Kill Icons</a> /  <a href="https://gamebanana.com/mods/562644">16:9 Background Fixes</a>
 
 - DarSitam - <a href="https://gamebanana.com/mods/463048">DarHUD</a>
 
@@ -53,9 +52,16 @@ Everything in this HUD has been used with permission. If I have somehow made a m
 
 - Kaia Brodbecker - <a href="https://gamebanana.com/mods/440617">Kaia's Improved HUD Portraits</a>
 
+- trowoglodyte - <a href="https://gamebanana.com/mods/463048">Default VTF Crosshairs Remade</a>
+
+- jakadak - <a href="https://github.com/jakadak/TF2-extended-fonts">TF2 Extended Fonts</a>
 
 **Inspiration From:**
 
 - Pyromaniax - <a href="https://gamebanana.com/mods/609267">Cooler HUD</a>
 
 - sparkless - <a href="https://gamebanana.com/mods/596766">ViviHUD</a>
+
+**Special Thanks**
+
+- JarateKing - <a href="https://github.com/JarateKing/TF2-Hud-Reference">TF2 HUD Reference</a>
