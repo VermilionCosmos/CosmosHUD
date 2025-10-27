@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"LoadoutModel"
 				"xpos"								"10"
-				"ypos"								"260"
+				"ypos"								"345"
 				"zpos"								"0"
 				"wide"								"120"
 				"tall"								"80"

@@ -31,9 +31,9 @@
 	{
 		"ControlName"				"CClassLoadoutPanel"
 		"fieldName"					"class_loadout_panel"
-		"xpos"						"0"
+		"xpos"						"cs-0.5"
 		"ypos"						"0"
-		"wide"						"f0"
+		"wide"						"854"
 		"tall"						"310"
 		"zpos"						"500"
 		"visible"					"0"
@@ -1019,7 +1019,7 @@
 		"xpos"			"10"
 		"ypos"			"0"
 		"zpos"			"-3"
-		"wide"			"150"
+		"wide"			"105"
 		"tall"			"80"
 		"visible"		"1"
 		"paintbackground"	"1"
@@ -1324,6 +1324,8 @@
 		"zpos"			"7"
 		"wide"			"45"
 		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"0"
 		"labeltext"		""
 		"command"		"trading"
 
@@ -1362,6 +1364,8 @@
 		"zpos"			"1"
 		"auto_wide_tocontents"	"1"
 		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"0"
 		"mouseinputenabled"	"0"
 
 		"pin_to_sibling" "TradingButton"
@@ -1379,6 +1383,8 @@
 		"zpos"			"0"
 		"auto_wide_tocontents"	"1"
 		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"65 65 65 255"
 		"mouseinputenabled"	"0"
 

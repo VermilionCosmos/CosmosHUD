@@ -996,9 +996,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"c+40"
-		"wide"			"364"
-		"tall"			"80"
+		"ypos"			"c+38"
+		"wide"			"400"
+		"tall"			"300"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1361,9 +1361,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"c-95"
+		"ypos"			"c-102"
 		"wide"			"364"
-		"tall"			"80"
+		"tall"			"82"
 		"PaintBackgroundType"	"0"
 	}
 

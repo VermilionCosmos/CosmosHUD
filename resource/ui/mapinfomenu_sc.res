@@ -6,48 +6,59 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoContinueHintIcon"
-		"xpos"			"c246"
-		"ypos"			"r38"
-		"zpos"			"7"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"c-60+205"
+		"ypos"			"r39"
+		"zpos"			"11"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"West"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
+	}
+	
+	"AltMapInfoContinue"
+	{
+		"labelText"		"#TF_Continue_NoKey"
 	}
 
 	"MapInfoIntroHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoIntroHintIcon"
-		"xpos"			"cs-0.5"
-		"ypos"			"r66"
-		"zpos"			"7"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"c-50"
+		"ypos"			"r39"
+		"zpos"			"11"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Y"
-		"textAlignment"	"West"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_toggle_function"
+	}
+
+	"MapInfoWatchIntro"
+	{
+		"labelText"		"#TF_WatchIntro_NoKey"
 	}
 
 	"MapInfoBackHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoBackHintIcon"
-		"xpos"			"c-270"
-		"ypos"			"r38"
-		"zpos"			"7"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"c-60-195"
+		"ypos"			"r39"
+		"zpos"			"-10"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"West"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
+	}
+	
+	"MapInfoBack"
+	{
+		"labelText"		"#TF_Back_NoKey"
 	}
 }

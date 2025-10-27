@@ -4,10 +4,10 @@
 	{
 		"Customizations_Scroller"
 		{
-			"Last_Damage"
+			"LastDamage"
 			{
 				"ControlName"						"EditablePanel"
-				"fieldName"							"Last_Damage"
+				"fieldName"							"LastDamage"
 				"xpos"								"10"
 				"ypos"								"65"
 				"zpos"								"0"

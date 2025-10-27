@@ -64,7 +64,7 @@
 		"fieldName"		"CancelButton"
 		"xpos"			"160"
 		"ypos"			"165"
-		"zpos"			"20"
+		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"25"
 		"visible"		"1"
@@ -97,7 +97,7 @@
 		"fieldName"		"ConfirmButton"
 		"xpos"			"20"
 		"ypos"			"165"
-		"zpos"			"20"
+		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"25"
 		"visible"		"1"
@@ -122,5 +122,5 @@
 		"sound_released"			"ui/buttonclickrelease.wav"
 		"stay_armed_on_click"		"1"
 		"button_activation_type"	"2"
-	}			
+	}
 }

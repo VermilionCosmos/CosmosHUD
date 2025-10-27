@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"500"
-		"wide"			"p0.914" // "780"
+		"wide"			"854"
 		"tall"			"310"
 		"visible"		"1"
 		"enabled"		"1"
@@ -15,7 +15,7 @@
 		
 		"item_ypos"		"45"
 		"item_ydelta"	"80"
-		"item_backpack_offcenter_x"		"-251"
+		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"5"
 		"item_backpack_ydelta"			"5"
 
@@ -88,21 +88,25 @@
 	
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-315"
+		"xpos"			"112"
 		"ypos"			"4"
 		"zpos"			"10"
+		"wide"			"20"
 		"tall"			"30"
+		"autoResize"	"1"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-		
 		"auto_wide_tocontents"	"1"
+		
+		"fgcolor_override" "200 80 60 255"
 	}
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -221,7 +225,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NameFilterTextBG"
-		"xpos"			"c173"
+		"xpos"			"600"
 		"ypos"			"230"
 		"zpos"			"1"
 		"wide"			"126"
@@ -247,7 +251,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"cs-0.5"
+		"xpos"			"127"
 		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"600"
@@ -262,8 +266,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BottomLine"
-		"xpos"			"cs-0.5"
-		"ypos"			"278-57"
+		"xpos"			"127"
+		"ypos"			"221"
 		"zpos"			"2"
 		"wide"			"600"
 		"tall"			"10"
@@ -291,7 +295,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"center"
-		"xpos"			"c-310"
+		"xpos"			"127"
 		"ypos"			"120"
 		"zpos"			"10"
 		"wide"			"600"
@@ -305,7 +309,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"377"
 		"ypos"			"265"
 		"zpos"			"500"
 		"wide"			"100"
@@ -345,7 +349,7 @@
 		"labelText"		"#OnlyAllowUniqueQuality"
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
-		"xpos"			"c-311"
+		"xpos"			"116"
 		"ypos"			"340"
 		"zpos"			"1"
 		"wide"			"290"
@@ -360,7 +364,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c95"
+		"xpos"			"r132"
 		"ypos"			"331"
 		"zpos"			"20"
 		"wide"			"200"
@@ -394,7 +398,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c95"
+		"xpos"			"132"
 		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"200"
@@ -473,7 +477,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"cs-0.5"
+		"xpos"			"402"
 		"ypos"			"286-57"
 		"zpos"			"1"
 		"wide"			"50"
@@ -528,7 +532,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
+		"xpos"			"c-200"
 		"ypos"			"270"
 		"zpos"			"100"
 		"wide"			"300"

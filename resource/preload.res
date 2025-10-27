@@ -81,7 +81,7 @@
 		"image"			"mvm/class_upgraded"
 	}
 	
-	// Class Portraits
+	// 2D Character Portraits
 	"class_spy_outline"
 	{
 		"ControlName"	"ImagePanel"

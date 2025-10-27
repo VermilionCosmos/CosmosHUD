@@ -4,28 +4,20 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"class_loadout_panel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"500"
-		"wide"			"780"
+		"wide"			"854"
 		"tall"			"310"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"item_xpos_offcenter_a"	"-288"
-		"item_xpos_offcenter_b"	"197"
 		"item_ypos"				"45"
 		"item_ydelta"			"59"
 		"item_mod_wide"			"0"
 		
-		"item_backpack_offcenter_x"	"-255"
-		"item_backpack_xdelta"		"4"
-		"item_backpack_ydelta"		"3"
-
-		"button_xpos_offcenter"	"175"
-		"button_ypos"			"85"
-		"button_ydelta"			"80"
-		"button_override_delete_xpos" "0"
+		"item_xpos_offcenter_a"	"-288"
+		"item_xpos_offcenter_b"	"197"
 		
 		"modelpanels_kv"
 		{
@@ -134,7 +126,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"LoadoutPresetBG"
-		"xpos"			"cs-0.5"
+		"xpos"			"385"
 		"ypos"			"281"
 		"zpos"			"-2"
 		"wide"			"84"
@@ -190,14 +182,17 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-315"
+		"xpos"			"112"
 		"ypos"			"4"
-		"zpos"			"1"
-		"wide"			"15"
+		"zpos"			"10"
+		"wide"			"20"
 		"tall"			"30"
+		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"auto_wide_tocontents"	"1"
+		
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -243,14 +238,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"cs-0.5"
+		"xpos"			"127"
 		"ypos"			"36"
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"10"
-		"tileimage"		"1"
-		"tileVertically" "0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"loadout_dotted_line"
+		"tileImage"		"1"
+		"tileVertically" "0"
 	}
 
 	"TauntCaratLabel"
@@ -317,9 +314,9 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"				"cs-0.5"
+		"xpos"				"274"
 		"ypos"				"0"
-		"zpos"				"2"		
+		"zpos"				"4"
 		"wide"				"306"
 		"tall"				"280"
 		"autoResize"		"0"
@@ -510,7 +507,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribSmall"
-		"xpos"			"c-190"
+		"xpos"			"237"
 		"ypos"			"45"
 		"zpos"			"10"
 		"wide"			"100"
@@ -521,22 +518,37 @@
 		"wrap"			"1"
 	}
 	
+	"LoadoutPresetAnchor"
+	{
+		"controlName"	"EditablePanel"
+		"fieldName"		"LoadoutPresetAnchor"
+		"xpos"			"c309"
+		"ypos"			"329"
+	}
+	
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f0"
+		"zpos"			"2"
+		"wide"			"120"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabPosition"	"0"
+		"paintbackground"	"0"
+		"IgnoreScheme"	"1"
+				
+		"pin_to_sibling"		"LoadoutPresetAnchor"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
 	}
 
 	"ItemOptionsPanel"
 	{
 		"ControlName"	"CLoadoutParticleSlider"
 		"fieldname"		"ItemOptionsPanel"
-		"xpos"			"-154"
+		"xpos"			"3"
 		"ypos"			"6"
 		"zpos"			"100"
 		"wide"			"140"
@@ -708,7 +720,7 @@
 	"ModelControlsPanel"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"c-190"
+		"xpos"			"237"
 		"ypos"			"r220"
 		"zpos"			"15"
 		"wide"			"60"

@@ -49,6 +49,7 @@
 		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
 	}
+	
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"

@@ -8,20 +8,11 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}
-
-	"SysMenu"
-	{
-		"ControlName"	"Menu"
-		"fieldName"		"SysMenu"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"64"
-		"tall"			"24"
-		"visible"		"0"
-		"enabled"		"0"
+		"tabPosition"	"0"
 	}
 
 	"MapInfo"
@@ -32,24 +23,13 @@
 		"ypos"			"34"
 		"wide"			"450"
 		"tall"			"365"
+		"autoResize"	"3"
+		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
+		"tabPosition"	"0"
 	}
 
-	"mapname"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"mapname"
-		"xpos"			"c-310"
-		"ypos"			"50"
-		"wide"			"90"
-		"tall"			"24"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		""
-		"textAlignment"	"west"
-	}
-	
 	"teambutton0"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -224,7 +204,7 @@
 		"fgcolor"		"65 65 65 255"
 		
 		"pin_to_sibling"	"TeamButton2Label"
-	}
+	}	
 	
 	"teambutton3"
 	{
@@ -248,7 +228,7 @@
 		
 		"button_activation_type"	"1"
 	}
-
+	
 	"TeamButton3Label"
 	{
 		"ControlName"	"CExLabel"
@@ -282,7 +262,7 @@
 		"fgcolor"		"65 65 65 255"
 		
 		"pin_to_sibling"	"TeamButton3Label"
-	}
+	}	
 	
 	"CancelButton"
 	{
@@ -392,11 +372,13 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"		
-		"wide"			"854"
+		"wide"			"f0"
 		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
@@ -409,6 +391,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_hidef" "305"
+			"origin_x_lodef" "320"
 			"origin_y" "0"
 			"origin_z" "-34"
 		}
@@ -496,11 +480,13 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"bluedoor"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"		
-		"wide"			"854"
+		"wide"			"f0"
 		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
@@ -513,6 +499,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_lodef" "320"
+			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -565,11 +553,13 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"reddoor"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"		
-		"wide"			"854"
+		"wide"			"f0"
 		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
@@ -582,6 +572,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_lodef" "320"
+			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -634,11 +626,13 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"autodoor"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"		
-		"wide"			"854"
+		"wide"			"f0"
 		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
@@ -651,6 +645,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_lodef" "320"
+			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -679,11 +675,13 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"		
-		"wide"			"854"
+		"wide"			"f0"
 		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
@@ -696,6 +694,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_lodef" "320"
+			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -719,7 +719,7 @@
 			}
 		}
 	}			
-	
+
 	"HighlanderLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -807,3 +807,4 @@
 		"scaleImage"	"1"	
 	}
 }
+

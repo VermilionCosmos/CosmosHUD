@@ -2,7 +2,7 @@
 // Drowning Sounds
 //==================================================================================
 
-"TFPlayer.Drown"
+"TFPlayer.Drown" // Disabled
 {
 	"channel"		"CHAN_VOICE"
 	"volume"		"0"
@@ -28,41 +28,6 @@
 	"volume"		"0"
 	"wave"			"@weapons\medigun_no_target.wav"
 }
-"WeaponMedigun_Vaccinator.Charged_tier_01" // This sound plays repeatedly causing it to be extremely loud. Disabled to prevent that.
-{
-	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_NONE"
-	"volume"		"0"
-	"wave"			"@weapons\vaccinator_charge_tier_01.wav"
-}
-"WeaponMedigun_Vaccinator.Charged_tier_02" // Adjusted
-{
-	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"		"0.42"
-	"wave"			")weapons\vaccinator_charge_tier_02.wav"
-}
-"WeaponMedigun_Vaccinator.Charged_tier_03" // Adjusted
-{
-	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"		"0.42"
-	"wave"			")weapons\vaccinator_charge_tier_03.wav"
-}
-"WeaponMedigun_Vaccinator.Charged_tier_04" // Adjusted
-{
-	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"		"0.42"
-	"wave"			")weapons\vaccinator_charge_tier_04.wav"
-}
-"WeaponMedigun_Vaccinator.InvulnerableOn" // Adjusted
-{
-	"channel"		"CHAN_WEAPON"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"		"0.25"
-	"wave"			")player\invuln_on_vaccinator.wav"
-}
 
 //==================================================================================
 // Matchmaking Sounds
@@ -75,6 +40,7 @@
 	"volume"		"0"
 	"wave"			"@ui\mm_xp_chime.wav"
 }
+
 "MatchMaking.RankProgressTickUp" // Disabled
 {
 	"channel"		"CHAN_STATIC"
@@ -82,6 +48,7 @@
 	"volume"		"0"
 	"wave"			"@ui\mm_rank_progress_tick_up.wav"
 }
+
 "MatchMaking.RankProgressTickDown" // Disabled
 {
 	"channel"		"CHAN_STATIC"
@@ -89,6 +56,7 @@
 	"volume"		"0"
 	"wave"			"@ui\mm_rank_progress_tick_down.wav"
 }
+
 //"MatchMaking.ScoreboardPanelSlide"
 //{
 //	"channel"		"CHAN_STATIC"
@@ -97,6 +65,8 @@
 //	"wave"			"@ui\mm_scoreboardpanel_slide.wav"
 //}
 
+//==================================================================================
+// Chat Sounds
 //==================================================================================
 
 "Chat.DisplayText"
@@ -107,6 +77,7 @@
 	"soundlevel"  	"SNDLVL_NORM"
 	"wave"			"ui/message.wav"
 }
+
 "HudChat.Message"
 {
 	"channel"		"CHAN_STREAM"

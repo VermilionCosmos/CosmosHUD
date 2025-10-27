@@ -12,6 +12,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"MainMenuHighlightBorder"
+		"mouseinputenabled"		"0"
 	}
 
 	"TextLabel"
@@ -28,10 +29,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		"centerwrap"	"1"
 		"labelText"		"#Notifications_Present"
 		"textAlignment"	"center"
-		"font"			"ItemFontAttribSmall"
+		"font"			"HudFontSmallest"
 		"proportionaltoparent"	"1"
+		"mouseinputenabled"		"0"
 	}
 }

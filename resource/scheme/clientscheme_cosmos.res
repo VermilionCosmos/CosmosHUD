@@ -342,21 +342,22 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"scroll_button_off"
-			"src_corner_height"		"16"
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"	
+			"src_corner_height"		"14"
+			"src_corner_width"		"14"
+			"draw_corner_width"		"2"
+			"draw_corner_height" 	"2"	
 		}
+		
 		ArmoryScrollbarWell
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
 			"image"					"scroll_well"
-			"src_corner_height"		"16"
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"	
+			"src_corner_height"		"14"
+			"src_corner_width"		"14"
+			"draw_corner_width"		"2"
+			"draw_corner_height" 	"2"	
 		}
 	}
 	
@@ -1650,6 +1651,31 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"40"
 				"weight"	"200"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"XPMeterFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"6"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		ControllerHintText
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"8"
+				"weight"	"0"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"additive"	"0"
 				"antialias" "1"
 			}

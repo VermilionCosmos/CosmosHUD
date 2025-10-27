@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TriggerButton"
-		"xpos"			"144"
+		"xpos"			"148"
 		"if_one_button"
 		{
 			"xpos"	"165"

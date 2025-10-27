@@ -2,108 +2,87 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"470"
-		"tall"			"170"
+		"wide"			"364"
+		"tall"			"82"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		
+		"border"		"TFFatLineBorder"
 	}
 
-	"Divider"
+	"TitleLabelBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Divider"
-		"xpos"			"8"
-		"ypos"			"65"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TitleLabelBG"
+		"xpos"			"2"
+		"ypos"			"2"
 		"zpos"			"1"
-		"wide"			"456"
-		"tall"			"2"
-		"fillcolor"		"255 222 208 255"
-	}
-
-	"IcoReelIcon"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"IcoReelIcon"
-		"xpos"			"10"
-		"ypos"			"-3"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"360"
+		"tall"			"20"
 		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_taunt_menu_icon"
-		"iconColor"		"255 255 255 255"
+		"PaintBackgroundType" "2"
+		
+		"bgcolor_override"	"0 0 0 180"
 	}
-	
+
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
-		"xpos"			"60"			// align me to the left edge of the first selection
-		"ypos"			"5"
+		"font"			"HudFontSmallBold"
+		"xpos"			"22"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"360"
-		"tall"			"38"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
-		"textAlignment"	"West"
-	}
-	
-	"TitleLabelDropshadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
-		"xpos"			"62"			// align me to the left edge of the first selection
-		"ypos"			"7"
-		"zpos"			"3"
-		"wide"			"360"
-		"tall"			"38"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Taunt_Title"
-		"textAlignment"	"West"
+		"textAlignment"	"west"
 	}
 
+	"ReelIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ReelIcon"
+		"xpos"			"4"
+		"ypos"			"4"
+		"zpos"			"2"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"replay\thumbnails\loadout\glyph_taunts"
+		"drawcolor"		"TanLight"
+	}
+
+	// Taunt 1
 	"TauntModelPanel1"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel1"
-		"xpos"			"21"
-		"ypos"			"80"
+		"xpos"			"6"
+		"ypos"			"24"
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"44"
+		"tall"			"34"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
-		"model_ypos"	"5"
-		"model_tall"	"38"
-		"text_ypos"		"46"
-		"text_center"	"1"
-		"text_forcesize"	"3"
+		"model_xpos"	"0"
+		"model_ypos"	"3"
+		"model_wide"	"45"
+		"model_tall"	"35"
 		"model_only"		"1"
-			
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"visible"		"0"
-		}
 			
 		"itemmodelpanel"
 		{
@@ -113,33 +92,27 @@
 		}
 	}
 
+	// Taunt 2
 	"TauntModelPanel2"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel2"
-		"xpos"			"75"
-		"ypos"			"80"
+		"xpos"			"50"
+		"ypos"			"24"
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"44"
+		"tall"			"34"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-
-		"model_ypos"	"5"
-		"model_tall"	"38"
-		"text_ypos"		"46"
-		"text_center"	"1"
-		"text_forcesize"	"3"
-		"model_only"		"1"
 			
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"visible"		"0"
-		}
+		"model_xpos"	"0"
+		"model_ypos"	"3"
+		"model_wide"	"45"
+		"model_tall"	"35"
+		"model_only"		"1"
 			
 		"itemmodelpanel"
 		{
@@ -148,34 +121,28 @@
 			"allow_rot"				"0"
 		}
 	}
-
+	
+	// Taunt 3
 	"TauntModelPanel3"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel3"
-		"xpos"			"129"
-		"ypos"			"80"
+		"xpos"			"94"
+		"ypos"			"24"
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"44"
+		"tall"			"34"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
-		"model_ypos"	"5"
-		"model_tall"	"38"
-		"text_ypos"		"46"
-		"text_center"	"1"
-		"text_forcesize"	"3"
+		"model_xpos"	"0"
+		"model_ypos"	"3"
+		"model_wide"	"45"
+		"model_tall"	"35"
 		"model_only"		"1"
-			
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"visible"		"0"
-		}
 			
 		"itemmodelpanel"
 		{
@@ -184,34 +151,28 @@
 			"allow_rot"				"0"
 		}
 	}
-
+	
+	// Taunt 4
 	"TauntModelPanel4"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel4"
-		"xpos"			"183"
-		"ypos"			"80"
+		"xpos"			"138"
+		"ypos"			"24"
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"44"
+		"tall"			"34"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
-		"model_ypos"	"5"
-		"model_tall"	"38"
-		"text_ypos"		"46"
-		"text_center"	"1"
-		"text_forcesize"	"3"
+		"model_xpos"	"0"
+		"model_ypos"	"3"
+		"model_wide"	"45"
+		"model_tall"	"35"
 		"model_only"		"1"
-			
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"visible"		"0"
-		}
 			
 		"itemmodelpanel"
 		{
@@ -220,34 +181,28 @@
 			"allow_rot"				"0"
 		}
 	}
-
+	
+	// Taunt 5
 	"TauntModelPanel5"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel5"
-		"xpos"			"237"
-		"ypos"			"80"
+		"xpos"			"182"
+		"ypos"			"24"
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"44"
+		"tall"			"34"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
-		"model_ypos"	"5"
-		"model_tall"	"38"
-		"text_ypos"		"46"
-		"text_center"	"1"
-		"text_forcesize"	"3"
+		"model_xpos"	"0"
+		"model_ypos"	"3"
+		"model_wide"	"45"
+		"model_tall"	"35"
 		"model_only"		"1"
-			
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"visible"		"0"
-		}
 			
 		"itemmodelpanel"
 		{
@@ -256,34 +211,28 @@
 			"allow_rot"				"0"
 		}
 	}
-
+	
+	// Taunt 6
 	"TauntModelPanel6"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel6"
-		"xpos"			"291"
-		"ypos"			"80"
+		"xpos"			"226"
+		"ypos"			"24"
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"44"
+		"tall"			"34"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
-		"model_ypos"	"5"
-		"model_tall"	"38"
-		"text_ypos"		"46"
-		"text_center"	"1"
-		"text_forcesize"	"3"
+		"model_xpos"	"0"
+		"model_ypos"	"3"
+		"model_wide"	"45"
+		"model_tall"	"35"
 		"model_only"		"1"
-			
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"visible"		"0"
-		}
 			
 		"itemmodelpanel"
 		{
@@ -292,34 +241,28 @@
 			"allow_rot"				"0"
 		}
 	}
-
+	
+	// Taunt 7
 	"TauntModelPanel7"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel7"
-		"xpos"			"345"
-		"ypos"			"80"
+		"xpos"			"270"
+		"ypos"			"24"
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"44"
+		"tall"			"34"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
-		"model_ypos"	"5"
-		"model_tall"	"38"
-		"text_ypos"		"46"
-		"text_center"	"1"
-		"text_forcesize"	"3"
+		"model_xpos"	"0"
+		"model_ypos"	"3"
+		"model_wide"	"45"
+		"model_tall"	"35"
 		"model_only"		"1"
-			
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"visible"		"0"
-		}
 			
 		"itemmodelpanel"
 		{
@@ -328,34 +271,28 @@
 			"allow_rot"				"0"
 		}
 	}
-
+	
+	// Taunt 8
 	"TauntModelPanel8"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel8"
-		"xpos"			"393"
-		"ypos"			"80"
+		"xpos"			"314"
+		"ypos"			"24"
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"44"
+		"tall"			"34"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
-		"model_ypos"	"5"
-		"model_tall"	"38"
-		"text_ypos"		"46"
-		"text_center"	"1"
-		"text_forcesize"	"3"
+		"model_xpos"	"0"
+		"model_ypos"	"3"
+		"model_wide"	"45"
+		"model_tall"	"35"
 		"model_only"		"1"
-			
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"visible"		"0"
-		}
 			
 		"itemmodelpanel"
 		{
@@ -369,11 +306,11 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"PrevHintIcon"
-		"xpos"			"20"
-		"ypos"			"146"
-		"zpos"			"200"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"10"
+		"ypos"			"63"
+		"zpos"			"2"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
@@ -384,11 +321,11 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"NextHintIcon"
-		"xpos"			"425"
-		"ypos"			"146"
-		"zpos"			"200"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"340"
+		"ypos"			"63"
+		"zpos"			"2"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
@@ -399,11 +336,11 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"TauntHintIcon"
-		"xpos"			"322"
-		"ypos"			"146"
+		"xpos"			"139"
+		"ypos"			"63"
 		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
@@ -415,26 +352,29 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
 		"font"			"ControllerHintText"
-		"xpos"			"352"
-		"ypos"			"140"
+		"xpos"			"2"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"39"
+		"wide"			"70"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
 		"textAlignment"	"West"
+		
+		"pin_to_sibling"	"TauntHintIcon"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"WeaponTauntHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"WeaponTauntHintIcon"
-		"xpos"			"170"
-		"ypos"			"146"
-		"zpos"			"2"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"240"
+		"ypos"			"63"
+		"zpos"			"1"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
@@ -446,31 +386,34 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponTauntHintLabel"
 		"font"			"ControllerHintText"
-		"xpos"			"200"
-		"ypos"			"140"
+		"xpos"			"2"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"39"
+		"wide"			"70"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Weapon_NoKey"
 		"textAlignment"	"West"
+		
+		"pin_to_sibling"		"WeaponTauntHintIcon"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CancelHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelHintIcon"
-		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"146"
+		"xpos"			"53"
+		"ypos"			"62"
 		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
+		"textAlignment"	"West"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
-
 	}
 	
 	"CancelHintLabel"
@@ -478,29 +421,32 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintLabel"
 		"font"			"ControllerHintText"
-		"xpos"			"100"
-		"ypos"			"140"
+		"xpos"			"2"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"39"
+		"wide"			"70"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"West"
+		
+		"pin_to_sibling"		"CancelHintIcon"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"ButtonLegendBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ButtonLegendBG"
-		"xpos"			"15"
-		"ypos"			"144"
-		"zpos"			"0"
-		"wide"			"440"
-		"tall"			"30"
+		"xpos"			"2"
+		"ypos"			"60"
+		"zpos"			"1"
+		"wide"			"360"
+		"tall"			"20"
 		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 190"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType" "2"
+		
+		"bgcolor_override"	"60 60 60 180"
 	}
 }

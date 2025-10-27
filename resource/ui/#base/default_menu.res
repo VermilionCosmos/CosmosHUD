@@ -1964,10 +1964,10 @@
 		}
 	}
 	
-	"ViewReplaysButton"
+	"ViewDemosButton"
 	{
 		"ControlName"					"EditablePanel"
-		"fieldName"						"ViewReplaysButton"
+		"fieldName"						"ViewDemosButton"
 		"xpos"							"0"
 		"ypos"							"0"
 		"zpos"							"2"
@@ -1995,7 +1995,7 @@
 			"use_proportional_insets"	"1"
 			"proportionaltoparent"		"1"
 
-			"textinsetx"				"31"
+			"textinsetx"				"33"
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"west"
 
@@ -2412,47 +2412,6 @@
 		"enabled"						"1"
 		"image"							"loadout_solid_line"
 		"scaleImage"					"1"
-	}
-
-	"BackToReplaysButton"
-	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"BackToReplaysButton"
-		"xpos"							"c-300"
-		"ypos"							"437"
-		"zpos"							"1"
-		"wide"							"170"
-		"tall"							"25"
-		"visible"						"0"
-		"enabled"						"1"
-		"Command"						"exitreplayeditor"
-
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
-
-		"labelText"						"#GameUI_GameMenu_ExitReplay"
-		"font"							"HudFontSmallBold"
-		"textAlignment"					"west"
-		"textinsetx"					"35"
-
-		"use_proportional_insets" 		"1"
-		"proportionaltoparent"			"1"
-
-		"image_drawcolor"				"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"				"ImagePanel"
-			"fieldName"					"SubImage"
-			"xpos"						"16"
-			"ypos"						"6"
-			"zpos"						"1"
-			"wide"						"14"
-			"tall"						"14"
-			"visible"					"1"
-			"enabled"					"1"
-			"scaleImage"				"1"
-			"image"						"glyph_quit"
-		}
 	}
 
 	"icon_generator"

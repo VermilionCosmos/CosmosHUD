@@ -102,15 +102,15 @@
 	{
 		"label"			""
 		"tooltip"		"#MMenu_Tooltip_ReportBug"
-		"command"		"engine bug"
+		"command"		"engine itemtest"
 		"subimage"		"replay/thumbnails/menu/glyph_bugs"
 	}
 	
-	"ViewReplaysButton"
+	"ViewDemosButton"
 	{
-		"label"			"#MMenu_Replays"
+		"label"			"#MMenu_ViewDemos"
 		"tooltip"		""
-		"command"		"engine replay_reloadbrowser"
+		"command"		"engine demoui"
 		"subimage"		"glyph_tv"
 		"OnlyAtMenu"	"1"
 	}

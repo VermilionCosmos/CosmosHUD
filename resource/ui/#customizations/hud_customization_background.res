@@ -9,7 +9,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"Background"
 				"xpos"								"10"
-				"ypos"								"175"
+				"ypos"								"260"
 				"zpos"								"0"
 				"wide"								"120"
 				"tall"								"80"

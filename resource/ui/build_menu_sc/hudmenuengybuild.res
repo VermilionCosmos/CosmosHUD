@@ -2,29 +2,43 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
-		"ypos"			"10"
-		"zpos"			"0"
-		"wide"			"450"
-		"tall"			"185"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"254"
+		"tall"			"116"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		
+		"border"		"TFFatLineBorder"
+	}
+	
+	"TitleLabelBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TitleLabelBG"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"1"
+		"wide"			"250"
+		"tall"			"20"
+		"visible"		"1"
+		"PaintBackgroundType" "2"
+		
+		"bgcolor_override"	"0 0 0 180"
 	}
 	
 	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
-		"xpos"			"15"
-		"ypos"			"-5"
-		"zpos"			"1"
-		"wide"			"48"
-		"tall"			"48"
+		"xpos"			"4"
+		"ypos"			"4"
+		"zpos"			"2"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -32,52 +46,19 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
-	"BuildIconShadow"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildIconShadow"
-		"xpos"			"16"
-		"ypos"			"-4"
-		"zpos"			"0"
-		"wide"			"48"
-		"tall"			"48"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_build"
-		"iconColor"		"0 0 0 255"
-	}
-	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
-		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"3"
+		"font"			"HudFontSmallBold"
+		"xpos"			"22"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"300"
-		"tall"			"38"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Weapon_PDA_Engineer"
-		"textAlignment"	"West"
-	}
-	
-	"TitleLabelDropshadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
-		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"5"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"38"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Weapon_PDA_Engineer"
+		"labelText"		"#Hud_menu_engineering_title"
 		"textAlignment"	"West"
 	}
 		
@@ -85,11 +66,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"12"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"1"
 	}	
 	
@@ -97,11 +78,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"72"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"1"
 	}	
 	
@@ -109,11 +90,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_3"
-		"xpos"			"225"
-		"ypos"			"47"
+		"xpos"			"132"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"1"
 	}	
 	
@@ -121,23 +102,23 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_4"
-		"xpos"			"325"
-		"ypos"			"47"
+		"xpos"			"192"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"1"
-	}
+	}	
 	
 	"already_built_item_1"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"already_built_item_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"12"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"0"
 	}	
 	
@@ -145,11 +126,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"already_built_item_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"72"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"0"
 	}	
 	
@@ -157,11 +138,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"already_built_item_3"
-		"xpos"			"225"
-		"ypos"			"47"
+		"xpos"			"132"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"0"
 	}	
 	
@@ -169,11 +150,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"already_built_item_4"
-		"xpos"			"325"
-		"ypos"			"47"
+		"xpos"			"192"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"0"
 	}
 	
@@ -181,11 +162,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"cant_afford_item_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"12"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"0"
 	}	
 	
@@ -193,11 +174,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"cant_afford_item_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"72"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"0"
 	}	
 	
@@ -205,11 +186,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"cant_afford_item_3"
-		"xpos"			"225"
-		"ypos"			"47"
+		"xpos"			"132"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"0"
 	}	
 	
@@ -217,13 +198,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"cant_afford_item_4"
-		"xpos"			"325"
-		"ypos"			"47"
+		"xpos"			"192"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"50"
+		"tall"			"80"
 		"visible"		"0"
-	}	
+	}
 	
 	"active_selection_bg"
 	{
@@ -231,25 +212,25 @@
 		"fieldName"		"active_selection_bg"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"115"
-		"tall"			"138"
+		"zpos"			"0"
+		"wide"			"60"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"TanLight"
+		"scaleImage"	"1"
+		
+		"border"		"TFFatLineBorder"
 	}
 	
 	"BuildHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"BuildHintIcon"
-		"xpos"			"300"			// align me to the left edge of the first selection
-		"ypos"			"156"
+		"xpos"			"99"
+		"ypos"			"97"
 		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
@@ -262,15 +243,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildHintLabel_Bright"
 		"font"			"ControllerHintText"
-		"xpos"			"332"
-		"ypos"			"150"
+		"xpos"			"2"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"39"
+		"wide"			"40"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Build"
 		"textAlignment"	"West"
+		
+		"pin_to_sibling"	"BuildHintIcon"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 	
 	"BuildHintLabel_Dim"
@@ -279,26 +263,26 @@
 		"fieldName"		"BuildHintLabel_Dim"
 		"font"			"ControllerHintText"
 		"fgcolor"		"TanDark"
-		"xpos"			"332"
-		"ypos"			"150"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"39"
+		"wide"			"40"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Build"
 		"textAlignment"	"West"
+		
+		"pin_to_sibling"	"BuildHintLabel_Bright"
 	}
 	
 	"DestroyHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"DestroyHintIcon"
-		"xpos"			"180"			// align me to the left edge of the first selection
-		"ypos"			"156"
+		"xpos"			"160"
+		"ypos"			"97"
 		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
@@ -311,15 +295,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyHintLabel_Bright"
 		"font"			"ControllerHintText"
-		"xpos"			"212"			// align me to the left edge of the first selection
-		"ypos"			"151"
+		"xpos"			"2"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"39"
+		"wide"			"40"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Demolish"
 		"textAlignment"	"West"
+		
+		"pin_to_sibling"		"DestroyHintIcon"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 	
 	"DestroyHintLabel_Dim"
@@ -328,26 +315,26 @@
 		"fieldName"		"DestroyHintLabel_Dim"
 		"font"			"ControllerHintText"
 		"fgcolor"		"TanDark"
-		"xpos"			"212"			// align me to the left edge of the first selection
-		"ypos"			"150"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"39"
+		"wide"			"40"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Demolish"
 		"textAlignment"	"West"
+		
+		"pin_to_sibling"		"DestroyHintLabel_Bright"
 	}
 	
 	"CancelHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelHintIcon"
-		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"156"
+		"xpos"			"40"
+		"ypos"			"97"
 		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"West"
@@ -360,40 +347,44 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintLabel"
 		"font"			"ControllerHintText"
-		"xpos"			"102"
-		"ypos"			"150"
+		"xpos"			"2"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"39"
+		"wide"			"40"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"West"
+		
+		"pin_to_sibling"		"CancelHintIcon"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
+
 	"ButtonLegendBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ButtonLegendBG"
-		"xpos"			"15"
-		"ypos"			"154"
+		"xpos"			"2"
+		"ypos"			"94"
 		"zpos"			"1"
-		"wide"			"420"
-		"tall"			"30"
+		"wide"			"250"
+		"tall"			"20"
 		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 190"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType" "2"
+		
+		"bgcolor_override"	"60 60 60 180"
 	}
 
 	"PrevHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"PrevHintIcon"
-		"xpos"			"20"
-		"ypos"			"156"
+		"xpos"			"10"
+		"ypos"			"97"
 		"zpos"			"2"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
@@ -404,11 +395,11 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"NextHintIcon"
-		"xpos"			"402"
-		"ypos"			"156"
+		"xpos"			"230"
+		"ypos"			"97"
 		"zpos"			"2"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"

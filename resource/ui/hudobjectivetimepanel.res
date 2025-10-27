@@ -303,7 +303,7 @@
 		"fieldName"			"MatchHudActiveTimerBG"
 		"xpos"				"22"
 		"xpos_minmode"		"18"
-		"ypos"				"3"
+		"ypos"				"2"
 		"ypos_minmode"		"2"
 		"zpos"				"0"
 		"wide"				"70"

@@ -15,21 +15,6 @@
 		"tabPosition"	"0"
 	}
 	
-	"SysMenu"
-	{
-		"ControlName"	"Menu"
-		"fieldName"		"SysMenu"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"64"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-	}
-	
 	"random"
 	{
 		"ControlName"		"CExImageButton"
@@ -1896,10 +1881,10 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"		
-		"wide"			"854"
+		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"

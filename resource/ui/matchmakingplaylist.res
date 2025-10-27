@@ -137,7 +137,7 @@
 		"wide"			"255"
 		"tall"			"3"
 		"PaintBackgroundType" "4"
-		"bgcolor_override"	"BackgroundLogo"
+		"bgcolor_override"	"TanLight"
 		
 		"if_event"
 		{

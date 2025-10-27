@@ -4,6 +4,7 @@
 
 #base "../../../../cfg/cosmoshud/hud_background.txt"
 #base "../../../../cfg/cosmoshud/hud_character_image.txt"
+#base "../../../../cfg/cosmoshud/hud_reduced_main_menu.txt"
 
 // BASE
 

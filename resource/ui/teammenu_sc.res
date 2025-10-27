@@ -2,34 +2,17 @@
 
 "Resource/UI/TeamMenu.res"
 {
-	"TeamMenuSelect"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuSelect"
-		"xpos"			"cs-0.5"
-		"ypos"			"r38"
-		"zpos"			"6"
-		"wide"			"450"
-		"tall"			"26"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_SelectATeam"
-		"textAlignment"	"center"
-		"font"			"MenuMainTitle"
-		"fgcolor"		"HudOffWhite"
-	}
 	"PrevOptionHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"PrevOptionHintIcon"
-		"xpos"			"c-145"
-		"ypos"			"r38"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"c-105"
+		"ypos"			"r40"
+		"wide"			"20"
+		"tall"			"20"
 		"zpos"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"south-west"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_left"
 	}
@@ -38,10 +21,10 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"NextOptionHintIcon"
-		"xpos"			"c120"
-		"ypos"			"r38"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"c85"
+		"ypos"			"r40"
+		"wide"			"20"
+		"tall"			"20"
 		"zpos"			"5"
 		"visible"		"1"
 		"enabled"		"1"
@@ -53,10 +36,10 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinBluHintIcon"
-		"xpos"			"c8"
-		"ypos"			"290"
-		"wide"			"50"
-		"tall"			"50"
+		"xpos"			"c-24"
+		"ypos"			"56"
+		"wide"			"20"
+		"tall"			"20"
 		"zpos"			"5"
 		"visible"		"0"
 		"enabled"		"1"
@@ -68,10 +51,10 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinRedHintIcon"
-		"xpos"			"c194"
-		"ypos"			"290"
-		"wide"			"50"
-		"tall"			"50"
+		"xpos"			"c164"
+		"ypos"			"56"
+		"wide"			"20"
+		"tall"			"20"
 		"zpos"			"5"
 		"visible"		"0"
 		"enabled"		"1"
@@ -83,10 +66,10 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinAutoHintIcon"
-		"xpos"			"c-252"
-		"ypos"			"290"
-		"wide"			"50"
-		"tall"			"50"
+		"xpos"			"c-286"
+		"ypos"			"55"
+		"wide"			"20"
+		"tall"			"20"
 		"zpos"			"5"
 		"visible"		"0"
 		"enabled"		"1"
@@ -98,10 +81,10 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinSpectatorsHintIcon"
-		"xpos"			"c-118"
-		"ypos"			"290"
-		"wide"			"50"
-		"tall"			"50"
+		"xpos"			"c-137"
+		"ypos"			"264"
+		"wide"			"20"
+		"tall"			"20"
 		"zpos"			"5"
 		"visible"		"0"
 		"enabled"		"1"
@@ -109,19 +92,93 @@
 		"actionName"	"menu_select"
 	}
 	
+	"CancelButton"
+	{
+		"labelText"		"#TF_Cancel_NoKey"
+	}
+
 	"CancelHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelHintIcon"
-		"xpos"			"r185"
-		"ypos"			"r38"
+		"xpos"			"c-60-195"
+		"ypos"			"r39"
 		"zpos"			"7"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"West"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
+	}
+
+	"teambutton0"
+	{
+		"tabposition"	"3"
+		"labelText"		""
+	}
+
+	"teambutton0Label"
+	{
+		"visible"		"0"
+	}
+
+	"teambutton0LabelShadow"
+	{
+		"visible"		"0"
+	}
+
+	"teambutton1"
+	{
+		"tabposition"	"4"
+		"labelText"		""
+	}
+	
+	"teambutton1Label"
+	{
+		"visible"		"0"
+	}
+
+	"teambutton1LabelShadow"
+	{
+		"visible"		"0"
+	}
+
+	"teambutton0Labe2Shadow"
+	{
+		"visible"		"0"
+	}
+
+	"teambutton2"
+	{
+		"tabposition"	"1"
+		"labelText"		""
+	}
+	
+	"teambutton2Label"
+	{
+		"visible"		"0"
+	}
+	
+	"teambutton2LabelShadow"
+	{
+		"visible"		"0"
+	}
+	
+	"teambutton3"
+	{
+		"tabposition"	"2"
+		"labelText"		""
+	}
+	
+	"teambutton3Label"
+	{
+		"visible"		"0"
+	}
+	
+	"teambutton3LabelShadow"
+	{
+		"visible"		"0"
 	}
 }

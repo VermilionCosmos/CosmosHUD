@@ -168,7 +168,7 @@
 		"ypos"			"45"
 		"zpos"			"0"
 		"wide"			"288"
-		"tall"			"230"
+		"tall"			"210"
 		"visible"		"1"
 
 		"Data_TextRichText"
@@ -179,9 +179,9 @@
 			"labelText"		"%datatext%"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
-			"ypos"			"138"
+			"ypos"			"0"
 			"wide"			"288"
-			"tall"			"230"
+			"tall"			"210"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -191,11 +191,11 @@
 			"highlight_color"	"177 168 149 255"
 			"itemset_color"		"216 244 9 255"
 			"link_color"		"252 191 27 255"
-			"image_up_arrow"				""
-			"image_up_arrow_mouseover"		""
-			"image_down_arrow"				""
-			"image_down_arrow_mouseover"	""
-			"image_line"		""
+			"image_up_arrow"				"scroll_up_off"
+			"image_up_arrow_mouseover"		"scroll_up_on"
+			"image_down_arrow"				"scroll_down_off"
+			"image_down_arrow_mouseover"	"scroll_down_on"
+			"image_line"		"ArmoryScrollbarWell"
 			"image_box"			"ArmoryScrollbarBox"
 		}
 	}
@@ -208,7 +208,7 @@
 		"ypos"			"45"
 		"zpos"			"1"
 		"wide"			"288"
-		"tall"			"147"
+		"tall"			"144"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"2"
@@ -299,6 +299,90 @@
 		"tileVertically" "0"
 		"image"			"loadout_dotted_line"
 	}
+
+	"SkipToStartButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"SkipToStartButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"|<"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"skiptostart"
+		
+		"paintbackground"   		"0"
+
+		"border_default"    		"MainMenuButtonDefault"
+		"border_armed"      		"MainMenuButtonArmed"
+		"border_disabled"			"MainMenuButtonDisabled"
+
+		"defaultFgColor_override" 	"46 43 42 255"
+		"armedFgColor_override" 	"235 226 202 255"
+		"depressedFgColor_override" "235 235 235 255"
+		
+		"sound_armed"				"ui/buttonrollover.wav"
+		"sound_depressed"			"ui/buttonclick.wav"
+		"sound_released"			"ui/buttonclickrelease.wav"
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+
+		"pin_to_sibling" 		"PrevPageSkipButton"
+		"pin_corner_to_sibling" "5"
+		"pin_to_sibling_corner" "7"
+	}		
+
+	"PrevPageSkipButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageSkipButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"<<"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"prevpageskip"
+		
+		"paintbackground"   		"0"
+
+		"border_default"    		"MainMenuButtonDefault"
+		"border_armed"      		"MainMenuButtonArmed"
+		"border_disabled"			"MainMenuButtonDisabled"
+
+		"defaultFgColor_override" 	"46 43 42 255"
+		"armedFgColor_override" 	"235 226 202 255"
+		"depressedFgColor_override" "235 235 235 255"
+		
+		"sound_armed"				"ui/buttonrollover.wav"
+		"sound_depressed"			"ui/buttonclick.wav"
+		"sound_released"			"ui/buttonclickrelease.wav"
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+
+		"pin_to_sibling"		"PrevPageButton"
+		"pin_corner_to_sibling" "5"
+		"pin_to_sibling_corner" "7"
+	}		
 
 	"PrevPageButton"
 	{
@@ -399,14 +483,96 @@
 		"pin_to_sibling_corner" "1"
 	}		
 		
+	"NextPageSkipButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPageSkipButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		">>"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"nextpageskip"
 		
+		"paintbackground"   		"0"
+
+		"border_default"    		"MainMenuButtonDefault"
+		"border_armed"      		"MainMenuButtonArmed"
+		"border_disabled"			"MainMenuButtonDisabled"
+
+		"defaultFgColor_override" 	"46 43 42 255"
+		"armedFgColor_override" 	"235 226 202 255"
+		"depressedFgColor_override" "235 235 235 255"
+		
+		"sound_armed"				"ui/buttonrollover.wav"
+		"sound_depressed"			"ui/buttonclick.wav"
+		"sound_released"			"ui/buttonclickrelease.wav"
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+
+		"pin_to_sibling"		"NextPageButton"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}		
+	
+	"SkipToEndButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"SkipToEndButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		">|"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"skiptoend"
+		
+		"paintbackground"   		"0"
+
+		"border_default"    		"MainMenuButtonDefault"
+		"border_armed"      		"MainMenuButtonArmed"
+		"border_disabled"			"MainMenuButtonDisabled"
+
+		"defaultFgColor_override" 	"46 43 42 255"
+		"armedFgColor_override" 	"235 226 202 255"
+		"depressedFgColor_override" "235 235 235 255"
+		
+		"sound_armed"				"ui/buttonrollover.wav"
+		"sound_depressed"			"ui/buttonclick.wav"
+		"sound_released"			"ui/buttonclickrelease.wav"
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+
+		"pin_to_sibling"		"NextPageSkipButton"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
 		
 	"WikiButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"WikiButton"
 		"xpos"			"c119"
-		"ypos"			"286"
+		"ypos"			"258"
 		"zpos"			"20"
 		"wide"			"60"
 		"tall"			"20"
@@ -443,7 +609,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ViewSetButton"
-		"xpos"			"5"
+		"xpos"			"10"
 		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"60"
@@ -476,16 +642,16 @@
 		"stay_armed_on_click"		"1"
 		"button_activation_type"	"2"
 		
-		"pin_to_sibling"	"FilterComboBox"
-		"pin_corner_to_sibling"	"7"
-		"pin_to_sibling_corner"	"5"
+		"pin_to_sibling"	"WikiButton"
+		"pin_corner_to_sibling"	"5"
+		"pin_to_sibling_corner"	"7"
 	}		
 	
 	"StoreButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StoreButton"
-		"xpos"			"5"
+		"xpos"			"10"
 		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"60"
