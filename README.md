@@ -2,7 +2,7 @@
 
 # CosmosHUD
 
-This HUD is a many months attempt to bring old TF2 and new TF2 together. It's still in it's early stages of development, but it is a project I would love to continue working on.
+This HUD is an attempt to bring old TF2 and new TF2 together. If you are looking for a HUD that feels like it belongs in TF2 and is stylistically consistent, I would be honored if you gave this one a try.
 
 I hope you really enjoy it, and please let me know any feedback you have!
 
@@ -10,23 +10,33 @@ I hope you really enjoy it, and please let me know any feedback you have!
 
 # Features
 
-- Medals, EXP and Competitive Hidden (less HUD bloat)
+- Support for various resolutions
 
-- Improved UI features and navigability (a lot of button line up now and are very large and clickable)
+- Improved controller menus
 
-- Improved Match HUD (now matches the original style)
+- Improved UI features and navigability
 
-- Overall style improvements that stick with the originals vision
+- Improved Match HUD (consistent with original TF2 style)
 
-- Working Regular and MinMode HUDs (MinMode features centered charge meters and additional elements that now support MinMode)
+- Improved Scoreboards
 
-- Optional centered Health and Ammo counters (or warnings if you prefer that and can be toggled in HUD options)
+- Improved loading screens
 
 - Improved MvM HUD
 
-- Support for the Engineer Pipboy (made to resemble a PipBoy UI much closer than the original)
+- Style consistency improvements across the all HUD elements
 
-- A LOT of bug fixes with the original HUD (No match HUD in MvM on load, no repeat EXP sound effect, no overlapping HUD elements, etc.)
+- Functional regular and minmode HUDs
+
+- Minmode HUD option with centered charge meters
+
+- Support for the Engineer Pipboy
+
+- No overlapping UI elements
+
+- HUD bloat reduced from stock HUD
+
+- Several bug fixes with the stock HUD
 
 - A lot of love
 
