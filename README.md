@@ -6,7 +6,7 @@ This HUD is an attempt to bring old TF2 and new TF2 together. If you are looking
 
 I hope you really enjoy it, and please let me know any feedback you have!
 
-<img width="1920" height="1080" alt="main-menu-small" src="https://github.com/user-attachments/assets/76973c2d-4985-4ae6-a43a-b15bdbcce797" />
+<img width="2560" height="1440" alt="cosmoshud-mainmenu" src="https://github.com/user-attachments/assets/900ba38a-da06-49f1-8dd8-a12c487df468" />
 
 # Features
 
