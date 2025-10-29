@@ -1,4 +1,4 @@
-<a href="https://imgur.com/a/2cMoeVG">Images</a> | <a href="https://gamebanana.com/mods/623517">GameBanana</a> | <a href="https://tf2huds.dev/hud/CosmosHUD">TF2 HUDs</a>
+<img width="2560" height="1440" alt="cosmoshud-scoreboard" src="https://github.com/user-attachments/assets/adaa1d01-14ef-4875-a26c-907b728e43ae" /><a href="https://imgur.com/a/2cMoeVG">Images</a> | <a href="https://gamebanana.com/mods/623517">GameBanana</a> | <a href="https://tf2huds.dev/hud/CosmosHUD">TF2 HUDs</a>
 
 # CosmosHUD
 
@@ -76,14 +76,16 @@ Everything in this HUD has been used with permission. If I have somehow made a m
 
 - JarateKing - <a href="https://github.com/JarateKing/TF2-Hud-Reference">TF2 HUD Reference</a>
 
-# Additional Screenshots
+# Screenshots
 
 <img width="2560" height="1440" alt="cosmoshud-loadout" src="https://github.com/user-attachments/assets/0dc6f1a0-9c8d-401a-b883-3b234f503e50" />
+
+<img width="2560" height="1440" alt="cosmoshud-loadingscreen1" src="https://github.com/user-attachments/assets/ccec5abc-70cb-46a3-bb97-226d0947ee7b" />
+
+<img width="2560" height="1440" alt="cosmoshud-loadingscreen2" src="https://github.com/user-attachments/assets/4c7eaebf-0925-46c3-8127-d274d71d477c" />
+
+<img width="2560" height="1440" alt="cosmoshud-scoreboard" src="https://github.com/user-attachments/assets/da576600-9494-46f4-b0a8-519bdec92364" />
 
 <img width="2560" height="1440" alt="cosmoshud-engineer" src="https://github.com/user-attachments/assets/8f376d91-5c92-4692-a50a-0ffd444bd43c" />
 
 <img width="2560" height="1440" alt="cosmoshud-minmode" src="https://github.com/user-attachments/assets/22c474d1-b057-4c0a-a713-ca24ff7812cb" />
-
-
-
-
