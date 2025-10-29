@@ -75,3 +75,15 @@ Everything in this HUD has been used with permission. If I have somehow made a m
 **Special Thanks**
 
 - JarateKing - <a href="https://github.com/JarateKing/TF2-Hud-Reference">TF2 HUD Reference</a>
+
+# Additional Screenshots
+
+<img width="2560" height="1440" alt="cosmoshud-loadout" src="https://github.com/user-attachments/assets/0dc6f1a0-9c8d-401a-b883-3b234f503e50" />
+
+<img width="2560" height="1440" alt="cosmoshud-engineer" src="https://github.com/user-attachments/assets/8f376d91-5c92-4692-a50a-0ffd444bd43c" />
+
+<img width="2560" height="1440" alt="cosmoshud-minmode" src="https://github.com/user-attachments/assets/22c474d1-b057-4c0a-a713-ca24ff7812cb" />
+
+
+
+
